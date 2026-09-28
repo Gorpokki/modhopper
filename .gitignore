@@ -3,3 +3,4 @@ metadata-cache.json
 .env
 target/
 __pycache__/
+/docs/book/

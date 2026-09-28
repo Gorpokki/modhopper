@@ -1,48 +1,21 @@
 # Modhopper
 
-Sorts Minecraft mods from Modrinth and CurseForge into categories with Jev (TypeSafe System One). A proof of concept, in Python and in Rust; both give byte-identical output.
+Sort Minecraft mods from Modrinth and CurseForge into categories with Jev, TypeSafe's System One decision model.
+A proof of concept with Python and Rust implementations.
 
-For each project it fetches the storefront name, summary, description, and categories, caches them, and asks Jev one Choice question: which entry of [`categories.json`](categories.json) fits best. The answer, the runner-up, and the storefront categories used as evidence go to stdout as JSON.
+**[Read the documentation](https://gorpokki.github.io/modhopper/)** for setup, API keys, questions, caching, and implementation differences.
+The site's Markdown source is in [`docs/src/`](docs/src/SUMMARY.md).
 
-## Run
-
-References are `modrinth:<slug-or-id>` or `curseforge:<numeric-id>`, on the command line or one per line in a file. A Modrinth slug may use letters, digits, and `` !@$()`.+_- ``; the rare slug with `,`, `"`, or `'` is not accepted, use the project id instead. Python 3.8 or newer.
+Run Python 3.8 or newer after [setting up Jev](docs/src/jev.md):
 
 ```sh
-python3 python/modhopper.py modrinth:sodium curseforge:32274
-cargo run -q --manifest-path rust/Cargo.toml -- --file refs.txt
+python3 python/modhopper.py modrinth:sodium
 ```
 
-`categories.json` is read at run time by Python and compiled into the Rust binary at build time; rebuild after editing it.
-
-Options: `--file <path>` (repeatable), `--cache <path>` (default `metadata-cache.json`, storefront evidence only), `--refresh` (refetch). Progress and errors go to stderr; the exit code is 1 if any project failed and 2 if the arguments or the cache file are unusable. HTTP 429 and 503 are retried twice (three attempts), honouring `Retry-After` (1 to 30 seconds).
-
-## Environment
-
-| Variable | Purpose |
-| --- | --- |
-| `TYPESAFE_API_KEY` | Jev API key, sent as `Authorization: Bearer`. |
-| `TYPESAFE_BASE_URL` | Jev endpoint base, default `https://api.typesafe.ai`. |
-| `CURSEFORGE_API_KEY` | Required for any `curseforge:` reference, sent as `x-api-key`. Modrinth needs no key. |
-
-`MODRINTH_BASE_URL` and `CURSEFORGE_BASE_URL` exist so the check below can point both implementations at fixtures.
-
-## Check
+Check both implementations with recorded responses and no service credentials (requires Python and Cargo):
 
 ```sh
 python3 check.py
 ```
 
-Builds the Rust binary, serves `fixtures/` as fake Modrinth, CurseForge, and Jev endpoints, runs both implementations against them twice (second run from cache), and asserts every output is byte-identical to `fixtures/expected.json`. The same check runs on GitHub Actions for every push and pull request.
-
-## Fixtures
-
-`fixtures/modrinth/<slug>.json` holds one recorded Modrinth project each (164 of them, spread across performance, visuals, animations, tools, gameplay, library, world generation, and server utility mods), `fixtures/curseforge/<id>.json` one hand-written CurseForge project in the official response shape, `fixtures/jev/answers.json` the real Jev answer for each project keyed by name, `fixtures/refs.txt` the reference list, and `fixtures/expected.json` the output of one real run.
-
-To re-record from live Modrinth and Jev:
-
-```sh
-TYPESAFE_API_KEY=... python3 fixtures/record.py
-```
-
-It picks the most downloaded mods per category bucket with Modrinth's search API, fetches them with the bulk projects endpoint, then runs `python/modhopper.py` against those files through a proxy that records each Jev answer, so `answers.json` and `expected.json` come from one real run. CurseForge fixtures are left as they are.
+The same check runs on every push and pull request. See the [fixture guide](docs/src/offline-check.md) to record new responses.
