@@ -1,0 +1,13 @@
+{
+  "id": "SaCpeal4",
+  "slug": "comforts",
+  "project_type": "mod",
+  "title": "Comforts",
+  "description": "Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors!",
+  "body": "Comforts is a mod that adds sleeping bags and hammocks to Minecraft. These items can be used just\nlike beds except they do not set a player's spawn point on use, safely preserving a player's spawn\npoint at their home base. Just like beds, they also come in 16 different colors! The difference is\nthat sleeping bags can be stacked and are more convenient to use on adventures and hammocks are like\nan inverse bed, turning day to night.\n\n## Features\n\n### Sleeping Bag\nThe recipe for the sleeping bag is simply three pieces of matching color wool in a straight line.\n\n**1.21 and above**\n\n![](https://i.ibb.co/7WZn6Dn/sleeping-bag-recipes.gif)\n\n**1.20.6 and below**\n\n![](https://i.ibb.co/LCNV0HS/sleepingbagrecipe.gif)\n\nYou can also dye any sleeping bag into any of the other colors!\n\n![](https://i.ibb.co/R24frvM/sleepingbagrecipe2.gif)\n\n### Hammock\nThe recipe for the hammock cloth is simply a piece of colored wool in the center, sticks to the top\nand bottom, and the rest of the slots are strings.\n\n**1.21 and above**\n\n![](https://i.ibb.co/vLFnSVN/hammock-recipes.gif)\n\n**1.20.6 and below**\n\n![](https://i.ibb.co/nQZH5Ld/hammockrecipe.gif)\n\nYou can also dye any hammock cloth into any of the other colors!\n\n![](https://i.ibb.co/Jd5JcWf/hammockrecipe2.gif)\n\n**Please refer to [this](https://github.com/TheIllusiveC4/Comforts/wiki/Hammocks#building) guide for\ninstructions on how to build the hammock.**\n\n**Configuration Options**\n\n- Auto-Use Sleeping Bag\n- Well-Rested Mechanic\n- Sleepiness Factor\n- Hammocks at Night\n- Sleeping Bag Break Chance\n- Sleeping Bag Debuffs\n- Insulated Sleeping Bags\n\n## Affiliates\n\n[![BisectHosting](https://i.ibb.co/5Tw6mh2/bisect-illusive.webp)](https://illusivesoulworks.com/affiliate)",
+  "categories": [
+    "adventure",
+    "decoration"
+  ],
+  "additional_categories": []
+}

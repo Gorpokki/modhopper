@@ -1,0 +1,14 @@
+{
+  "id": "F8BQNPWX",
+  "slug": "naturalist",
+  "project_type": "mod",
+  "title": "Naturalist",
+  "description": "Adds 47 animals *(and 66 variants)* to your world with immersive behaviors and drops.",
+  "body": "<div align=\"center\">\n\n<picture>\n  <source srcset=\"https://drive.usercontent.google.com/download?id=1rnIY1au6hRbG4BJtnBl32Uf41N-iSvS5\" />\n  <img src=\"https://drive.usercontent.google.com/download?id=1rnIY1au6hRbG4BJtnBl32Uf41N-iSvS5\" alt=\"Naturalist\" style=\"image-rendering: auto;\" />\n</picture>\n\n[![Discord](https://img.shields.io/discord/1378839788659933345?style=flat-square&logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/maQ6tE6Nsd)\n[![CurseForge](https://img.shields.io/curseforge/dt/627986?style=flat-square&logo=curseforge&logoColor=white&label=CurseForge&color=f16436)](https://www.curseforge.com/minecraft/mc-mods/naturalist)\n[![Modrinth](https://img.shields.io/modrinth/dt/naturalist?style=flat-square&logo=modrinth&logoColor=white&label=Modrinth&color=00af5c)](https://modrinth.com/mod/naturalist)\n[![Versions](https://img.shields.io/badge/MC-1.18.2--1.20.1-6b6b88?style=flat-square&logo=minecraft&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/naturalist/files)\n\n### 📋 About\n\n**Naturalist** adds 24 animals *(and their variants)* to your world, aiming to fit them seamlessly into Vanilla. You may find mobs interacting with each other or the world around them, and some are tameable.\n\n---\n\n### 🔧 Information\n\n<sub>✅ Supported &nbsp;▪&nbsp; ⚠️ Maintenance &nbsp;▪&nbsp; ❌ Deprecated</sub>\n| Feature | Details |\n|---|---|\n| **Mod Loaders** | <kbd>Fabric</kbd> <kbd>Forge</kbd> |\n| **MC Versions** | <kbd>⚠️1.20.1</kbd> <kbd>❌1.19.2</kbd> <kbd>❌1.19</kbd> <kbd>❌1.18.2</kbd> |\n\n</div>\n",
+  "categories": [
+    "adventure",
+    "mobs",
+    "worldgen"
+  ],
+  "additional_categories": []
+}

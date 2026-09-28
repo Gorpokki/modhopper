@@ -1,0 +1,18 @@
+{
+  "id": "fPetb5Kh",
+  "slug": "natures-compass",
+  "project_type": "mod",
+  "title": "Nature's Compass",
+  "description": "Allows you to locate biomes anywhere in the world.",
+  "body": "![Natures's Compass](http://i.imgur.com/WeS8L88.png)\n\nNature's Compass is an item that allows you to search for a biome's location anywhere in the world and view information about it. If you're looking for a compass that can locate structures, check out [Explorer's Compass](https://modrinth.com/mod/explorers-compass).\n\n## Features\n\n- Right-clicking with the Nature's Compass will open the biome selection GUI, from which you can search for a biome or view information about it\n- Shift-right-clicking will reset the compass's state\n- When the compass is not pointing at a biome, it will point at the world spawn\n- Supports all registered biomes, both vanilla and modded\n- Things like blacklisted biomes and maximum search distance can be adjusted in the config file\n\n## Images\n\n![Information about a found biome is displayed on the HUD](https://i.imgur.com/rhz4gLR.jpg)\n\n*Information about a found biome is displayed on the HUD*\n\n![The biome selection GUI](https://i.imgur.com/GTSAfqv.png)\n\n*The biome selection GUI*\n\n![The biome information GUI](https://i.imgur.com/vjsdZZ4.png)\n\n*The biome information GUI*\n\n## Recipe\n\n![Recipe](http://i.imgur.com/175k4oE.png)\n\n*Saplings and logs use the ore dictionary*\n\n## Modpacks\n\nYes, you can use this mod in your modpack.\n\n## Support\n\nIf you enjoy the mod and would like to support the project, feel free to [leave a donation on PayPal](https://www.paypal.com/donate/?business=46ZL2PNVP4XKE). Support is greatly appreciated!\n\n## Sponsor\n\nThis project is sponsored by BisectHosting. If you're looking for a server, check out their hosting plans and [use promo code *Chaos* at checkout](https://www.bisecthosting.com/chaos) to get 25% off your first month!\n\n[![](https://www.bisecthosting.com/partners/custom-banners/0998de1c-6d3e-4370-a553-0da42e986c68.png)](https://bisecthosting.com/chaos)",
+  "categories": [
+    "adventure",
+    "equipment",
+    "utility"
+  ],
+  "additional_categories": [
+    "game-mechanics",
+    "technology",
+    "worldgen"
+  ]
+}

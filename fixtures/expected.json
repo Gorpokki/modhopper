@@ -1,12 +1,1291 @@
 [
   {
     "categories": [
+      "adventure",
+      "decoration"
+    ],
+    "category": "visuals",
+    "name": "3D Skin Layers",
+    "reason": "Jev chose visuals with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:3dskinlayers",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "equipment",
+      "worldgen",
+      "decoration",
+      "food",
+      "game-mechanics",
+      "mobs",
+      "transportation",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "The Aether",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:aether",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen",
+      "equipment",
+      "food",
+      "game-mechanics",
+      "magic",
+      "technology",
+      "transportation"
+    ],
+    "category": "gameplay",
+    "name": "Alex's Caves",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:alexs-caves",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "mobs",
+      "adventure"
+    ],
+    "category": "gameplay",
+    "name": "Alex's Mobs",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:alexs-mobs",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization",
+      "technology",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Alternate Current",
+    "reason": "Jev chose tools with 92% probability; runner-up gameplay at 7%.",
+    "reference": "modrinth:alternate-current",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration"
+    ],
+    "category": "visuals",
+    "name": "AmbientSounds",
+    "reason": "Jev chose visuals with 48% probability; runner-up other at 34%.",
+    "reference": "modrinth:ambientsounds",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "food",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "AppleSkin",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:appleskin",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library"
+    ],
+    "category": "library",
+    "name": "Architectury API",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:architectury-api",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "management",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Axiom",
+    "reason": "Jev chose tools with 96% probability; runner-up other at 2%.",
+    "reference": "modrinth:axiom",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "game-mechanics",
+      "library",
+      "utility"
+    ],
+    "category": "library",
+    "name": "AzureLib",
+    "reason": "Jev chose library with 97% probability; runner-up animations at 3%.",
+    "reference": "modrinth:azurelib",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
       "optimization"
     ],
     "category": "tools",
-    "name": "Sodium",
-    "reason": "Jev chose tools with 97% probability; runner-up visuals at 3%.",
-    "reference": "modrinth:sodium",
+    "name": "BadOptimizations",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:badoptimizations",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library"
+    ],
+    "category": "library",
+    "name": "Balm",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:balm",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "equipment",
+      "library",
+      "game-mechanics"
+    ],
+    "category": "gameplay",
+    "name": "Better Combat",
+    "reason": "Jev chose gameplay with 70% probability; runner-up animations at 30%.",
+    "reference": "modrinth:better-combat",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "game-mechanics",
+      "adventure"
+    ],
+    "category": "visuals",
+    "name": "Better Third Person",
+    "reason": "Jev chose visuals with 99% probability; runner-up tools at 1%.",
+    "reference": "modrinth:better-third-person",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "mobs",
+      "worldgen",
+      "equipment",
+      "food"
+    ],
+    "category": "gameplay",
+    "name": "BetterEnd",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:betterend",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "game-mechanics",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "BetterF3",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:betterf3",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "mobs",
+      "worldgen",
+      "decoration",
+      "food"
+    ],
+    "category": "gameplay",
+    "name": "BetterNether",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:betternether",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "Biomes O' Plenty",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:biomes-o-plenty",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "BisectHosting Server Integration Menu",
+    "reason": "Jev chose tools with 98% probability; runner-up gameplay at 1%.",
+    "reference": "modrinth:bisect-mod",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration"
+    ],
+    "category": "visuals",
+    "name": "Blur+",
+    "reason": "Jev chose visuals with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:blur-plus",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "game-mechanics",
+      "utility",
+      "decoration",
+      "equipment",
+      "management",
+      "optimization",
+      "transportation"
+    ],
+    "category": "visuals",
+    "name": "Boat Item View",
+    "reason": "Jev chose visuals with 90% probability; runner-up tools at 8%.",
+    "reference": "modrinth:boat-item-view",
+    "source": "modrinth"
+  },
+  {
+    "categories": [],
+    "category": "tools",
+    "name": "Bobby",
+    "reason": "Jev chose tools with 51% probability; runner-up visuals at 49%.",
+    "reference": "modrinth:bobby",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization"
+    ],
+    "category": "tools",
+    "name": "Concurrent Chunk Management Engine (Fabric)",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:c2me-fabric",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "game-mechanics",
+      "storage",
+      "transportation",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "Carry On",
+    "reason": "Jev chose gameplay with 95% probability; runner-up tools at 5%.",
+    "reference": "modrinth:carry-on",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "equipment",
+      "magic"
+    ],
+    "category": "gameplay",
+    "name": "Charm of Undying",
+    "reason": "Jev chose gameplay with 98% probability; runner-up tools at 2%.",
+    "reference": "modrinth:charm-of-undying",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "social"
+    ],
+    "category": "visuals",
+    "name": "Chat Heads",
+    "reason": "Jev chose visuals with 77% probability; runner-up tools at 23%.",
+    "reference": "modrinth:chat-heads",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "social",
+      "utility"
+    ],
+    "category": "visuals",
+    "name": "Chat Animation [Smooth Chat]",
+    "reason": "Jev chose visuals with 59% probability; runner-up animations at 41%.",
+    "reference": "modrinth:chatanimation",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "management",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Cherished Worlds",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:cherished-worlds",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library"
+    ],
+    "category": "library",
+    "name": "Cloth Config API",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:cloth-config",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "storage",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Clumps",
+    "reason": "Jev chose tools with 99% probability; runner-up gameplay at 1%.",
+    "reference": "modrinth:clumps",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen",
+      "game-mechanics"
+    ],
+    "category": "gameplay",
+    "name": "Cobblemon",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:cobblemon",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen",
+      "economy"
+    ],
+    "category": "gameplay",
+    "name": "Cobblemon additions",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:cobblemon-additions",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "equipment",
+      "game-mechanics",
+      "mobs",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "Cobblemon: Mega Showdown",
+    "reason": "Jev chose gameplay with 99% probability; runner-up library at 1%.",
+    "reference": "modrinth:cobblemon-mega-showdown",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library"
+    ],
+    "category": "library",
+    "name": "Collective",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:collective",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration"
+    ],
+    "category": "gameplay",
+    "name": "Comforts",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:comforts",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "cursed",
+      "library",
+      "utility",
+      "magic"
+    ],
+    "category": "library",
+    "name": "Sinytra Connector",
+    "reason": "Jev chose library with 99% probability; runner-up other at 1%.",
+    "reference": "modrinth:connector",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "utility"
+    ],
+    "category": "visuals",
+    "name": "Continuity",
+    "reason": "Jev chose visuals with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:continuity",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "technology",
+      "transportation",
+      "decoration",
+      "game-mechanics"
+    ],
+    "category": "gameplay",
+    "name": "Create Aeronautics",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:create-aeronautics",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "technology",
+      "transportation",
+      "utility",
+      "adventure",
+      "decoration"
+    ],
+    "category": "gameplay",
+    "name": "Create: Steam 'n' Rails",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:create-steam-n-rails",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "storage",
+      "technology",
+      "transportation",
+      "decoration",
+      "food",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "Create Crafts & Additions",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:createaddition",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "library",
+      "utility",
+      "adventure"
+    ],
+    "category": "library",
+    "name": "Curios API",
+    "reason": "Jev chose library with 99% probability; runner-up gameplay at 1%.",
+    "reference": "modrinth:curios",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "game-mechanics",
+      "adventure",
+      "equipment"
+    ],
+    "category": "gameplay",
+    "name": "Cut Through",
+    "reason": "Jev chose gameplay with 98% probability; runner-up animations at 2%.",
+    "reference": "modrinth:cut-through",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen",
+      "equipment"
+    ],
+    "category": "gameplay",
+    "name": "Deeper and Darker",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:deeperdarker",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "management",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Default Options",
+    "reason": "Jev chose tools with 99% probability; runner-up library at 1%.",
+    "reference": "modrinth:default-options",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "worldgen",
+      "equipment",
+      "game-mechanics",
+      "mobs"
+    ],
+    "category": "gameplay",
+    "name": "Dungeons and Taverns",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:dungeons-and-taverns",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "management",
+      "optimization",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Dynamic FPS",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:dynamic-fps",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "game-mechanics",
+      "utility",
+      "equipment"
+    ],
+    "category": "visuals",
+    "name": "Dynamic Lights",
+    "reason": "Jev chose visuals with 95% probability; runner-up gameplay at 4%.",
+    "reference": "modrinth:dynamic-lights",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "social",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "e4mc",
+    "reason": "Jev chose tools with 83% probability; runner-up other at 16%.",
+    "reference": "modrinth:e4mc",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "game-mechanics"
+    ],
+    "category": "gameplay",
+    "name": "Easy Anvils",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:easy-anvils",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "food"
+    ],
+    "category": "animations",
+    "name": "Eating Animation",
+    "reason": "Jev chose animations with 99% probability; runner-up visuals at 1%.",
+    "reference": "modrinth:eating-animation",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "magic",
+      "utility",
+      "cursed"
+    ],
+    "category": "tools",
+    "name": "EMIffect",
+    "reason": "Jev chose tools with 99% probability; runner-up visuals at 1%.",
+    "reference": "modrinth:emiffect",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "equipment",
+      "magic"
+    ],
+    "category": "gameplay",
+    "name": "[TACZ]Enchanted Arsenal",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:enchanted-arsenal",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "magic",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "Enchanting Infuser",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:enchanting-infuser",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "magic",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Enchantment Descriptions",
+    "reason": "Jev chose tools with 90% probability; runner-up visuals at 9%.",
+    "reference": "modrinth:enchantment-descriptions",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "mobs",
+      "adventure",
+      "equipment",
+      "magic"
+    ],
+    "category": "gameplay",
+    "name": "Enderman Overhaul",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:enderman-overhaul",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "mobs",
+      "utility",
+      "decoration"
+    ],
+    "category": "visuals",
+    "name": "[EMF] Entity Model Features",
+    "reason": "Jev chose visuals with 97% probability; runner-up library at 2%.",
+    "reference": "modrinth:entity-model-features",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization"
+    ],
+    "category": "tools",
+    "name": "Entity Culling",
+    "reason": "Jev chose tools with 99% probability; runner-up visuals at 1%.",
+    "reference": "modrinth:entityculling",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "utility"
+    ],
+    "category": "visuals",
+    "name": "[ETF] Entity Texture Features",
+    "reason": "Jev chose visuals with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:entitytexturefeatures",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "management",
+      "social",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Essential Mod",
+    "reason": "Jev chose tools with 50% probability; runner-up other at 43%.",
+    "reference": "modrinth:essential",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "utility",
+      "technology"
+    ],
+    "category": "visuals",
+    "name": "Euphoria Patches",
+    "reason": "Jev chose visuals with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:euphoria-patches",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "equipment",
+      "utility",
+      "game-mechanics",
+      "technology",
+      "worldgen"
+    ],
+    "category": "tools",
+    "name": "Explorer's Compass",
+    "reason": "Jev chose tools with 52% probability; runner-up gameplay at 48%.",
+    "reference": "modrinth:explorers-compass",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "mobs"
+    ],
+    "category": "visuals",
+    "name": "Explosive Enhancement",
+    "reason": "Jev chose visuals with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:explosive-enhancement",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library"
+    ],
+    "category": "library",
+    "name": "Fabric API",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:fabric-api",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library"
+    ],
+    "category": "library",
+    "name": "Fabric Language Kotlin",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:fabric-language-kotlin",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "utility"
+    ],
+    "category": "visuals",
+    "name": "Fadeless",
+    "reason": "Jev chose visuals with 63% probability; runner-up tools at 21%.",
+    "reference": "modrinth:fadeless",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "equipment",
+      "food"
+    ],
+    "category": "gameplay",
+    "name": "Farmer's Delight",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:farmers-delight",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "equipment",
+      "food"
+    ],
+    "category": "gameplay",
+    "name": "Farmer's Delight Refabricated",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:farmers-delight-refabricated",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization"
+    ],
+    "category": "tools",
+    "name": "Fast IP Ping",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:fast-ip-ping",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "FerriteCore",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:ferrite-core",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library"
+    ],
+    "category": "library",
+    "name": "Forge Config API Port",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:forge-config-api-port",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "utility",
+      "library",
+      "management"
+    ],
+    "category": "tools",
+    "name": "Forge Config Screens",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:forge-config-screens",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "Friends&Foes (Fabric/Quilt)",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:friends-and-foes",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "game-mechanics",
+      "library",
+      "management",
+      "utility"
+    ],
+    "category": "library",
+    "name": "Fzzy Config",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:fzzy-config",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "technology",
+      "decoration"
+    ],
+    "category": "tools",
+    "name": "GD656Killicon",
+    "reason": "Jev chose tools with 88% probability; runner-up visuals at 11%.",
+    "reference": "modrinth:gd656killicon",
+    "source": "modrinth"
+  },
+  {
+    "categories": [],
+    "category": "animations",
+    "name": "Iris/Oculus & GeckoLib Compat",
+    "reason": "Jev chose animations with 50% probability; runner-up visuals at 43%.",
+    "reference": "modrinth:geckoanimfix",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "game-mechanics",
+      "library",
+      "utility"
+    ],
+    "category": "library",
+    "name": "Geckolib",
+    "reason": "Jev chose library with 89% probability; runner-up animations at 11%.",
+    "reference": "modrinth:geckolib",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Global Server Config",
+    "reason": "Jev chose tools with 93% probability; runner-up other at 4%.",
+    "reference": "modrinth:global-server-config",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "magic",
+      "mobs",
+      "adventure",
+      "utility",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "Goety - The Dark Arts",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:goety",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "technology",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "GraveStone Mod",
+    "reason": "Jev chose gameplay with 98% probability; runner-up tools at 2%.",
+    "reference": "modrinth:gravestone-mod",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "mobs",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "Guard Villagers",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:guard-villagers",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization"
+    ],
+    "category": "tools",
+    "name": "ImmediatelyFast",
+    "reason": "Jev chose tools with 98% probability; runner-up visuals at 2%.",
+    "reference": "modrinth:immediatelyfast",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "technology",
+      "transportation",
+      "game-mechanics",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "Immersive Aircraft",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:immersive-aircraft",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "storage",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Inventory Profiles Next",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:inventory-profiles-next",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "management",
+      "storage",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "InventoryHUD+",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:inventoryhudplus",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "optimization"
+    ],
+    "category": "visuals",
+    "name": "Iris Shaders",
+    "reason": "Jev chose visuals with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:iris",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "storage",
+      "technology"
+    ],
+    "category": "gameplay",
+    "name": "Iron Furnaces",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:iron-furnaces",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "equipment",
+      "utility",
+      "game-mechanics"
+    ],
+    "category": "tools",
+    "name": "Item Highlighter",
+    "reason": "Jev chose tools with 72% probability; runner-up visuals at 28%.",
+    "reference": "modrinth:item-highlighter",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "utility",
+      "library"
+    ],
+    "category": "tools",
+    "name": "Jade 🔍",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:jade",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Just Enough Items (JEI)",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:jei",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library"
+    ],
+    "category": "library",
+    "name": "Konkrete",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:konkrete",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Krypton",
+    "reason": "Jev chose tools with 99% probability; runner-up library at 1%.",
+    "reference": "modrinth:krypton",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "equipment",
+      "mobs"
+    ],
+    "category": "gameplay",
+    "name": "L_Ender's Cataclysm",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:l_enders-cataclysm",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "utility"
+    ],
+    "category": "visuals",
+    "name": "LambDynamicLights - Dynamic Lights",
+    "reason": "Jev chose visuals with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:lambdynamiclights",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Language Reload",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:language-reload",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "food",
+      "utility",
+      "adventure",
+      "game-mechanics",
+      "mobs"
+    ],
+    "category": "gameplay",
+    "name": "[Let's Do] Vinery",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:lets-do-vinery",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization"
+    ],
+    "category": "tools",
+    "name": "Lithium",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:lithium",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library",
+      "utility",
+      "worldgen"
+    ],
+    "category": "library",
+    "name": "Lithostitched",
+    "reason": "Jev chose library with 82% probability; runner-up gameplay at 18%.",
+    "reference": "modrinth:lithostitched",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization"
+    ],
+    "category": "tools",
+    "name": "Memory Leak Fix",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:memoryleakfix",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "mobs"
+    ],
+    "category": "gameplay",
+    "name": "MissingMons [cobblemon]",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:missingmons-cobblemon",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "ModernFix",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:modernfix",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Mod Menu",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:modmenu",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library",
+      "optimization",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "More Culling",
+    "reason": "Jev chose tools with 99% probability; runner-up visuals at 1%.",
+    "reference": "modrinth:moreculling",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "storage",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Mouse Tweaks",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:mouse-tweaks",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "magic",
+      "mobs"
+    ],
+    "category": "gameplay",
+    "name": "Mowzie's Mobs",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:mowzies-mobs",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "mobs",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "Naturalist",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:naturalist",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "equipment",
+      "utility",
+      "game-mechanics",
+      "technology",
+      "worldgen"
+    ],
+    "category": "tools",
+    "name": "Nature's Compass",
+    "reason": "Jev chose tools with 62% probability; runner-up gameplay at 38%.",
+    "reference": "modrinth:natures-compass",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen",
+      "food"
+    ],
+    "category": "gameplay",
+    "name": "Nature's Spirit",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:natures-spirit",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "game-mechanics",
+      "social",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "NetherPortalFix",
+    "reason": "Jev chose gameplay with 98% probability; runner-up tools at 2%.",
+    "reference": "modrinth:netherportalfix",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "social",
+      "utility",
+      "management"
+    ],
+    "category": "tools",
+    "name": "No Chat Reports",
+    "reason": "Jev chose tools with 89% probability; runner-up other at 6%.",
+    "reference": "modrinth:no-chat-reports",
     "source": "modrinth"
   },
   {
@@ -22,23 +1301,634 @@
   },
   {
     "categories": [
-      "library"
+      "utility"
     ],
-    "category": "library",
-    "name": "Fabric API",
-    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
-    "reference": "modrinth:fabric-api",
+    "category": "tools",
+    "name": "Noxesium",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:noxesium",
     "source": "modrinth"
   },
   {
     "categories": [
-      "Map and Information",
-      "Utility & QoL"
+      "decoration",
+      "optimization"
+    ],
+    "category": "visuals",
+    "name": "Oculus",
+    "reason": "Jev chose visuals with 88% probability; runner-up tools at 12%.",
+    "reference": "modrinth:oculus",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen",
+      "food",
+      "mobs"
+    ],
+    "category": "gameplay",
+    "name": "Oh The Biomes We've Gone",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:oh-the-biomes-weve-gone",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "game-mechanics",
+      "optimization",
+      "utility",
+      "management"
     ],
     "category": "tools",
-    "name": "Just Enough Items (JEI)",
-    "reason": "Jev chose tools with 96% probability; runner-up gameplay at 2%.",
-    "reference": "curseforge:238222",
+    "name": "Particle Core",
+    "reason": "Jev chose tools with 80% probability; runner-up visuals at 20%.",
+    "reference": "modrinth:particle-core",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "game-mechanics",
+      "magic",
+      "mobs",
+      "utility"
+    ],
+    "category": "visuals",
+    "name": "Particle Effects",
+    "reason": "Jev chose visuals with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:particle-effects",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library",
+      "management"
+    ],
+    "category": "library",
+    "name": "Text Placeholder API",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:placeholder-api",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration"
+    ],
+    "category": "other",
+    "name": "Presence Footsteps",
+    "reason": "Jev chose other with 45% probability; runner-up gameplay at 37%.",
+    "reference": "modrinth:presence-footsteps",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library",
+      "storage",
+      "utility"
+    ],
+    "category": "library",
+    "name": "Prickle",
+    "reason": "Jev chose library with 76% probability; runner-up tools at 23%.",
+    "reference": "modrinth:prickle",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library"
+    ],
+    "category": "library",
+    "name": "Puzzles Lib",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:puzzles-lib",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "game-mechanics",
+      "technology",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "Quark",
+    "reason": "Jev chose gameplay with 99% probability; runner-up other at 1%.",
+    "reference": "modrinth:quark",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Reese's Sodium Options",
+    "reason": "Jev chose tools with 99% probability; runner-up visuals at 1%.",
+    "reference": "modrinth:reeses-sodium-options",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "management",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Resourcify",
+    "reason": "Jev chose tools with 95% probability; runner-up visuals at 5%.",
+    "reference": "modrinth:resourcify",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "food",
+      "game-mechanics",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "RightClickHarvest",
+    "reason": "Jev chose gameplay with 93% probability; runner-up tools at 7%.",
+    "reference": "modrinth:rightclickharvest",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "ServerCore",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:servercore",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "storage",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Shulker Box Tooltip",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:shulkerboxtooltip",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "social",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Simple Voice Chat",
+    "reason": "Jev chose tools with 49% probability; runner-up other at 31%.",
+    "reference": "modrinth:simple-voice-chat",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "magic"
+    ],
+    "category": "gameplay",
+    "name": "Simply Swords",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:simply-swords",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "food"
+    ],
+    "category": "gameplay",
+    "name": "Smarter Farmers (farmers replant)",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:smarter-farmers-farmers-replant",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization"
+    ],
+    "category": "tools",
+    "name": "Sodium",
+    "reason": "Jev chose tools with 95% probability; runner-up visuals at 5%.",
+    "reference": "modrinth:sodium",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "cursed",
+      "optimization",
+      "utility"
+    ],
+    "category": "visuals",
+    "name": "Sodium Extra",
+    "reason": "Jev chose visuals with 82% probability; runner-up tools at 18%.",
+    "reference": "modrinth:sodium-extra",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "storage"
+    ],
+    "category": "gameplay",
+    "name": "Sophisticated Backpacks",
+    "reason": "Jev chose gameplay with 97% probability; runner-up tools at 3%.",
+    "reference": "modrinth:sophisticated-backpacks",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "storage"
+    ],
+    "category": "gameplay",
+    "name": "Sophisticated Backpacks (Unoffical Fabric port)",
+    "reason": "Jev chose gameplay with 89% probability; runner-up tools at 11%.",
+    "reference": "modrinth:sophisticated-backpacks-(unoffical-fabric-port)",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library",
+      "storage"
+    ],
+    "category": "library",
+    "name": "Sophisticated Core",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:sophisticated-core",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "game-mechanics",
+      "utility",
+      "social"
+    ],
+    "category": "other",
+    "name": "Sounds",
+    "reason": "Jev chose other with 42% probability; runner-up tools at 28%.",
+    "reference": "modrinth:sound",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "Sound Physics Remastered",
+    "reason": "Jev chose gameplay with 45% probability; runner-up tools at 37%.",
+    "reference": "modrinth:sound-physics-remastered",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "utility"
+    ],
+    "category": "tools",
+    "name": "spark",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:spark",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "game-mechanics",
+      "mobs"
+    ],
+    "category": "animations",
+    "name": "Spawn Animations",
+    "reason": "Jev chose animations with 100% probability; runner-up gameplay at 0%.",
+    "reference": "modrinth:spawn-animations",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "game-mechanics",
+      "utility",
+      "storage"
+    ],
+    "category": "gameplay",
+    "name": "Supplementaries",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:supplementaries",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library",
+      "worldgen"
+    ],
+    "category": "library",
+    "name": "TerraBlender",
+    "reason": "Jev chose library with 99% probability; runner-up gameplay at 1%.",
+    "reference": "modrinth:terrablender",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "Terralith",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:terralith",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "equipment"
+    ],
+    "category": "gameplay",
+    "name": "[TaCZ] Timeless and Classics Zero",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:timeless-and-classics-zero",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "storage"
+    ],
+    "category": "gameplay",
+    "name": "Tom's Simple Storage Mod",
+    "reason": "Jev chose gameplay with 61% probability; runner-up tools at 39%.",
+    "reference": "modrinth:toms-storage",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration",
+      "mobs",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "Touhou Little Maid",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:touhou-little-maid",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "equipment",
+      "storage",
+      "decoration",
+      "management"
+    ],
+    "category": "gameplay",
+    "name": "Traveler's Backpack",
+    "reason": "Jev chose gameplay with 98% probability; runner-up tools at 2%.",
+    "reference": "modrinth:travelersbackpack",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "library",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "Trinkets",
+    "reason": "Jev chose gameplay with 54% probability; runner-up library at 42%.",
+    "reference": "modrinth:trinkets",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "magic",
+      "mobs"
+    ],
+    "category": "gameplay",
+    "name": "True Ending - Ender Dragon Overhaul",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:true-ending",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "magic"
+    ],
+    "category": "gameplay",
+    "name": "Vein Mining",
+    "reason": "Jev chose gameplay with 98% probability; runner-up tools at 2%.",
+    "reference": "modrinth:vein-mining",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "game-mechanics",
+      "utility",
+      "cursed",
+      "technology"
+    ],
+    "category": "gameplay",
+    "name": "VeinMiner",
+    "reason": "Jev chose gameplay with 85% probability; runner-up tools at 15%.",
+    "reference": "modrinth:veinminer",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "game-mechanics",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "VeinMiner Hotkey",
+    "reason": "Jev chose tools with 79% probability; runner-up gameplay at 21%.",
+    "reference": "modrinth:veinminer-client",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "equipment",
+      "game-mechanics",
+      "utility"
+    ],
+    "category": "gameplay",
+    "name": "VeinMiner Enchantment",
+    "reason": "Jev chose gameplay with 99% probability; runner-up tools at 1%.",
+    "reference": "modrinth:veinminer-enchantment",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "cursed",
+      "library",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "ViaFabricPlus",
+    "reason": "Jev chose tools with 72% probability; runner-up library at 18%.",
+    "reference": "modrinth:viafabricplus",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "decoration"
+    ],
+    "category": "visuals",
+    "name": "Visuality",
+    "reason": "Jev chose visuals with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:visuality",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "optimization"
+    ],
+    "category": "tools",
+    "name": "Very Many Players (Fabric)",
+    "reason": "Jev chose tools with 99% probability; runner-up other at 1%.",
+    "reference": "modrinth:vmp-fabric",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "magic",
+      "transportation",
+      "social",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "Waystones",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:waystones",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "transportation",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Xaero's Minimap",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:xaeros-minimap",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "transportation",
+      "utility"
+    ],
+    "category": "tools",
+    "name": "Xaero's World Map",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:xaeros-world-map",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library",
+      "management",
+      "utility"
+    ],
+    "category": "library",
+    "name": "YetAnotherConfigLib (YACL)",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:yacl",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library",
+      "worldgen"
+    ],
+    "category": "library",
+    "name": "YUNG's API",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:yungs-api",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "YUNG's Better Dungeons",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:yungs-better-dungeons",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "YUNG's Better End Island",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:yungs-better-end-island",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "YUNG's Better Jungle Temples",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:yungs-better-jungle-temples",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "YUNG's Better Mineshafts",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:yungs-better-mineshafts",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "YUNG's Better Nether Fortresses",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:yungs-better-nether-fortresses",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration",
+      "worldgen"
+    ],
+    "category": "gameplay",
+    "name": "YUNG's Better Ocean Monuments",
+    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:yungs-better-ocean-monuments",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "Map and Information"
+    ],
+    "category": "tools",
+    "name": "JourneyMap",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
+    "reference": "curseforge:32274",
     "source": "curseforge"
   }
 ]

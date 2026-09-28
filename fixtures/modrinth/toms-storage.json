@@ -1,0 +1,12 @@
+{
+  "id": "XZNI4Cpy",
+  "slug": "toms-storage",
+  "project_type": "mod",
+  "title": "Tom's Simple Storage Mod",
+  "description": "Simple vanilla style storage mod",
+  "body": "## Tom's Simple Storage Mod\n![Banner](https://raw.githubusercontent.com/tom5454/Toms-Storage/master/banner.png)\nOn Fabric [Indium](https://modrinth.com/mod/indium) is required if you have Sodium installed!  \nSimple vanilla style storage mod.  \nFeatures:  \n- Storage & Crafting Terminal\n- Inventory Connector\n- Open Crate\n- Wireless terminal\n- Filtered connectors\n- Inventory Hopper\n\nTerminals also work on create contraptions if [Create Contraption Terminals](https://modrinth.com/mod/create-contraption-terminals) is installed.  \n![Terminals on a Train](https://cdn.modrinth.com/data/gOPAFzp0/images/3f9eaa8b5f8decb0d119381f933403e219236efc.png)  \n\nMod Spotlights:  \n<iframe allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/UoIi5q8kyo8\"></iframe>  \n<iframe allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/RwRKNhZ7uec\"></iframe>  \n<iframe allowfullscreen=\"allowfullscreen\" src=\"https://www.youtube.com/embed/nW5ElcWiC3c\"></iframe>",
+  "categories": [
+    "storage"
+  ],
+  "additional_categories": []
+}

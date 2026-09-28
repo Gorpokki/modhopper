@@ -1,0 +1,13 @@
+{
+  "id": "qANg5Jrr",
+  "slug": "e4mc",
+  "project_type": "mod",
+  "title": "e4mc",
+  "description": "Open a LAN server to anyone, anywhere, anytime.",
+  "body": "[![Bisect Hosting partner banner](https://www.bisecthosting.com/partners/custom-banners/7038a2ef-0f61-41a2-8d86-6e2e65a0f5c7.webp)](https://bisecthosting.com/skyevg)\n\n# [e4mc](https://e4mc.link)\n\nOpen your LAN server to the public, easily and quickly!\n\n## What is e4mc?\n\ne4mc is a reverse tunneling reverse proxy for Minecraft.\nIn simpler terms, it's a software that allows you to temporarily expose a local Minecraft server to the internet.\n\n## How do I use it?\n\nSimply install the mod, and Open to LAN as normal. A public domain will appear alongside the local port. Others can simply connect to the public domain to connect to your LAN server.\n\n## Why e4mc?\n\n### Works everywhere\n\nIt works everywhere. and I mean everywhere. If you can read this webpage, you can use e4mc.\n\n### Works with vanilla clients\n\nYou don't need to install e4mc on both sides.\nIt just gives you a domain.\nJust share the domain.\n\n### No extra software or configuration required\n\nNone. The host installs the mod on their side, and that's it.\nYou install the mod, Open to LAN as normal, and you get a sharable domain.\n\n### Open source\n\nYes. The entire thing. The server too. It's all public.",
+  "categories": [
+    "social",
+    "utility"
+  ],
+  "additional_categories": []
+}

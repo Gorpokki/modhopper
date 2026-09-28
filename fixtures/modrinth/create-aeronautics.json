@@ -1,0 +1,17 @@
+{
+  "id": "oWaK0Q19",
+  "slug": "create-aeronautics",
+  "project_type": "mod",
+  "title": "Create Aeronautics",
+  "description": "Build anything from airships to planes and cars!",
+  "body": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/SO8tpWfZjGk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n<h1></h1>\n\n<div align=\"center\">\n    <a href=\"https://modrinth.com/mod/sable\">\n        <img alt=\"powered by sable\" width=\"30%\" src=\"https://cdn.modrinth.com/data/cached_images/d13ac17ef50ed090e7d21fcae0caf8958eeece3d.png\">\n    </a>\n    <a href=\"https://www.youtube.com/@createaeronautics\">\n      <img alt=\"youtube-singular\" width=\"6.61%\" src=\"https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/social/youtube-singular_64h.png\">\n    </a>\n  <a href=\"https://discord.gg/createaeronautics\">\n      <img alt=\"discord-singular\" width=\"6.61%\" src=\"https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/social/discord-singular_64h.png\">\n    </a>\n</div>\n\n# About\n\nCreate Aeronautics expands on the systems of Create to enable players to build all types of vehicles and physics contraptions using Sable. It features content and blocks for building anything from planes, drones, and hot-air balloons, to cars, trucks, and whimsical gizmos.\n\nIt contains 3 \"sections\" of content:\n- **Simulated** is the core of the project. It provides assembly, redstone components, and all tools necessary for interacting with simulated contraptions.\n- **Aeronautics** enables all manner of flying contraptions with hot air, propellers, and magic floating rocks.\n- **Offroad** allows you to put almost anything that looks like a wheel to use in making land vehicles.\n\n# Dependencies\n\n## ❗You must have both Sable and Create installed to play Create Aeronautics. ❗\n- https://modrinth.com/mod/create\n- https://modrinth.com/mod/sable\n\n## ⚠️ Known Incompatibilities\n\n- Aeronautics currently has visual issues when used with **Iris Shaders.**\n\n\n## Credits\n**Team:** Eriksonn · RyanHCode · Starlotte · KyanBirb · Kryppers · keyberries · BeeIsYou · Cyvack\n\n**Contributors:** AddyBerry · Ocelot · LlamaMann · FallenReaper · Farcr · ModogTheDev · Cake\n\n**Trailer contributors:** Rhyguy1 · NonaWax · SpottyTheTurtle · Silved · Chazbomb1 · Exeros · maybe_madeline · TropheusJay · FusionFlux · Talrey\n\n_Special thanks to FortressNebula, Oakli, Lyzantra, and Amo_",
+  "categories": [
+    "adventure",
+    "technology",
+    "transportation"
+  ],
+  "additional_categories": [
+    "decoration",
+    "game-mechanics"
+  ]
+}

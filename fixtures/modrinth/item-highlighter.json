@@ -1,0 +1,16 @@
+{
+  "id": "cVNW5lr6",
+  "slug": "item-highlighter",
+  "project_type": "mod",
+  "title": "Item Highlighter",
+  "description": "Highlights newly picked-up items. Simple and convenient.",
+  "body": "<p>Quickly find new items by showing an animated star on all newly-picked up items.</p>\n<p><img src=\"https://i.imgur.com/xT2qbsi.gif\" alt=\"\" width=\"71\" height=\"72\" /></p>\n<p><strong>Versions after 1.12.x require Iceberg, you can download it <a href=\"https://modrinth.com/mod/iceberg\">here</a>.</strong>&nbsp;</p>\n<p>&nbsp;</p>\n<h4><strong>Client / Server</strong></h4>\n<p>This mod needs to be installed on just the client.</p>\n<p>&nbsp;</p>\n<h4><strong>Configuration</strong></h4>\n<p>Can be configured to clear new item markers when you close your inventory and/or when you hover over them.&nbsp; You can also choose whether to keep the gold colored icons, or if the icons should match the item name colors.</p>\n<p>&nbsp;</p>\n<h4><strong>Customization</strong></h4>\n<p>The appearance of the new item markers can be customized with resource packs.&nbsp; But why would you?&nbsp; They're so cute.</p>\n<p>&nbsp;</p>\n<p><em>You are free to use this mod in modpacks.</em></p>\n<p>&nbsp;</p>\n<p><a href=\"https://discord.gg/S5NQjbXPnb\" rel=\"nofollow\"><img src=\"https://i.imgur.com/yX0xrk0.png\" width=\"200\" height=\"68\" /></a></p>\n<p><strong>Problems, feature request, something else?&nbsp; Join us on Discord!</strong></p>",
+  "categories": [
+    "adventure",
+    "equipment",
+    "utility"
+  ],
+  "additional_categories": [
+    "game-mechanics"
+  ]
+}

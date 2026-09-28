@@ -1,0 +1,10 @@
+{
+  "id": "M08ruV16",
+  "slug": "bobby",
+  "project_type": "mod",
+  "title": "Bobby",
+  "description": "Allows for render distances greater than the server's view-distance",
+  "body": "Bobby is a Minecraft mod which allows for render distances greater than the server's view-distance setting.\n\n![The Province of Wynn at 96 chunks render distance](https://i.johni0702.de/7FlGK.png \"The Province of Wynn at 96 chunks render distance\")\n\nIt accomplishes this goal by recording and storing (in `.minecraft/.bobby`) all chunks sent by the server which it\nthen can load and display at a later point when the chunk is outside the server's view-distance.\n\n\nOptionally, it can also use an existing single player world to load in chunks which the server has never sent before.\nTo make use of this feature, simply rename the world folder (not the name of the world! the name of its folder!) to \"bobby-fallback\".\n\n\nBobby automatically reloads its config file when it is changed.\nFor an in-game config screen, install [ModMenu] and [ClothConfig].\n\n[ModMenu]: https://modrinth.com/mod/modmenu\n[ClothConfig]: https://modrinth.com/mod/cloth-config",
+  "categories": [],
+  "additional_categories": []
+}

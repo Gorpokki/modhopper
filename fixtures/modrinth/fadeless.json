@@ -1,0 +1,12 @@
+{
+  "id": "ncKjyGm3",
+  "slug": "fadeless",
+  "project_type": "mod",
+  "title": "Fadeless",
+  "description": "Remove fade out animations in Minecraft (1.20+)",
+  "body": "# Fadeless\n**This is a forked version of [No Fade](https://github.com/UltimateBoomer/mc-no-fade) for 1.20 and up.**\n\n\nAre you annoyed with the long transition animation when you load into Minecraft? Fadeless is a client side mod that removes all of those fade out animations in Minecraft. This includes the fade out from the Mojang splash screen to the main menu, and the fade out after reloading textures.\n## **Whats new compared to the original?**\n- 1.20 support and beyond.\n- Forge and NeoForge support!\n- Removes more fading animations!\n- A config that lets you toggle fades such as chat fade, and subtitle fade\n\n![Fadeless Disabled](https://raw.githubusercontent.com/DerpDerpling/Fadeless/refs/heads/1.21/assets/fadeless_comparison.webp)\n\n\n## This is a fork of [no fade](https://github.com/UltimateBoomer/mc-no-fade). The author has given me permission to reupload/maintain this. Original mod credit goes to [UltimateBoomer.](https://github.com/UltimateBoomer)",
+  "categories": [
+    "utility"
+  ],
+  "additional_categories": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "bRAPbNyF",
+  "slug": "vein-mining",
+  "project_type": "mod",
+  "title": "Vein Mining",
+  "description": "A lightweight, highly configurable Vein Mining enchantment for tools.",
+  "body": "Vein Mining is a mod that adds the titular Vein Mining enchantment, which allows the enchanted tool to break matching connected blocks. The enchantment and mining logic are highly configurable, letting players and modpack developers find their preferred method of balance.\n\nConfiguration options can be found in the `config` folder as `veinmining-client.toml`, `veinmining-server.toml`, and `veinmining-common.toml`.\n\nPlease see the [wiki page](https://github.com/TheIllusiveC4/VeinMining/wiki/Configuration) for more configuration information.\n\n## Features\n### Enchantment\n![](https://i.ibb.co/q7g1qRd/veinminingenchantment.png)\n\n**Configuration Options**\n\n- Rarity\n- Max Level\n- Treasure\n- Randomly Enchantable\n- Available on Books\n- Base Enchanting Power\n- Enchanting Power per Level\n- Villager Trade\n- Lootable\n\n### Vein Mining\n\n**Configuration Options**\n\n- Max Blocks Base (without enchantment)\n- Max Distance Base (without enchantment)\n- Max Blocks per Enchantment Level\n- Max Distance per Enchantment Level\n- Diagonal Mining\n- Relocate Drops\n- Limit Mining by Tool Durability\n- Prevent Tool Breaking\n- Tool Damage\n- Tool Damage Multiplier\n- Player Exhaustion\n- Player Exhaustion Multiplier\n- Activation Method (sneak, stand, or keybinding)\n- Blocks Whitelist/Blacklist\n- Custom Block Groups (Tags + IDs)\n\n## Affiliates\n\n[![BisectHosting](https://i.ibb.co/5Tw6mh2/bisect-illusive.webp)](https://illusivesoulworks.com/affiliate)\n",
+  "categories": [
+    "equipment",
+    "magic"
+  ],
+  "additional_categories": []
+}

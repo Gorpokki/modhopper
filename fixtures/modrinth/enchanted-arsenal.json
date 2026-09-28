@@ -1,0 +1,14 @@
+{
+  "id": "iFRF5kc2",
+  "slug": "enchanted-arsenal",
+  "project_type": "mod",
+  "title": "[TACZ]Enchanted Arsenal",
+  "description": "A mod that adds enchantments designed to work with tacz guns",
+  "body": "# features\n- 8 enchantments\n- 2 curses\n\n<details>\n<summary>Enchantments</summary>\n\n| Enchantment         | Max level             | incompatibilities    |\n|---------------------|:---------------------:|---------------------:|\n| Lightweight         | 2              | Juggernaught             |\n| Juggernaught        | 2              |  Lightweight             |\n| Poison Tipped       | 1              |  Cindering Shells             |\n| Cindering Shells    | 1              |  Poison Tipped             |\n| Illumination        | 1              |  Shell Shock             |\n| Shell Shock         | 1              |  Illumination             |\n| Armour Piercing     | 5              |  Hollow Point             |\n| Hollow Point        | 5              |  Armour piercing             |\n| Curse Of Overpressuring| 1              |  none             |\n| Curse Of Overrecoiling| 1              |  none             |\n\n# What they all do\n\n## Enchantments\n\n### Lightweight  \nSpeeds up the player\n\n### Juggernaught  \nMakes the player more resistant but slows them down\n\n### Poison Tipped  \nAttacked enemies are poisoned for a short time\n\n### Cindering shells  \nAttacked enemies are set on fire for a short time\n\n### Illumination  \nMakes attacked enemies glow for a short time\n\n### Shell Shock  \nHit targets will have impaired vision for a short time\n\n### Armour Piercing  \nWill deal damage to your hits targets armour, the level determines the ammount of damage inflicted on armour\n\n### Hollow point  \nHas a chance to deal an extra half heart of damage, the level increases chance of extra damage being delt\n\n## Curses\n\n### Curse Of Overpressuring  \nThe gun will sometimes overgas(temporarily blind the user) when the gun is shot\n\n### Curse Of Overrecoiling  \nThe extra kick will sometimes leave the user out of breath(temporarily slow down the user) when the gun is shot\n\n</details>\n\n## !important!\n### Each enchantments enchanted books can ONLY be found from loot chests or villager trades AS OF NOW\n\n### As of 1.0.1 theres is enchantment descriptions support\n",
+  "categories": [
+    "adventure",
+    "equipment",
+    "magic"
+  ],
+  "additional_categories": []
+}

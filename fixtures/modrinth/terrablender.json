@@ -1,0 +1,13 @@
+{
+  "id": "kkmrDlKT",
+  "slug": "terrablender",
+  "project_type": "mod",
+  "title": "TerraBlender",
+  "description": "A library mod for adding biomes in a simple and compatible manner!",
+  "body": "<center>\n\n![TerraBlender Logo](https://cdn.modrinth.com/data/cached_images/6ae53639931e9029d151cfc66c8df925dae6d23e.png)\n\n[![Support on Patreon](https://cdn.modrinth.com/data/cached_images/3188789dee004c4d427bfc08d77eb25b525b9fb7.png)](https://www.patreon.com/Adubbz) [![Donate via PayPal](https://cdn.modrinth.com/data/cached_images/6ed53aa073b5ae94a3933f71ffc54c8a788a4675.png)](https://www.paypal.com/donate/?business=AdubbzG@gmail.com&cy_code=USD) [![Follow on X](https://cdn.modrinth.com/data/cached_images/432006270d284b8772e556dc6e5acc874933f311.png)](https://twitter.com/TheAdubbz) [![Join our Discord](https://cdn.modrinth.com/data/cached_images/792b68796689b351a2c469ef07c6c709e11197f8.png)](https://discord.gg/GyyzU6T)\n\n</center>\n\nTerraBlender is a library mod for adding biomes in a simple and compatible manner with Minecraft's new biome/terrain system.\n\n**TerraBlender is available for [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/), [NeoForge](https://neoforged.net/) and [Fabric](https://fabricmc.net/use/installer/).**\n- **[View all Forge versions](https://modrinth.com/mod/terrablender/versions?l=forge)**\n- **[View all NeoForge versions](https://modrinth.com/mod/terrablender/versions?l=neoforge)**\n- **[View all Fabric versions](https://modrinth.com/mod/terrablender/versions?l=fabric)**\n\n## Developers\nDocumentation for how to use TerraBlender's API can be found on the **[TerraBlender wiki](https://github.com/Glitchfiend/TerraBlender/wiki/Getting-started)**",
+  "categories": [
+    "library",
+    "worldgen"
+  ],
+  "additional_categories": []
+}

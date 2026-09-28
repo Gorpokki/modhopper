@@ -1,0 +1,20 @@
+{
+  "id": "BdKIyOLe",
+  "slug": "boat-item-view",
+  "project_type": "mod",
+  "title": "Boat Item View",
+  "description": "See your held items as you row your boat!",
+  "body": "# Boat Item View\n<div style=\"text-align: center;\">\n<img src=\"https://i.imgur.com/6s5Kpa6.gif\" alt=\"drawing\" width=\"342\" height=\"192\"/>\n</a>\n</div>\n<div style=\"text-align: center;\">\n<img src=\"https://i.imgur.com/Ol1Tcf8.png\" alt=\"drawing\" width=\"250\" height=\"86\"/>\n</a>\n</div>\n\n## About\n\nThe Boat Item View Mod is a client-side only Minecraft Mod that allows the player to see the item held in their hand while riding in a boat.\n\nThis is functionality is normally not possible in the base game.\n \n\nNote: Any items being displayed in the hand when the boat is moving still cannot be used. This mod only deals with rendering, it does not change vanilla serverside logic.\n\n## Features\n\n- Toggle the ability to render hand items when sitting in a moving boat.\n- Define the type of items to be rendered when sitting in a moving boat.\n- Compatibility with Cloth Config and ModMenu \n \n\n## Installation\n\nThis mod is client-side only. Do not install this on dedicated servers.\n\n## Dependencies\n\n- <a href=\"https://modrinth.com/mod/fabric-api\">Fabric API (Optional)</a>\n- Cloth Config API (Required, Preinstalled in this mod)\n- <a href=\"https://modrinth.com/mod/modmenu\">Mod Menu API (Optional, install if you like an Ingame Config GUI)</a>\n\n## Usage\n\n### Enabling this Mod\n1. Open the Configuration File. This can be done via minecraft/config/boatiview/client.toml or the Mods -> Boat Item View -> Configure Button if you have Mod Menu Installed.\n2. Set the Configuration Option \"showHandsInMovingBoat\" to True.\n3. Hold the item in the player's main hand or offhand.\n\n- Usage with ModMenu Config GUI: https://streamable.com/m8n37z\n\n### Adding an item to the display list\n1. Open the Configuration File. This can be done via minecraft/config/boatiview/client.toml or the Mods -> Boat Item View -> Configure Button if you have Mod Menu Installed.\n2. Add a new entry to the \"itemsToShowInMovingBoat\" option. This entry is the namespaced id of an item. E.g. \"minecraft:carrot\"\n3. Click \"Save\" in the File Editor program if you have opened the client.toml file. If you are using Mod Menu, click the \"Save and Quit\" button.\n- Usage in ModMenu Config GUI: https://streamable.com/n9vwwz\n- Usage in TOML File: https://streamable.com/9f5z3v\n\n\n## Screenshots\n\nThe Config GUI that is generated when Mod Menu is installed alongside this mod.\n<div style=\"text-align: center;\">\n<img src=\"https://i.imgur.com/2Mii7r4.png\" alt=\"drawing\" width=\"403\" height=\"192\"/>\n</a>\n</div>\n\n## Issues\n\nPlease report any issues to the issue tracker linked at the top of this page.\n\n## Credits\n\n<a href=\"https://www.twitch.tv/treblero\">Treblero</a>, for the original idea\n<div style=\"text-align: center;\">\n<img src=\"https://i.imgur.com/VMrDHZN.png\" alt=\"drawing\" width=\"644\" height=\"192\"/>\n</a>\n</div>\n",
+  "categories": [
+    "adventure",
+    "game-mechanics",
+    "utility"
+  ],
+  "additional_categories": [
+    "decoration",
+    "equipment",
+    "management",
+    "optimization",
+    "transportation"
+  ]
+}

@@ -6,14 +6,16 @@ For each project it fetches the storefront name, summary, description, and categ
 
 ## Run
 
-References are `modrinth:<slug-or-id>` or `curseforge:<numeric-id>`, on the command line or one per line in a file.
+References are `modrinth:<slug-or-id>` or `curseforge:<numeric-id>`, on the command line or one per line in a file. A Modrinth slug may use letters, digits, and `` !@$()`.+_- ``; the rare slug with `,`, `"`, or `'` is not accepted, use the project id instead. Python 3.8 or newer.
 
 ```sh
-python3 python/modhopper.py modrinth:sodium curseforge:238222
+python3 python/modhopper.py modrinth:sodium curseforge:32274
 cargo run -q --manifest-path rust/Cargo.toml -- --file refs.txt
 ```
 
-Options: `--file <path>`, `--cache <path>` (default `metadata-cache.json`, storefront evidence only), `--refresh` (refetch). Progress and errors go to stderr; the exit code is non-zero if any project failed.
+`categories.json` is read at run time by Python and compiled into the Rust binary at build time; rebuild after editing it.
+
+Options: `--file <path>` (repeatable), `--cache <path>` (default `metadata-cache.json`, storefront evidence only), `--refresh` (refetch). Progress and errors go to stderr; the exit code is 1 if any project failed and 2 if the arguments or the cache file are unusable. HTTP 429 and 503 are retried twice (three attempts), honouring `Retry-After` (1 to 30 seconds).
 
 ## Environment
 
@@ -31,4 +33,16 @@ Options: `--file <path>`, `--cache <path>` (default `metadata-cache.json`, store
 python3 check.py
 ```
 
-Builds the Rust binary, serves `fixtures/` as fake Modrinth, CurseForge, and Jev endpoints, runs both implementations against them twice (second run from cache), and asserts every output is byte-identical to `fixtures/expected.json`.
+Builds the Rust binary, serves `fixtures/` as fake Modrinth, CurseForge, and Jev endpoints, runs both implementations against them twice (second run from cache), and asserts every output is byte-identical to `fixtures/expected.json`. The same check runs on GitHub Actions for every push and pull request.
+
+## Fixtures
+
+`fixtures/modrinth/<slug>.json` holds one recorded Modrinth project each (164 of them, spread across performance, visuals, animations, tools, gameplay, library, world generation, and server utility mods), `fixtures/curseforge/<id>.json` one hand-written CurseForge project in the official response shape, `fixtures/jev/answers.json` the real Jev answer for each project keyed by name, `fixtures/refs.txt` the reference list, and `fixtures/expected.json` the output of one real run.
+
+To re-record from live Modrinth and Jev:
+
+```sh
+TYPESAFE_API_KEY=... python3 fixtures/record.py
+```
+
+It picks the most downloaded mods per category bucket with Modrinth's search API, fetches them with the bulk projects endpoint, then runs `python/modhopper.py` against those files through a proxy that records each Jev answer, so `answers.json` and `expected.json` come from one real run. CurseForge fixtures are left as they are.

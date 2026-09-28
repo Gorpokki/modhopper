@@ -1,0 +1,13 @@
+{
+  "id": "qyVF9oeo",
+  "slug": "sound-physics-remastered",
+  "project_type": "mod",
+  "title": "Sound Physics Remastered",
+  "description": "A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks.",
+  "body": "# Sound Physics Remastered\n\n> This is a fork of [Sound Physics Fabric](https://github.com/vlad2305m/Sound-Physics-Fabric) by [vlad2305m](https://github.com/vlad2305m) which is a fork of [Sound Physics](https://github.com/sonicether/Sound-Physics) by [Sonic Ether](https://github.com/sonicether).\n\nA Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks.\n\nOptimized for the use with [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat) 2.X.X.\n\n\n### Requirements\nThis mod does not require any dependencies, but it is recommended to use the following:\n\n**Fabric**\n\n- [ModMenu](https://www.curseforge.com/minecraft/mc-mods/modmenu)\n- [ClothConfig](https://www.curseforge.com/minecraft/mc-mods/cloth-config)\n\n**Forge**\n\n- [ClothConfig](https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge)\n\n---\n\n### Changes to the Original Mod\n\n**Improvements**\n\n- Improved sound processing performance by a factor of 10\n- Optimized for [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat)\n- Ported the mod to Forge\n- Improved configuration UI\n- Made Cloth Config optional\n- Tweaked default config values\n- Added reflectivity to the config GUI\n- Added occlusion variation\n- Added block occlusion factor config\n- Added debug sound bounce rendering\n- Added debug sound occlusion rendering\n\n**Bugfixes**\n\n- Fixed sounds not bouncing more than once\n- Fixed sound bouncing using an excessive amount of performance, despite not working at all\n- Fixed direction evaluation not taking sound source and primary bounces into account\n- Fixed sound allowance not working for `/playsound` command\n- Fixed unmapped field names in the reflectivity config\n- Fixed sound processing using player position instead of camera position",
+  "categories": [
+    "adventure",
+    "utility"
+  ],
+  "additional_categories": []
+}

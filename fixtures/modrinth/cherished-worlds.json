@@ -1,0 +1,13 @@
+{
+  "id": "3azQ6p0W",
+  "slug": "cherished-worlds",
+  "project_type": "mod",
+  "title": "Cherished Worlds",
+  "description": "Favorite/pin/bookmark certain worlds, which will always be at the top of the list and cannot be deleted.",
+  "body": "Cherished Worlds is a mod that adds the ability to favorite/pin/bookmark certain worlds.\n\nWhen installed, empty star icons will appear next to every world on the select screen. Players can bookmark worlds by clicking on the star next to the world icon.\n\nBookmarking worlds will force them to always show up at the top of the world selection list and removes the ability to delete them until they are unmarked. Players can bookmark as many worlds as they want. If there are multiple bookmarked worlds, they will internally be ordered by last played date.\n\n**This mod is client-side only.**\n\n## Features\n\n### Single Player Worlds\n\n![World Select Screen with Favorites](https://i.ibb.co/23MxVBp/selectworld.png)\n\n### Multiplayer Worlds\n\n![Multiplayer Select Screen with Favorites](https://i.ibb.co/C6Qjwp9/selectserver.png)\n\n## Support\n\nPlease report all bugs, issues, and feature requests to the [issue tracker](https://github.com/TheIllusiveC4/CherishedWorlds/issues).\n\nFor non-technical support and questions, join the developer's [Discord](https://discord.gg/JWgrdwt).\n\n## License\n\nAll source code and assets are licensed under LGPL 3.0.\n\n## Donations\n\nDonations to the developer can be sent through [Ko-fi](https://ko-fi.com/C0C1NL4O).\n\n## Affiliates\n\n[![BisectHosting](https://i.ibb.co/5Tw6mh2/bisect-illusive.webp)](https://illusivesoulworks.com/affiliate)\n",
+  "categories": [
+    "management",
+    "utility"
+  ],
+  "additional_categories": []
+}

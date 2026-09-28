@@ -1,0 +1,15 @@
+{
+  "id": "OSQ8mw2r",
+  "slug": "explosive-enhancement",
+  "project_type": "mod",
+  "title": "Explosive Enhancement",
+  "description": "Makes the explosion animation look cooler.",
+  "body": "# Explosive Enhancement\n\n### Enhancing explosions since 2023.\n\nExplosive Enhancement is a simple mod that makes explosions look better. It adds many new particles, any of which you can enable/disable at will. You can also completely enable/disable the mod via the config too!\n\nThere is also a special underwater explosion effect for when an explosion occurs underwater. You can make it so that there are lots of bubbles during an underwater explosion for a very satisfying effect!\n\n## Dependencies\n\n**Requires** Fabric API and YetAnotherConfigLib.  \nAlso requires Mod Menu if you wish to edit the config.\n\n[![Requires Fabric API](https://i.imgur.com/OIHAigX.png)](https://modrinth.com/mod/fabric-api)",
+  "categories": [
+    "adventure",
+    "decoration"
+  ],
+  "additional_categories": [
+    "mobs"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "nvQzSEkH",
+  "slug": "jade",
+  "project_type": "mod",
+  "title": "Jade 🔍",
+  "description": "Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+)",
+  "body": "# Jade 🔍\n\n<center><img src=\"https://cdn.modrinth.com/data/nvQzSEkH/images/7d10e9c837c33d81b39950fb2f7bacc85df92ee3.gif\"/></center>\n\nJade is the information HUD mod - Hwyla/Waila for modern Minecraft versions. Designed for better user experience and API.\n\nJade can be installed only on the client side. But many features require Jade on the server side. (item storage, brewing stand fuel amount, bees in beehive...)\n\n**For mod integration, try Jade Addons: [NeoForge](https://modrinth.com/mod/jade-addons-forge)  [Fabric](https://modrinth.com/mod/jade-addons-fabric)**\n\n### Keys (default):\n\n - Keypad 0: Open configuration screen\n - Keypad 1: Toggle overlay\n - Keypad 2: Toggle liquid display\n - Keypad 3: Show recipes (Requires JEI)\n - Keypad 4: Show uses (Requires JEI)\n - Keypad 5: Narrate target\n\n### Notable changes compared to Hwyla:\n\n - API re-design\n - More vanilla addons\n - Higher configurability\n - Better accessibility\n\n[![Interested in supporting me and the development of mods? BisectHosting is the perfect solution. New customers can use the promotion code \"snownee\" to get a 25% discount on their first month of a gaming server. With 24/7 support and fast response times, you can expect top-notch service for all your gaming needs.](https://www.bisecthosting.com/partners/custom-banners/e826c64b-9e14-433d-a083-26f659f8a41c.webp)](https://rb.gy/oktbru)\n\nAs required by the original project Hwyla, Jade utilizes the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license.\n",
+  "categories": [
+    "utility"
+  ],
+  "additional_categories": [
+    "library"
+  ]
+}
