@@ -1,0 +1,14 @@
+{
+  "id": "b5GyyYkp",
+  "slug": "charm-of-undying",
+  "project_type": "mod",
+  "title": "Charm of Undying",
+  "description": "Adds accessory support for the Totem of Undying so you can place it in a slot and don't have to be holding it. Formerly known as Curio of Undying and Trinket of Undying.",
+  "body": "Charm of Undying is a mod that uses the Curios API (Forge) and Trinkets API (Fabric/Quilt)\nto add a new slot, the Charm slot, to the player inventory and allows the Totem of Undying\nto be placed into this slot, either directly or through using the totem in-hand.\n\n## Features\n\n![](https://i.ibb.co/qmyCPfp/undying-screenshot.png)\n\n![](https://i.ibb.co/WWfRvqB/trinketotem.png)\n\nWhile the totem is in this slot, the player will be granted the same death protection effect as if it was held in the\nplayer's hand. This allows the player to gain the benefits of the totem without the hassle of needing to remember to\nhold the totem or the need to sacrifice a useful hotbar/inventory slot to keep one around.\n\n## Affiliates\n\n[![BisectHosting](https://i.ibb.co/1G4QPdc/bh-illusive.png)](https://bisecthosting.com/illusive)\n",
+  "categories": [
+    "adventure",
+    "equipment",
+    "magic"
+  ],
+  "additional_categories": []
+}

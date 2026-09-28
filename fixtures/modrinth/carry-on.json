@@ -1,0 +1,16 @@
+{
+  "id": "joEfVgkn",
+  "slug": "carry-on",
+  "project_type": "mod",
+  "title": "Carry On",
+  "description": "Carry On allows you to pick up Tile Entities and Mobs and carry them around!",
+  "body": "Ever wonder why you can carry a stack of 64 empty chests in your pocket, but you can’t move a filled one with your bare hands? Well, wonder no more!\n\nCarry On is a simple mod that improves game interaction by allowing players to pick up, carry, and place single block Tile Entities (such as Chests, Furnaces, Droppers, Spawners, and your favorite machines from other Tech Mods) using only their empty hands. No items (or pickaxes) required. States, meta data, inventory and NBT data are retained. It also allows you to carry around smaller mobs!\n\n**How it Works:**\n\n- Shift (can be rebound) + Right-Click (with Empty Hands) on any Tile Entity or mob to lift and carry\n- Right-Click to place\n\n![Carry On Demo](https://www.creeptech.net/carryon/carryondemo2.gif)\n\n\n![img](https://i.imgur.com/PJ4Q7tp.gif)\n\n\n![img](https://i.imgur.com/czlzu1s.gif)\n\n\n**Other features:**\n\n- Works with single block Tile Entities from any mod (yes, tech mods too)\n- Works with all entities (no hostile mobs in survival mode, configurable)\n- Entities can be stacked on each other (only smaller entities on top of larger ones)\n- Respects the ‘lock’ functionality so Tile Entities cannot be stolen\n- Powerful config allows you to blacklist entire mods or specific blocks, and additional customization\n- Players can only carry one Tile Entity or Mob at a time, and are prevented from other actions when carrying\n- Carrying a Tile Entity or Mob slows the player. Items with fuller inventories and larger mobs will cause additional slowness\n- Advanced scripting for modpack creators. Wiki [here](https://github.com/Tschipp/CarryOn/wiki/Scripting).\n- If you can't place down a picked up block, you can remove it from your inventory with /carryon clear\n- Players can also be carried\n\n**Config Options:**\n\n- Carry On provides a powerful config file, wiki [here](https://github.com/Tschipp/CarryOn/wiki/Model-Override-Config)\n- Specific blocks or entire mods can be blacklisted\n- An option to carry standard blocks (e.g., Dirt) can be enabled (Default = Off)",
+  "categories": [
+    "game-mechanics",
+    "storage",
+    "transportation"
+  ],
+  "additional_categories": [
+    "utility"
+  ]
+}

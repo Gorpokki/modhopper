@@ -1,0 +1,16 @@
+{
+  "id": "fnAffV0n",
+  "slug": "deeperdarker",
+  "project_type": "mod",
+  "title": "Deeper and Darker",
+  "description": "A Minecraft mod which features more blocks, items, armors, and hidden mysteries to complement the Deep Dark biome.",
+  "body": "![Deeper and Darker logo](https://kyanitemods.dev/assets/deeper_and_darker_banner.png)\n\n<center>\n  <a href=\"https://discord.com/invite/GDNRd5yvxa\"><img src=\"https://kyanitemods.dev/assets/discord_button_2x.png\" alt=\"Discord\"></a> <img src=\"https://kyanitemods.dev/assets/bullet_curseforge_modrinth.png\" alt=\"•\"> <a href=\"https://www.youtube.com/@kyanitemods\"><img src=\"https://kyanitemods.dev/assets/youtube_button_2x.png\"></a>\n</center>\n\n**IMPORTANT: version 2.0.0s is in active development and the FIRST ALPHA has been released on Modrinth. If you think the dimension is currently lacking in content, or just want to give feedback on the next update, please join our Discord server: [https://discord.com/invite/GDNRd5yvxa](https://discord.com/invite/GDNRd5yvxa). The new update branch (Spruce), planned initially for Fabric 1.20.1 and 1.21.1, will add actual progression to the dimension and expand the amount of biomes and entities.**\n\n## About\nDeeper and Darker is a mod that aims to enhance the Deep Dark in Minecraft. It adds many new features related to the Deep Dark and a new dimension called the Otherside.\n\n### Content\nDeeper and Darker adds an entire new dimension — the Otherside — with much content to explore. Here's a list with some of the features!\n\n* **Biomes:** explore the deeplands, echoing forest, overcast columns, and blooming caverns.\n* **Structure:** find an ancient temple, the home of the warden! Just be cautious when breaking the ancient vases to avoid awakening an ancient lurker.\n* **Blocks:** over a hundred new blocks to build, including  gloomslate,  sculk stone, and a new  wood type!\n* **Items:** a brand-new warden set of armor and tools, an  upgrade to elytra and the awesome  sculk transmitter!\n* **Mobs:** 8 new mobs, including a miniboss!\n\nTo enter the Otherside, **kill the warden and use its heart**. Play the mod to find more content and explore hidden mysteries!\n\n## Translations\nWe hope to make Deeper and Darker available for everyone, everywhere. This is done with the help of the community! You can help translate the mod into your language by visiting our [Crowdin page](https://crowdin.com/project/deeper-and-darker)!\n\n## Guide\nDon't know how to begin with Deeper and Darker? Check out our [wiki](https://github.com/KyaniteMods/DeeperAndDarker/wiki)! (still a WIP)\n\n## Issues\nIf you ever experience any issues while playing with this mod, notify us on our [GitHub issue tracker](https://github.com/KyaniteMods/DeeperAndDarker/issues)! Follow the bug report guidelines and be as clear as you can.",
+  "categories": [
+    "adventure",
+    "mobs",
+    "worldgen"
+  ],
+  "additional_categories": [
+    "equipment"
+  ]
+}

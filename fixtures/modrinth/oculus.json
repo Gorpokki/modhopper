@@ -1,0 +1,13 @@
+{
+  "id": "GchcoXML",
+  "slug": "oculus",
+  "project_type": "mod",
+  "title": "Oculus",
+  "description": "Unofficial Fork of \"Iris\", made to work with FML",
+  "body": "Unofficial Fork of \"Iris\", made to work with FML\n\nFeatures\n\n<details>\n  <summary>Features</summary>\n\n- Performance. Oculus should fully utilize your graphics card when paired with optimization mods like Rubidium.\n- Mod compatibility. Oculus should make a best effort to be compatible with modded environments.\n- Backwards compatibility. All existing ShadersMod / OptiFine shader packs should just work on Iris, without any modifications required.\n- A well-organized codebase. I'd like for working with Iris code to be a pleasant experience overall.\n</details>\n\n \nPlease, don't report Oculus' issues to the official Iris Github.",
+  "categories": [
+    "decoration",
+    "optimization"
+  ],
+  "additional_categories": []
+}

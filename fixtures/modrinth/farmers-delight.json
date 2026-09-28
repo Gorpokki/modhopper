@@ -1,0 +1,14 @@
+{
+  "id": "R2OftAxM",
+  "slug": "farmers-delight",
+  "project_type": "mod",
+  "title": "Farmer's Delight",
+  "description": "A cozy expansion to farming and cooking!",
+  "body": "<p align=\"center\">\n    <img src=\"https://i.imgur.com/wqSocVR.png\">\n</p>\n\n**Farmer's Delight** is a mod that gently expands upon farming and cooking in Minecraft.\n\nUsing a simple cooking system and a few familiar ingredients, you'll be able to prepare a wide variety of **hearty meals**: from sandwiches to salads and stews, from beautiful desserts to mouth-watering feasts, no ingredient will be left behind in your kitchen!\n\nIt also introduces a rich set of utilities: a way to **improve the very soil** your crops grow in, brand new **tools and weapons** to hunt and gather with, cute **decorations** for your builds, and many blocks and items to help you on your adventure!\n\nIt's time to farm a little bit of everything!\n\n## Getting Started\n\n**Follow the Advancements!** They explain many of the basic concepts, and are a good place to start from.\n\nPick up any item, then press the **L** key (by default) to open the Advancements screen. Or if you prefer a more direct guide, [click here!](https://github.com/vectorwing/FarmersDelight/wiki/Getting-Started)\n\n## Frequently Asked Questions\n\n**Q. Can I use this mod into my modpack?**\n\nA. Yes! Feel free to feature Farmer's Delight in your modpack, and customize it as you see fit for the experience you're crafting. Just keep in mind:\n\n- Make sure to credit, and don't claim Farmer's Delight as your own creation;\n- Always read the changelogs! Minor and major versions can sometimes have breaking changes, which will be explained there.\n\n**Q. Which Minecraft versions will the mod be updated for?**\n\nA. Farmer's Delight is currently being updated for 1.18.2 and 1.19+. Any other versions are currently discontinued.\n\n**Q. Are you going to backport this mod to versions before 1.15?**\n\nA. No, this mod will never be backported to older versions. The game's older codebases are entirely different, and usually missing important features this mod depends on.\n**Please do NOT ask for backports!**\n\n**Q. Do you have a Patreon, or similar means of supporting your work?**\n\nA. Not currently, but thanks for your consideration! I'm currently well-sustaned by a stable job, and my personal projects are hobbies I work on my free time. My suggestion is to donate your money to more worthy causes, or just treat yourself to a nice lunch. ;)",
+  "categories": [
+    "decoration",
+    "equipment",
+    "food"
+  ],
+  "additional_categories": []
+}

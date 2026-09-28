@@ -1,0 +1,14 @@
+{
+  "id": "XaDC71GB",
+  "slug": "lithostitched",
+  "project_type": "mod",
+  "title": "Lithostitched",
+  "description": "Library mod with new configurability and compatibility enhancements for worldgen",
+  "body": "# Lithostitched\n\nLithostitched is an expansive library mod for Fabric and Neoforge with new configurability and compatibility enhancements for worldgen.\n\nThe library adds features all across the game's worldgen, with the aim of increasing inter-project compatibility and expanding configurability in general.\n\n- Building biomes? There's tons of new feature types! Try out the expanded `dungeon`, `ore`, and `well` features or forge your own path with `composite` and `template`. Place your biome with biome injectors, a simple solution to modded biome layouts.\n\n- Making or modifying structures? You add now add guaranteed elements, structure-specific music, spawn conditions such as flatness checks, and more! You can also use Lithostitched's worldgen modifier system to add templates and spawn conditions to vanilla structures!\n\n- Dabble in terrain shaping? Lithostitched adds many new density function types (including Fast Noise!) and an injection system to apply terrain changes in a compatible manner.\n\n\nAll of these new capabilities are **data-driven**! Take a look at the [Lithostitched Wiki](https://github.com/Apollounknowndev/lithostitched/wiki) for more information.",
+  "categories": [
+    "library",
+    "utility",
+    "worldgen"
+  ],
+  "additional_categories": []
+}

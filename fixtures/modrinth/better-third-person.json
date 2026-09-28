@@ -1,0 +1,14 @@
+{
+  "id": "G1s2WpNo",
+  "slug": "better-third-person",
+  "project_type": "mod",
+  "title": "Better Third Person",
+  "description": "Improves third person camera view.",
+  "body": "![Banner](https://i.imgur.com/ian8HrF.png)\n\n### Adds independent rotation of the camera from a third person view.\n\n#### Completely client-side!\n#### Uses only legal actions to control player rotations.\n#### Available on Forge and Fabric\n\nAllows you to freely rotate camera for 360 degrees:\n\n![](https://i.imgur.com/qqhe7Pr.gif)\n\nAllows you to walk in 8 directions without changing camera rotation:\n\n![](https://i.imgur.com/TtHWY1e.gif)\n\nStill allows you to place, break and use items in third person:\n\n![](https://i.imgur.com/ODTRmMe.gif)\n\nProvides full freedom of the camera during movement:\n\n![](https://i.imgur.com/tYDN2Ss.gif)\n\nSupports vehicles (horses & pigs), swimming and elytra flying:\n\n![](https://i.imgur.com/ociEBxz.gif)",
+  "categories": [
+    "game-mechanics"
+  ],
+  "additional_categories": [
+    "adventure"
+  ]
+}

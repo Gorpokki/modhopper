@@ -1,0 +1,16 @@
+{
+  "id": "Kp2uclYl",
+  "slug": "inventoryhudplus",
+  "project_type": "mod",
+  "title": "InventoryHUD+",
+  "description": "Adds your main inventory, potion effects and your equipments to your HUD. And few other features.",
+  "body": "![Quick mod showcase](https://cdn.modrinth.com/data/cached_images/1847edcede1465ae810e9985fdef4de2dbf2f3f7.png)\n[![twitter (X) link](https://cdn.modrinth.com/data/cached_images/5be22759b83a17c5742ec69ef6e18417a31ba39c.png)](https://twitter.com/dmitrylovin)\n\nThis mod contains a few features, first of all - Inventory HUD, it shows your inventory while you are playing, you can switch between mods (mini/normal and horizontal/vertical), also you can change background transparency and toggle animation on/off \n\n![Replace this with a description](https://cdn.modrinth.com/data/cached_images/7231532555d17fb79c84b9330ec77443147688ac.png)\n\nNext feature is PotionHUD, it shows your potion effects with timer or duration bar if you are using mini mode, you can change gap between effects and background transparency in config, and you can enable horizontal mode as well\n\n![Replace this with a description](https://cdn.modrinth.com/data/cached_images/b77db7971420b5dca1e85358287538fd7a362d50.png)\n\nAnd last but not least feature is ArmorHUD, it shows durability of your armor and equipment, also shows how many free slots do you have in your inventory and how many arrows do you have. This HUD is fully customizable, you can change scale, type of damage indicator or turn on/off each part of your equipment\n\n![Replace this with a description](https://cdn.modrinth.com/data/cached_images/4dd24c94cb2911d6f82073e01f23b993d3614223.png)\n\nYou can change a lot of options in config (\"Mod\" button in Main Menu, then \"Config\"), also you can change the position for each HUD by simply dragging and dropping them. To open ingame config screen you can use keybind (\"O\" by default)\n\n![Replace this with a description](https://cdn.modrinth.com/data/cached_images/6d59679b7ace7efb8a4132412d1886526c694126_0.webp)\n\n---\nIf you want to help me to make this mod better, you can translate it to your language and send json file to me.\n\nYou can find original lang file here: [en_us.json](https://github.com/DmitryLovin/pluginUpdate/blob/master/lang/inventoryhud/en_us.json)\n\n<details>\n  <summary>Supported languages</summary>\n  \n- Chinese Simplified (Mainland China) (zh_cn) (thanks to Satxm)\n- Chinese Traditional (Taiwan) (zh_tw) (thanks to yichifauzi)\n- Czech (cs_cz) (thanks to Janys159)\n- English (en_us)\n- French (fr_fr) (thanks to Peperehobbits01)\n- German (de_de) (thanks to arrowlevel)\n- Hungarian (hu_hu) (thanks to Kalmix88)\n- Italian (it_it) (thanks to cranos96)\n- Japanese (ja_jp) (thanks to co_91)\n- Korean (ko_kr) (thanks to gueso-gato1355)\n- Portuguese - Brasil (pt_br) (thanks to VitorLeonardo)\n- Russian (ru_ru)\n- Spanish (es_es) (thanks to Zeedif)\n- Turkish (tr_tr) (thanks to MefeBey)\n- Ukrainian (uk_ua) (thanks to Elvis_Danger)\n</details>",
+  "categories": [
+    "adventure",
+    "management",
+    "storage"
+  ],
+  "additional_categories": [
+    "utility"
+  ]
+}

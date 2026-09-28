@@ -1,0 +1,13 @@
+{
+  "id": "RLzHAoZe",
+  "slug": "resourcify",
+  "project_type": "mod",
+  "title": "Resourcify",
+  "description": "In-game resource pack, data pack and shader browser and updater.",
+  "body": "<center>\n  \n# ![Resourcify](https://github.com/DeDiamondPro/Resourcify/assets/67508414/6836d217-1d9e-439b-b8d3-eb64428375cd)\n\n![Browse Resource Packs, right from in Minecraft](https://github.com/DeDiamondPro/Resourcify/assets/67508414/61ab5d82-a58c-4cea-b0c3-25f808e690fa)\nResourcify allows you to browse all resource packs, data packs and shaders on Modrinth and CurseForge right from in Minecraft! Just open the pack GUI and press the plus button in the top right.\n\n------------------------------------\n\n![Install a Resource Pack with the click of a button](https://github.com/DeDiamondPro/Resourcify/assets/67508414/b1e18d3e-7f04-4a96-a4b9-810173de1dfd)\nEasily view the description, gallery and versions of a pack,<br>when you've found a pack you like you can easily install it with one click!\n\n------------------------------------\n\n![Update packs easily right within Minecraft](https://github.com/user-attachments/assets/cc22855d-16b0-48d2-b446-030e4cc2e69a)\nEasily view available updates and install all of them or just the one you want with one click!\n\n------------------------------------\n\n</center>\n\n[<strong><img src=\"https://www.bisecthosting.com/partners/custom-banners/f8d261be-4548-4456-93f7-b3780517c6fd.webp\" alt=\"https://bisecthosting.com/diamond\" width=100%></strong>](https://dediamondpro.dev/bisecthosting)",
+  "categories": [
+    "management",
+    "utility"
+  ],
+  "additional_categories": []
+}

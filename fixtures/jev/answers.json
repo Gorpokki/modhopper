@@ -1,6 +1,4102 @@
 {
-  "Sodium": {"model": "jev-1.13.0", "answers": {"category": {"type": "choice", "choice": "tools", "confidence": 0.94, "probabilities": {"animations": 0, "gameplay": 0, "library": 0, "other": 0, "tools": 0.97, "visuals": 0.03}}}, "usage": {"input_tokens": 812, "output_tokens": 64}},
-  "Not Enough Animations": {"model": "jev-1.13.0", "answers": {"category": {"type": "choice", "choice": "animations", "confidence": 0.99, "probabilities": {"animations": 0.995, "gameplay": 0.004, "library": 0, "other": 0, "tools": 0.001, "visuals": 0}}}, "usage": {"input_tokens": 790, "output_tokens": 64}},
-  "Fabric API": {"model": "jev-1.13.0", "answers": {"category": {"type": "choice", "choice": "library", "confidence": 1, "probabilities": {"animations": 0, "gameplay": 0, "library": 1, "other": 0, "tools": 0, "visuals": 0}}}, "usage": {"input_tokens": 701, "output_tokens": 64}},
-  "Just Enough Items (JEI)": {"model": "jev-1.13.0", "answers": {"category": {"type": "choice", "choice": "tools", "confidence": 0.9, "probabilities": {"animations": 0, "gameplay": 0.02, "library": 0, "other": 0.02, "tools": 0.955, "visuals": 0.005}}}, "usage": {"input_tokens": 540, "output_tokens": 64}}
+  "3D Skin Layers": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 1
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "252:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1207,
+      "output_tokens": 64
+    }
+  },
+  "Alex's Caves": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "254:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1132,
+      "output_tokens": 63
+    }
+  },
+  "Alex's Mobs": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "255:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1249,
+      "output_tokens": 63
+    }
+  },
+  "Alternate Current": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.8,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.15,
+          "library": 0.02,
+          "other": 0,
+          "tools": 0.83,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "256:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 954,
+      "output_tokens": 62
+    }
+  },
+  "AmbientSounds": {
+    "answers": {
+      "category": {
+        "choice": "other",
+        "confidence": 0.53,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.12,
+          "library": 0,
+          "other": 0.62,
+          "tools": 0.01,
+          "visuals": 0.25
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "257:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 844,
+      "output_tokens": 62
+    }
+  },
+  "AppleSkin": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "258:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1053,
+      "output_tokens": 62
+    }
+  },
+  "Architectury API": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "259:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1112,
+      "output_tokens": 62
+    }
+  },
+  "Axiom": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.96,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.01,
+          "library": 0,
+          "other": 0.02,
+          "tools": 0.96,
+          "visuals": 0.01
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "260:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1159,
+      "output_tokens": 62
+    }
+  },
+  "AzureLib": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 0.98,
+        "probabilities": {
+          "animations": 0.01,
+          "gameplay": 0,
+          "library": 0.99,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "261:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1057,
+      "output_tokens": 62
+    }
+  },
+  "BadOptimizations": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "262:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1093,
+      "output_tokens": 62
+    }
+  },
+  "Balm": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "263:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 940,
+      "output_tokens": 62
+    }
+  },
+  "Better Combat": {
+    "answers": {
+      "category": {
+        "choice": "animations",
+        "confidence": 0.52,
+        "probabilities": {
+          "animations": 0.61,
+          "gameplay": 0.39,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "264:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1524,
+      "output_tokens": 62
+    }
+  },
+  "Better Third Person": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 0.86,
+        "probabilities": {
+          "animations": 0.03,
+          "gameplay": 0.05,
+          "library": 0,
+          "other": 0,
+          "tools": 0.03,
+          "visuals": 0.89
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "265:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 775,
+      "output_tokens": 64
+    }
+  },
+  "BetterEnd": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "266:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1155,
+      "output_tokens": 63
+    }
+  },
+  "BetterF3": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "267:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1170,
+      "output_tokens": 62
+    }
+  },
+  "BetterNether": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "268:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1210,
+      "output_tokens": 63
+    }
+  },
+  "Biomes O' Plenty": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "269:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1389,
+      "output_tokens": 63
+    }
+  },
+  "BisectHosting Server Integration Menu": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.93,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.02,
+          "library": 0.02,
+          "other": 0.02,
+          "tools": 0.94,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "270:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1105,
+      "output_tokens": 62
+    }
+  },
+  "Blur+": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 1
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "271:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1220,
+      "output_tokens": 64
+    }
+  },
+  "Boat Item View": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 0.75,
+        "probabilities": {
+          "animations": 0.05,
+          "gameplay": 0.02,
+          "library": 0,
+          "other": 0,
+          "tools": 0.14,
+          "visuals": 0.79
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "272:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1139,
+      "output_tokens": 64
+    }
+  },
+  "Bobby": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.53,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.62,
+          "visuals": 0.38
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "273:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 808,
+      "output_tokens": 62
+    }
+  },
+  "Carry On": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.9,
+        "probabilities": {
+          "animations": 0.01,
+          "gameplay": 0.92,
+          "library": 0,
+          "other": 0,
+          "tools": 0.07,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "275:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1089,
+      "output_tokens": 63
+    }
+  },
+  "Charm of Undying": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.98,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.98,
+          "library": 0,
+          "other": 0,
+          "tools": 0.02,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "276:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 855,
+      "output_tokens": 63
+    }
+  },
+  "Chat Animation [Smooth Chat]": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 0.4,
+        "probabilities": {
+          "animations": 0.49,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.01,
+          "visuals": 0.5
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "278:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1156,
+      "output_tokens": 64
+    }
+  },
+  "Chat Heads": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 0.69,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.25,
+          "visuals": 0.75
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "277:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 840,
+      "output_tokens": 64
+    }
+  },
+  "Cherished Worlds": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "279:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 953,
+      "output_tokens": 62
+    }
+  },
+  "Cloth Config API": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "280:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 705,
+      "output_tokens": 62
+    }
+  },
+  "Clumps": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.96,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.03,
+          "library": 0,
+          "other": 0,
+          "tools": 0.97,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "281:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 818,
+      "output_tokens": 62
+    }
+  },
+  "Cobblemon": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "282:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1191,
+      "output_tokens": 63
+    }
+  },
+  "Cobblemon additions": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "283:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1100,
+      "output_tokens": 63
+    }
+  },
+  "Cobblemon: Mega Showdown": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.97,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.98,
+          "library": 0.02,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "284:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1438,
+      "output_tokens": 63
+    }
+  },
+  "Collective": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "285:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1142,
+      "output_tokens": 62
+    }
+  },
+  "Comforts": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "286:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1119,
+      "output_tokens": 63
+    }
+  },
+  "Concurrent Chunk Management Engine (Fabric)": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "274:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1232,
+      "output_tokens": 62
+    }
+  },
+  "Continuity": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 1
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "288:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 988,
+      "output_tokens": 64
+    }
+  },
+  "Create Aeronautics": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "289:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1192,
+      "output_tokens": 63
+    }
+  },
+  "Create Crafts & Additions": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "291:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1147,
+      "output_tokens": 63
+    }
+  },
+  "Create: Steam 'n' Rails": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "290:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1110,
+      "output_tokens": 63
+    }
+  },
+  "Curios API": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.01,
+          "library": 0.99,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "292:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 991,
+      "output_tokens": 62
+    }
+  },
+  "Cut Through": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.97,
+        "probabilities": {
+          "animations": 0.03,
+          "gameplay": 0.97,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "293:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1337,
+      "output_tokens": 63
+    }
+  },
+  "Deeper and Darker": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "294:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1143,
+      "output_tokens": 63
+    }
+  },
+  "Default Options": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.98,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0.01,
+          "tools": 0.99,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "295:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 901,
+      "output_tokens": 62
+    }
+  },
+  "Dungeons and Taverns": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "296:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1132,
+      "output_tokens": 63
+    }
+  },
+  "Dynamic FPS": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "297:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1050,
+      "output_tokens": 62
+    }
+  },
+  "Dynamic Lights": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 0.79,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.17,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0.83
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "298:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1263,
+      "output_tokens": 64
+    }
+  },
+  "EMIffect": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.98,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.01,
+          "library": 0,
+          "other": 0,
+          "tools": 0.99,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "302:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 758,
+      "output_tokens": 62
+    }
+  },
+  "Easy Anvils": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "300:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1337,
+      "output_tokens": 63
+    }
+  },
+  "Eating Animation": {
+    "answers": {
+      "category": {
+        "choice": "animations",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 1,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "301:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1117,
+      "output_tokens": 62
+    }
+  },
+  "Enchanting Infuser": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "304:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1335,
+      "output_tokens": 63
+    }
+  },
+  "Enchantment Descriptions": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.88,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.05,
+          "library": 0,
+          "other": 0,
+          "tools": 0.9,
+          "visuals": 0.05
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "305:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1077,
+      "output_tokens": 62
+    }
+  },
+  "Enderman Overhaul": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "306:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1195,
+      "output_tokens": 63
+    }
+  },
+  "Entity Culling": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.99,
+          "visuals": 0.01
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "308:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1159,
+      "output_tokens": 62
+    }
+  },
+  "Essential Mod": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.35,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.07,
+          "library": 0,
+          "other": 0.46,
+          "tools": 0.47000000000000003,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "310:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1408,
+      "output_tokens": 62
+    }
+  },
+  "Euphoria Patches": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 1
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "311:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1415,
+      "output_tokens": 64
+    }
+  },
+  "Explorer's Compass": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.42,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.52,
+          "library": 0,
+          "other": 0,
+          "tools": 0.48,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "312:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1093,
+      "output_tokens": 63
+    }
+  },
+  "Explosive Enhancement": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 1
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "313:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 748,
+      "output_tokens": 64
+    }
+  },
+  "Fabric API": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "314:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 829,
+      "output_tokens": 62
+    }
+  },
+  "Fabric Language Kotlin": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "315:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 663,
+      "output_tokens": 62
+    }
+  },
+  "Fadeless": {
+    "answers": {
+      "category": {
+        "choice": "animations",
+        "confidence": 0.34,
+        "probabilities": {
+          "animations": 0.45,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.21,
+          "visuals": 0.34
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "316:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 829,
+      "output_tokens": 62
+    }
+  },
+  "Farmer's Delight": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "317:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1078,
+      "output_tokens": 63
+    }
+  },
+  "Farmer's Delight Refabricated": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "318:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1156,
+      "output_tokens": 63
+    }
+  },
+  "Fast IP Ping": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "319:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 964,
+      "output_tokens": 62
+    }
+  },
+  "FerriteCore": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "320:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 907,
+      "output_tokens": 62
+    }
+  },
+  "Forge Config API Port": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "321:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1331,
+      "output_tokens": 62
+    }
+  },
+  "Forge Config Screens": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.98,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0.01,
+          "other": 0,
+          "tools": 0.99,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "322:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1307,
+      "output_tokens": 62
+    }
+  },
+  "Friends&Foes (Fabric/Quilt)": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "323:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1352,
+      "output_tokens": 63
+    }
+  },
+  "Fzzy Config": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "324:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1092,
+      "output_tokens": 62
+    }
+  },
+  "GD656Killicon": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.93,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.94,
+          "visuals": 0.06
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "325:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1107,
+      "output_tokens": 62
+    }
+  },
+  "Geckolib": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 0.92,
+        "probabilities": {
+          "animations": 0.07,
+          "gameplay": 0,
+          "library": 0.93,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "327:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1275,
+      "output_tokens": 62
+    }
+  },
+  "Global Server Config": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.85,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0.04,
+          "other": 0.08,
+          "tools": 0.88,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "328:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 654,
+      "output_tokens": 62
+    }
+  },
+  "Goety - The Dark Arts": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "329:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1279,
+      "output_tokens": 63
+    }
+  },
+  "GraveStone Mod": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.92,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.94,
+          "library": 0,
+          "other": 0,
+          "tools": 0.06,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "330:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1127,
+      "output_tokens": 63
+    }
+  },
+  "Guard Villagers": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "331:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1100,
+      "output_tokens": 63
+    }
+  },
+  "ImmediatelyFast": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.96,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.97,
+          "visuals": 0.03
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "332:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1884,
+      "output_tokens": 62
+    }
+  },
+  "Immersive Aircraft": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "333:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1362,
+      "output_tokens": 63
+    }
+  },
+  "Inventory Profiles Next": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "334:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1235,
+      "output_tokens": 62
+    }
+  },
+  "InventoryHUD+": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "335:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1224,
+      "output_tokens": 62
+    }
+  },
+  "Iris Shaders": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 1
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "336:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 989,
+      "output_tokens": 64
+    }
+  },
+  "Iris/Oculus & GeckoLib Compat": {
+    "answers": {
+      "category": {
+        "choice": "animations",
+        "confidence": 0.41,
+        "probabilities": {
+          "animations": 0.5,
+          "gameplay": 0,
+          "library": 0.12,
+          "other": 0.02,
+          "tools": 0.01,
+          "visuals": 0.35
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "326:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 719,
+      "output_tokens": 62
+    }
+  },
+  "Iron Furnaces": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "337:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 933,
+      "output_tokens": 63
+    }
+  },
+  "Item Highlighter": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.91,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.93,
+          "visuals": 0.07
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "338:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 960,
+      "output_tokens": 62
+    }
+  },
+  "Jade 🔍": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "339:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1079,
+      "output_tokens": 62
+    }
+  },
+  "Just Enough Items (JEI)": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "416:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 597,
+      "output_tokens": 62
+    }
+  },
+  "Konkrete": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "341:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1204,
+      "output_tokens": 62
+    }
+  },
+  "Krypton": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.94,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0.04,
+          "other": 0.01,
+          "tools": 0.95,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "342:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 950,
+      "output_tokens": 62
+    }
+  },
+  "L_Ender's Cataclysm": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "343:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 816,
+      "output_tokens": 63
+    }
+  },
+  "LambDynamicLights - Dynamic Lights": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 1
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "344:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1141,
+      "output_tokens": 64
+    }
+  },
+  "Language Reload": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "345:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 751,
+      "output_tokens": 62
+    }
+  },
+  "Lithium": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "347:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1007,
+      "output_tokens": 62
+    }
+  },
+  "Lithostitched": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 0.88,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.1,
+          "library": 0.9,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "348:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 858,
+      "output_tokens": 62
+    }
+  },
+  "Memory Leak Fix": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "349:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 910,
+      "output_tokens": 62
+    }
+  },
+  "MissingMons [cobblemon]": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "350:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1225,
+      "output_tokens": 63
+    }
+  },
+  "Mod Menu": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "352:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1082,
+      "output_tokens": 62
+    }
+  },
+  "ModernFix": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "351:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1151,
+      "output_tokens": 62
+    }
+  },
+  "More Culling": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.98,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0.01,
+          "other": 0,
+          "tools": 0.98,
+          "visuals": 0.01
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "353:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1028,
+      "output_tokens": 62
+    }
+  },
+  "Mouse Tweaks": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "354:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1127,
+      "output_tokens": 62
+    }
+  },
+  "Mowzie's Mobs": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "355:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1298,
+      "output_tokens": 63
+    }
+  },
+  "Naturalist": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "356:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1214,
+      "output_tokens": 63
+    }
+  },
+  "Nature's Compass": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.43,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.48,
+          "library": 0,
+          "other": 0,
+          "tools": 0.52,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "357:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1126,
+      "output_tokens": 62
+    }
+  },
+  "Nature's Spirit": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "358:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1131,
+      "output_tokens": 63
+    }
+  },
+  "NetherPortalFix": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.98,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.99,
+          "library": 0,
+          "other": 0,
+          "tools": 0.01,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "359:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 895,
+      "output_tokens": 63
+    }
+  },
+  "No Chat Reports": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.9,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.03,
+          "library": 0,
+          "other": 0.05,
+          "tools": 0.92,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "360:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1108,
+      "output_tokens": 62
+    }
+  },
+  "Not Enough Animations": {
+    "answers": {
+      "category": {
+        "choice": "animations",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 1,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "361:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1161,
+      "output_tokens": 62
+    }
+  },
+  "Noxesium": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0.01,
+          "other": 0,
+          "tools": 0.99,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "362:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1183,
+      "output_tokens": 62
+    }
+  },
+  "Oculus": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 0.94,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.04,
+          "visuals": 0.96
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "363:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 732,
+      "output_tokens": 64
+    }
+  },
+  "Oh The Biomes We've Gone": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "364:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1441,
+      "output_tokens": 63
+    }
+  },
+  "Particle Core": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.62,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.69,
+          "visuals": 0.31
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "365:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1134,
+      "output_tokens": 62
+    }
+  },
+  "Particle Effects": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 1
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "366:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1180,
+      "output_tokens": 64
+    }
+  },
+  "Presence Footsteps": {
+    "answers": {
+      "category": {
+        "choice": "other",
+        "confidence": 0.31,
+        "probabilities": {
+          "animations": 0.01,
+          "gameplay": 0.41,
+          "library": 0,
+          "other": 0.43,
+          "tools": 0,
+          "visuals": 0.15
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "368:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1064,
+      "output_tokens": 62
+    }
+  },
+  "Prickle": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 0.74,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0.79,
+          "other": 0.02,
+          "tools": 0.19,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "369:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1056,
+      "output_tokens": 62
+    }
+  },
+  "Puzzles Lib": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "370:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1318,
+      "output_tokens": 62
+    }
+  },
+  "Quark": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "371:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1124,
+      "output_tokens": 63
+    }
+  },
+  "Reese's Sodium Options": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.99,
+          "visuals": 0.01
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "372:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1025,
+      "output_tokens": 62
+    }
+  },
+  "Resourcify": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.91,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.93,
+          "visuals": 0.07
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "373:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1048,
+      "output_tokens": 62
+    }
+  },
+  "RightClickHarvest": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.93,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.94,
+          "library": 0,
+          "other": 0,
+          "tools": 0.06,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "374:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1090,
+      "output_tokens": 63
+    }
+  },
+  "ServerCore": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "375:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1111,
+      "output_tokens": 62
+    }
+  },
+  "Shulker Box Tooltip": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "376:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1246,
+      "output_tokens": 62
+    }
+  },
+  "Simple Voice Chat": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.57,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.11,
+          "library": 0,
+          "other": 0.24,
+          "tools": 0.65,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "377:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1217,
+      "output_tokens": 62
+    }
+  },
+  "Simply Swords": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "378:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1206,
+      "output_tokens": 63
+    }
+  },
+  "Sinytra Connector": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "287:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1240,
+      "output_tokens": 62
+    }
+  },
+  "Smarter Farmers (farmers replant)": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "379:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1230,
+      "output_tokens": 63
+    }
+  },
+  "Sodium": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.93,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.94,
+          "visuals": 0.06
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "380:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1256,
+      "output_tokens": 62
+    }
+  },
+  "Sodium Extra": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 0.93,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0.06,
+          "visuals": 0.94
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "381:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 963,
+      "output_tokens": 64
+    }
+  },
+  "Sophisticated Backpacks": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.99,
+          "library": 0,
+          "other": 0,
+          "tools": 0.01,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "382:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1233,
+      "output_tokens": 63
+    }
+  },
+  "Sophisticated Backpacks (Unoffical Fabric port)": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.97,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.98,
+          "library": 0,
+          "other": 0,
+          "tools": 0.02,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "383:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 772,
+      "output_tokens": 63
+    }
+  },
+  "Sophisticated Core": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "384:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1071,
+      "output_tokens": 62
+    }
+  },
+  "Sound Physics Remastered": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.47,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.23,
+          "library": 0,
+          "other": 0.16,
+          "tools": 0.56,
+          "visuals": 0.05
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "386:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1067,
+      "output_tokens": 62
+    }
+  },
+  "Sounds": {
+    "answers": {
+      "category": {
+        "choice": "other",
+        "confidence": 0.5,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.06,
+          "library": 0,
+          "other": 0.58,
+          "tools": 0.2,
+          "visuals": 0.16
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "385:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1144,
+      "output_tokens": 62
+    }
+  },
+  "Spawn Animations": {
+    "answers": {
+      "category": {
+        "choice": "animations",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 1,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "388:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1266,
+      "output_tokens": 62
+    }
+  },
+  "Supplementaries": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "389:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1283,
+      "output_tokens": 63
+    }
+  },
+  "TerraBlender": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "390:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1156,
+      "output_tokens": 62
+    }
+  },
+  "Terralith": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "391:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1237,
+      "output_tokens": 63
+    }
+  },
+  "Text Placeholder API": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "367:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1054,
+      "output_tokens": 62
+    }
+  },
+  "The Aether": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "253:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1358,
+      "output_tokens": 63
+    }
+  },
+  "Tom's Simple Storage Mod": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.67,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.72,
+          "library": 0,
+          "other": 0,
+          "tools": 0.28,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "393:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 883,
+      "output_tokens": 63
+    }
+  },
+  "Touhou Little Maid": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "394:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1281,
+      "output_tokens": 63
+    }
+  },
+  "Traveler's Backpack": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "395:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1193,
+      "output_tokens": 63
+    }
+  },
+  "Trinkets": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 0.68,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.24,
+          "library": 0.73,
+          "other": 0.01,
+          "tools": 0.02,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "396:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 802,
+      "output_tokens": 62
+    }
+  },
+  "True Ending - Ender Dragon Overhaul": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "397:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1186,
+      "output_tokens": 63
+    }
+  },
+  "Vein Mining": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.99,
+          "library": 0,
+          "other": 0,
+          "tools": 0.01,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "398:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 981,
+      "output_tokens": 63
+    }
+  },
+  "VeinMiner": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.82,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.85,
+          "library": 0,
+          "other": 0,
+          "tools": 0.15,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "399:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1300,
+      "output_tokens": 63
+    }
+  },
+  "VeinMiner Enchantment": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.99,
+          "library": 0,
+          "other": 0,
+          "tools": 0.01,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "401:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1253,
+      "output_tokens": 63
+    }
+  },
+  "VeinMiner Hotkey": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.68,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.27,
+          "library": 0,
+          "other": 0,
+          "tools": 0.73,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "400:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1271,
+      "output_tokens": 62
+    }
+  },
+  "Very Many Players (Fabric)": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.97,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0.02,
+          "tools": 0.98,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "404:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 963,
+      "output_tokens": 62
+    }
+  },
+  "ViaFabricPlus": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.55,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0.02,
+          "library": 0.21,
+          "other": 0.14,
+          "tools": 0.63,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "402:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1148,
+      "output_tokens": 62
+    }
+  },
+  "Visuality": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 1
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "403:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 838,
+      "output_tokens": 64
+    }
+  },
+  "Waystones": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "405:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1093,
+      "output_tokens": 63
+    }
+  },
+  "Xaero's Minimap": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "406:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1088,
+      "output_tokens": 62
+    }
+  },
+  "Xaero's World Map": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "407:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1101,
+      "output_tokens": 62
+    }
+  },
+  "YUNG's API": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "409:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1145,
+      "output_tokens": 62
+    }
+  },
+  "YUNG's Better Dungeons": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "410:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1222,
+      "output_tokens": 63
+    }
+  },
+  "YUNG's Better End Island": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "411:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1182,
+      "output_tokens": 63
+    }
+  },
+  "YUNG's Better Jungle Temples": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "412:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1189,
+      "output_tokens": 63
+    }
+  },
+  "YUNG's Better Mineshafts": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "413:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1212,
+      "output_tokens": 63
+    }
+  },
+  "YUNG's Better Nether Fortresses": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "414:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1173,
+      "output_tokens": 63
+    }
+  },
+  "YUNG's Better Ocean Monuments": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "415:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1192,
+      "output_tokens": 63
+    }
+  },
+  "YetAnotherConfigLib (YACL)": {
+    "answers": {
+      "category": {
+        "choice": "library",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 1,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "408:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1282,
+      "output_tokens": 62
+    }
+  },
+  "[EMF] Entity Model Features": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 0.96,
+        "probabilities": {
+          "animations": 0.02,
+          "gameplay": 0,
+          "library": 0.01,
+          "other": 0,
+          "tools": 0.01,
+          "visuals": 0.96
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "307:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1211,
+      "output_tokens": 64
+    }
+  },
+  "[ETF] Entity Texture Features": {
+    "answers": {
+      "category": {
+        "choice": "visuals",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 1
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "309:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1197,
+      "output_tokens": 64
+    }
+  },
+  "[Let's Do] Vinery": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "346:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1201,
+      "output_tokens": 63
+    }
+  },
+  "[TACZ]Enchanted Arsenal": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "303:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1067,
+      "output_tokens": 63
+    }
+  },
+  "[TaCZ] Timeless and Classics Zero": {
+    "answers": {
+      "category": {
+        "choice": "gameplay",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 1,
+          "library": 0,
+          "other": 0,
+          "tools": 0,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "392:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1250,
+      "output_tokens": 63
+    }
+  },
+  "e4mc": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.8,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0.16,
+          "tools": 0.84,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "299:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 900,
+      "output_tokens": 62
+    }
+  },
+  "spark": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 1,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "387:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1066,
+      "output_tokens": 62
+    }
+  }
 }

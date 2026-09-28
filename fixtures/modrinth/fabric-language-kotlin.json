@@ -1,0 +1,12 @@
+{
+  "id": "Ha28R6CL",
+  "slug": "fabric-language-kotlin",
+  "project_type": "mod",
+  "title": "Fabric Language Kotlin",
+  "description": "This is a mod that enables usage of the Kotlin programming language for Fabric mods.",
+  "body": "This is a mod that enables usage of the Kotlin programming language for Fabric mods.\n\nNote: This does not add content! This is a dependency other mods use for compatibilty.\n\nThis mod works independently of the version of Minecraft used, as it only depends on Fabric Loader being available.\n\nFor modders: See -> https://github.com/FabricMC/fabric-language-kotlin#usage",
+  "categories": [
+    "library"
+  ],
+  "additional_categories": []
+}

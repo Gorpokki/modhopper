@@ -1,0 +1,13 @@
+{
+  "id": "yPlaLxD1",
+  "slug": "iron-furnaces",
+  "project_type": "mod",
+  "title": "Iron Furnaces",
+  "description": "Inspired by cpw's Iron Chests mod, adds a few different tiers of furnace.",
+  "body": "Maximize smelting efficiency with unparalleled speed, reconfigurable sides, augments for smoking and blasting, and much more.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/aTsri2PvSis\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n\n\nCan you craft the Rainbow Furnace and unlock its POWER? \n\n![Rainbow Furnace](https://cdn.modrinth.com/data/cached_images/d6ff288fb90998a54369a29deaddea220a562352.png)\n\nGot any questions? Read the Wiki!\n\n \n\nVersion Status\n\n1.21.x: Active Development\n\n \n\nIron Furnaces should be compatible with most mods. \n\nIt has explicit compatibility with JEI and Project MMO.\n\n \n\nThe textures used from the Thermal Series are used with CoFH permission.\n\n \n\nChange log: [https://github.com/Qelifern/IronFurnacesNeoForge/blob/4.3.2/ifchangelog.txt](https://github.com/Qelifern/IronFurnacesNeoForge/blob/4.3.2/ifchangelog.txt)\n\n \n\nThis mod is open source and licensed under the Apache License, Version 2.0. It may be modified and used in any project, subject to the terms of the license.",
+  "categories": [
+    "storage",
+    "technology"
+  ],
+  "additional_categories": []
+}

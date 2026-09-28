@@ -1,0 +1,12 @@
+{
+  "id": "NRjRiSSD",
+  "slug": "memoryleakfix",
+  "project_type": "mod",
+  "title": "Memory Leak Fix",
+  "description": "A mod that fixes random memory leaks for both the client and server",
+  "body": "# Memory Leak Fix\n\n### A mod that fixes multiple memory leaks in Minecraft. Both server-side & client-side\n\nFor the best performance & memory usage, I recommend using this mod with:\n\n- [lithium-fabric](https://github.com/CaffeineMC/lithium-fabric) - The best general performance mod\n- [FerriteCore](https://github.com/malte0811/FerriteCore) - Memory usage optimizations \n\n## My other optimizations/fixes\n* [MoreCulling](https://modrinth.com/mod/moreculling) - Changes how blockstate culling is handled to improve performance\n* [Carpet-Fixes](https://modrinth.com/mod/carpet-fixes) - Largest Server-Side bug fixing mod\n* [Blanket](https://modrinth.com/mod/blanket) - Client-side tweaks/fixes\n* [RailOptimization](https://modrinth.com/mod/rail-optimization) - Make powered rails less laggy\n\n## Minecraft 1.20.5+\nAll the memory leaks in minecraft previously fixed by MemoryLeakFix have been fixed. Making this mod obsolete in future versions of the game.\n\n## More Info \n  \nFeel free to contribute to the project!  \nI'm also fine if you use this mod in your modpacks, just make sure to mention it. \n\nHowever I don't allow clients or other projects to merge this mod without permission, if you would like to use this mod in your client or another project please contact me. \n\n---",
+  "categories": [
+    "optimization"
+  ],
+  "additional_categories": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "9mtu0sUO",
+  "slug": "fast-ip-ping",
+  "project_type": "mod",
+  "title": "Fast IP Ping",
+  "description": "Yeet the laggy reversed DNS lookup for literal IP server addresses",
+  "body": "![pinging](https://cdn.modrinth.com/data/9mtu0sUO/images/5581f99386aba1c78332aab5b75e3fdf3d2de884.gif)\n\nYeet the laggy reversed DNS lookup for literal IP server addresses\n\nExtracted from the `yeetServerIpReversedDnsLookup` option in [TweakerMore](https://modrinth.com/mod/tweakermore) Mod\n\n### What & Why & How\n\nFor servers whose addresses are represented solely by a literal IP, e.g. `192.168.2.10:25565`, disable reverse DNS lookups in the corresponding `InetAddress` object\n\nMany non-loopback IPs lack associated domain names, which makes reverse lookups time-consuming\n\n```java\n// java.net.InetAddress#getHostName(boolean)\nString getHostName(boolean check) {\n    if (holder().getHostName() == null) {  // It will be null if InetAddress.getByName() received a literal IP\n        holder().hostName = InetAddress.getHostFromNameService(this, check);  // <-- takes forever\n    }\n    return holder().getHostName();\n}\n```\n\nThis option sets the domain of those servers directly to their IP, bypassing the reverse DNS check\n\nThis results in a 1s ~ 5s reduction in time for servers with literal IP address. Affects the following environments:\n\n- Pinging the server in the server list screen \n- Connecting to the server\n\n### Environment\n\n- Client-side only\n- Fabric / Forge / NeoForge mod loader. No extra requirement is needed\n",
+  "categories": [
+    "optimization"
+  ],
+  "additional_categories": []
+}

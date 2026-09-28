@@ -1,0 +1,13 @@
+{
+  "id": "2M01OLQq",
+  "slug": "shulkerboxtooltip",
+  "project_type": "mod",
+  "title": "Shulker Box Tooltip",
+  "description": "View the contents of shulker boxes from your inventory",
+  "body": "# ![Logo](https://cdn.modrinth.com/data/2M01OLQq/images/78d5b5058a4a87c057746c5e9010c4447701fcbd.png)\n\nThis mod allows you to see a preview window of a shulker box contents when hovering above it in an inventory by pressing `shift`.\n\n## **Supports both Fabric and Forge**\n### On Fabric:\n[Fabric Loader](https://fabricmc.net/use/installer) and [Fabric API](https://modrinth.com/mod/fabric-api) are required\n\n[Mod Menu](https://modrinth.com/mod/modmenu) is recommended (but not required) for in-game configuration\n\n## **Features:**\n### Compact Preview\nPress `shift` (by default) while hovering an item.\n\n![Compact Preview](https://cdn.modrinth.com/data/2M01OLQq/images/a90b59a21b4694d688010dedb4ce4a26321d9beb.png)\n\n### Full Preview\nPress `alt+shift` (by default) while hovering an item to shows its full contents where each contained stack is displayed in the correct slot.\n\n![Full Preview](https://cdn.modrinth.com/data/2M01OLQq/images/437f67b3c053f691e268571c8f059aa7f3697dd9.png)\n\n### Other Containers\nThe preview also works with items obtained in creative mode using control + pick block such as chests, furnaces, barrels, etc...  \nWorks with most modded containers as well.\n\n![Other Containers Preview](https://cdn.modrinth.com/data/2M01OLQq/images/d8badb9ee0a06b5e9a9ba47e9beed211730c3192.png)\n\n### Loot Tables\nThe name of the loot table is displayed in the tooltip if the hovered item as one.  \nThis option is disabled by default.\n\n![Loot Table Info](https://cdn.modrinth.com/data/2M01OLQq/images/74ae065b323f747d3c2e5b4ec12398e761c9bbb5.png)\n\n### Configurability\nMost aspects of the mod can be configured through the config menu. To access it, in the [mod menu](https://modrinth.com/mod/modmenu) select `ShulkerBoxTooltip` and then click on the gear icon.  \nSee the in game documentation or the [wiki](https://github.com/MisterPeModder/ShulkerBoxTooltip/wiki/Configuration-Options) for info about each option. The config file can be found at `<minecraft folder>/config/shulkerboxtooltip.json5`\n\n<img alt=\"Config Screen\" width=572 src=\"https://cdn.modrinth.com/data/2M01OLQq/images/6fdbb209eeedb5371463bcebeb5299b5ed01d96d.png\" />\n\n### Colors!\nThe color of the preview window changes depending on the color of the shulker box, you can disable it in config.\n\n### Server support\nThe mod can also be installed server-side (optional) to provide extra features such as ender chest preview.",
+  "categories": [
+    "storage",
+    "utility"
+  ],
+  "additional_categories": []
+}

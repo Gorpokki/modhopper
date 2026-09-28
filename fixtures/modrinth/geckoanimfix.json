@@ -1,0 +1,10 @@
+{
+  "id": "TbriQCWD",
+  "slug": "geckoanimfix",
+  "project_type": "mod",
+  "title": "Iris/Oculus & GeckoLib Compat",
+  "description": "Fixes GeckoLib animations not working if using a shaderpack with entity shadows.",
+  "body": "# Iris / Oculus & GeckoLib Compat\n\nFixes GeckoLib entities' animations not working while using shaderpacks that have entity shadows.\n\nExample of a GeckoLib entity working with Insanity Shader, using entity shadows.\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/5kLo4HdSz44\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n",
+  "categories": [],
+  "additional_categories": []
+}
