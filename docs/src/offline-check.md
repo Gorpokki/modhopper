@@ -18,6 +18,19 @@ CARGO_NET_OFFLINE=true python3 check.py
 
 ## What runs
 
+```mermaid
+flowchart TD
+    accTitle: Compare both implementations without live services
+    accDescr: The check serves saved storefront and Jev fixtures through local endpoints, runs Python and Rust with separate caches twice, and compares all output and both cache files.
+    Fixtures["Saved storefront and Jev responses<br/>fixtures/"] --> Server["Local fake endpoints<br/>Modrinth · CurseForge · Jev"]
+    Server -->|HTTP responses| Python["Python<br/>Empty-cache run, then cached run"]
+    Server -->|HTTP responses| Rust["Rust<br/>Empty-cache run, then cached run"]
+    Refs["fixtures/refs.txt"] --> Python
+    Refs --> Rust
+    Python --> Compare["check.py compares bytes:<br/>all four outputs match expected.json;<br/>both cache files match each other"]
+    Rust --> Compare
+```
+
 `check.py` starts a local HTTP server on `127.0.0.1` with an available port.
 It sets all three base URLs to that server for the child processes:
 
@@ -74,6 +87,11 @@ Open `docs/book/index.html`, or preview the book with:
 ```sh
 mdbook serve docs --open
 ```
+
+The diagrams use [Mermaid](https://mermaid.js.org/), which turns text definitions into diagrams.
+`docs/theme/mermaid.js` loads version 11.15.0 from jsDelivr through mdBook's `additional-js` setting.
+The browser needs internet access to load that script.
+If it cannot load, the diagram definitions remain readable as text.
 
 The workflow in `.github/workflows/docs.yml` builds pull requests without publishing them.
 Every push to `main` builds and deploys the site through GitHub Actions, GitHub's automated workflow service.

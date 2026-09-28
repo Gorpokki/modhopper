@@ -11,6 +11,28 @@ They set `Content-Type: application/json`.
 They send one project per request, in sequence.
 There is no conversation history or batch of projects in a request.
 
+```mermaid
+flowchart TD
+    accTitle: One Jev request and response
+    accDescr: The request contains a model, project state, and one Choice question. Modhopper reads the response's choice and probabilities to produce category and reason.
+    subgraph Request["Request body"]
+        Model["model: jev-latest"]
+        State["state<br/>name · summary · description<br/>storefront_categories"]
+        Question["questions.category<br/>type: choice<br/>instructions · criteria"]
+    end
+    Request -->|POST /v1/systemone| Jev["Jev"]
+    Jev --> Response
+    subgraph Response["Response body"]
+        Answer["answers.category<br/>type · choice · probabilities · confidence"]
+        Metadata["model · usage"]
+    end
+    Answer -->|choice| Category["Output category"]
+    Answer -->|probabilities| Reason["Format reason with the choice and runner-up"]
+```
+
+The category definitions become `criteria`.
+Modhopper reads `choice` and `probabilities`; it ignores the other response fields shown.
+
 This is the request body for the recorded CurseForge project `curseforge:238222`.
 JSON object key order and spacing can differ between implementations; the fields and values match.
 The `criteria` object below is included directly from `categories.json` when this book builds.
