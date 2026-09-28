@@ -4,6 +4,7 @@
 //! A REF is modrinth:<slug-or-id> or curseforge:<numeric-id>.
 use serde_json::{json, Map, Value};
 use std::path::{Path, PathBuf};
+use std::io::{self, Write};
 use std::{env, fs, process, thread, time};
 
 type Error = Box<dyn std::error::Error>;
@@ -40,7 +41,7 @@ fn http_json(request: ureq::Request, body: Option<Value>) -> Result<Value> {
         };
         match response {
             Ok(response) if response.status() >= 300 => {
-                // a redirect, which this agent does not follow
+                // a redirect, which this client does not follow
                 return Err(format!("{} returned HTTP {}", response.get_url(), response.status()).into());
             }
             Ok(response) => {
@@ -174,14 +175,17 @@ fn load_cache(path: &Path) -> Result<Map<String, Value>> {
         return Ok(Map::new());
     }
     let cache = fs::read_to_string(path).ok().and_then(|t| serde_json::from_str::<Value>(&t).ok()).and_then(|v| v.as_object().cloned());
-    cache.ok_or_else(|| format!("{} is not a JSON object; delete it or pass --refresh", path.display()).into())
+    cache.ok_or_else(|| format!("{} is not a JSON object; delete it", path.display()).into())
 }
 
 fn save_json(path: &Path, value: &Map<String, Value>) -> Result<()> {
     let name = path.file_name().ok_or("cache path has no file name")?.to_string_lossy();
     let temporary = path.with_file_name(format!("{name}.tmp"));
     fs::write(&temporary, serde_json::to_string_pretty(value)? + "\n").map_err(|e| format!("{}: {e}", temporary.display()))?;
-    fs::rename(&temporary, path).map_err(|e| format!("{}: {e}", path.display()))?;
+    fs::rename(&temporary, path).map_err(|e| {
+        let _ = fs::remove_file(&temporary);
+        format!("{}: {e}", path.display())
+    })?;
     Ok(())
 }
 
@@ -194,7 +198,8 @@ struct Args {
 fn parse_args() -> Result<Args> {
     let mut args = Args { refs: Vec::new(), cache: PathBuf::from("metadata-cache.json"), refresh: false };
     let mut files = Vec::new();
-    let mut it = env::args().skip(1);
+    let mut it = env::args_os().skip(1).map(|a| a.into_string().map_err(|a| format!("argument {a:?} is not UTF-8")));
+    let mut it = std::iter::from_fn(|| it.next().map(|a| a.unwrap_or_else(|e| { eprintln!("error: {e}"); process::exit(2) })));
     while let Some(arg) = it.next() {
         // --opt=value is the same as --opt value
         let (flag, inline) = arg.split_once('=').map_or((arg.as_str(), None), |(f, v)| (f, Some(v.to_string())));
@@ -209,7 +214,10 @@ fn parse_args() -> Result<Args> {
                           REF is modrinth:<slug-or-id> or curseforge:<numeric-id>");
                 process::exit(0);
             }
-            other if other.starts_with('-') && other != "-" => return Err(format!("unknown option {other}").into()),
+            // like argparse: "-" and negative numbers are references, other dashed tokens are options
+            other if other.starts_with('-') && other != "-" && other[1..].parse::<f64>().is_err() => {
+                return Err(format!("unknown option {other}").into())
+            }
             _ => args.refs.push(arg),
         }
     }
@@ -246,8 +254,11 @@ fn main() {
         let outcome = (|| -> Result<Value> {
             if !cache.contains_key(reference) {
                 eprintln!("fetching {reference}");
-                cache.insert(reference.clone(), fetch(reference)?);
-                save_json(&args.cache, &cache)?;
+                let evidence = fetch(reference)?;
+                let mut next = cache.clone();
+                next.insert(reference.clone(), evidence);
+                save_json(&args.cache, &next)?;
+                cache = next;
             }
             let evidence = checked(cache[reference].clone(), &format!("cached entry for {reference} (pass --refresh)"))?;
             let evidence = &evidence;
@@ -268,6 +279,9 @@ fn main() {
         }
     }
     // serde_json keeps object keys sorted, matching the Python side's sort_keys=True.
-    println!("{}", serde_json::to_string_pretty(&results).unwrap());
+    let json = serde_json::to_string_pretty(&results).unwrap() + "\n";
+    if io::stdout().lock().write_all(json.as_bytes()).is_err() {
+        process::exit(1);
+    }
     process::exit(if failed > 0 { 1 } else { 0 });
 }

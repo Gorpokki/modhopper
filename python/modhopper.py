@@ -47,11 +47,20 @@ def finite(text):
     return number if math.isfinite(number) else reject()
 
 
+def depth(value, level=1):
+    items = value.values() if isinstance(value, dict) else value if isinstance(value, list) else ()
+    return max((depth(item, level + 1) for item in items), default=level)
+
+
 def parse_json(data, url):
-    """Strict JSON: UTF-8 without BOM, finite numbers, no NaN/Infinity, no lone surrogates (what serde accepts)."""
+    """Strict JSON, as serde_json reads it: UTF-8 without BOM, numbers that fit an f64, no NaN/Infinity,
+    no lone surrogates, fewer than 128 levels of nesting."""
     try:
-        value = json.loads(data.decode('utf-8'), parse_constant=reject, parse_float=finite)
+        value = json.loads(data.decode('utf-8'), parse_constant=reject, parse_float=finite,
+                           parse_int=lambda text: int(text) if math.isfinite(float(text)) else reject())
         json.dumps(value, ensure_ascii=False).encode('utf-8')
+        if depth(value) >= 128:
+            reject()
         return value
     except (ValueError, RecursionError):
         raise RuntimeError(f'{url} returned a body that is not JSON') from None
@@ -75,7 +84,9 @@ def http_json(url, headers, body=None):
 
 def retry_delay(header):
     """Seconds to wait from a Retry-After header: its ASCII-digit value clamped to 1..30, else 1."""
-    return min(max(int(header), 1), 30) if header and header.isascii() and header.isdigit() else 1
+    if not (header and header.isascii() and header.isdigit()):
+        return 1
+    return 30 if len(header) > 10 else min(max(int(header), 1), 30)
 
 
 def checked(evidence, origin):
@@ -168,7 +179,7 @@ def load_cache(path):
     except (OSError, ValueError) as error:
         cache = error
     if not isinstance(cache, dict):
-        print(f'error: {path} is not a JSON object; delete it or pass --refresh', file=sys.stderr)
+        print(f'error: {path} is not a JSON object; delete it', file=sys.stderr)
         sys.exit(2)
     return cache
 
@@ -184,6 +195,12 @@ def save_json(path, value):
 
 
 def main():
+    for argument in sys.argv[1:]:
+        try:
+            argument.encode('utf-8')
+        except UnicodeEncodeError:
+            print(f'error: argument {argument!a} is not UTF-8', file=sys.stderr)
+            sys.exit(2)
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0], allow_abbrev=False)
     parser.add_argument('refs', nargs='*', metavar='REF', help='modrinth:<slug-or-id> or curseforge:<numeric-id>')
     parser.add_argument('--file', type=Path, action='append', default=[], help='file with one REF per line')
@@ -223,7 +240,12 @@ def main():
         except Exception as error:  # one bad project must not hide the others
             failed += 1
             print(f'error: {reference}: {error}', file=sys.stderr)
-    sys.stdout.buffer.write((json.dumps(results, indent=2, sort_keys=True, ensure_ascii=False) + '\n').encode('utf-8'))
+    try:
+        sys.stdout.buffer.write((json.dumps(results, indent=2, sort_keys=True, ensure_ascii=False) + '\n').encode('utf-8'))
+        sys.stdout.flush()
+    except BrokenPipeError:
+        os.dup2(os.open(os.devnull, os.O_WRONLY), sys.stdout.fileno())  # so shutdown does not flush into the pipe again
+        sys.exit(1)
     sys.exit(1 if failed else 0)
 
 

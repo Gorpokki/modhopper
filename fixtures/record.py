@@ -25,11 +25,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / 'python'))
 import check  # noqa: E402  (the fixture server; only its Jev endpoint is replaced below)
+import modhopper  # noqa: E402  (its opener refuses redirects, so the key cannot leave the Jev host)
 
 FIXTURES = ROOT / 'fixtures'
 MODRINTH = 'https://api.modrinth.com'
-TYPESAFE = os.environ.get('TYPESAFE_BASE_URL', 'https://api.typesafe.ai')
+TYPESAFE = os.environ.get('TYPESAFE_BASE_URL') or 'https://api.typesafe.ai'
 USER_AGENT = 'modhopper fixture recorder (github.com/gorpokki/modhopper)'
 FIELDS = ('id', 'slug', 'project_type', 'title', 'description', 'body', 'categories', 'additional_categories')
 # Buckets to draw from: a Modrinth category facet, or a free-text query where no facet exists.
@@ -84,7 +86,7 @@ def record_modrinth(ids):
     for project in projects:
         trimmed = scrub({field: project.get(field) for field in FIELDS})
         (FIXTURES / 'modrinth' / f'{project["slug"]}.json').write_text(
-            json.dumps(trimmed, indent=2, ensure_ascii=False) + '\n')
+            json.dumps(trimmed, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
     return [f'modrinth:{p["slug"]}' for p in projects]
 
 
@@ -101,8 +103,8 @@ class Recorder(check.Fake):
         # One answer per name, served as stored: check.py keys answers.json by name, so two references
         # that share a name (the same mod on both storefronts) must replay the same answer.
         if name not in self.answers:
-            with urllib.request.urlopen(urllib.request.Request(f'{TYPESAFE}/v1/systemone', data=request,
-                                                               headers=headers), timeout=120) as r:
+            with modhopper.OPENER.open(urllib.request.Request(f'{TYPESAFE}/v1/systemone', data=request,
+                                                              headers=headers), timeout=120) as r:
                 self.answers[name] = scrub(json.load(r))
         body = json.dumps(self.answers[name]).encode()
         self.send_response(200)
@@ -123,7 +125,7 @@ def record_answers():
     if run.returncode:
         sys.exit(f'modhopper.py failed:\n{run.stderr.decode()}')
     (FIXTURES / 'jev' / 'answers.json').write_text(
-        json.dumps(Recorder.answers, indent=2, sort_keys=True, ensure_ascii=False) + '\n')
+        json.dumps(Recorder.answers, indent=2, sort_keys=True, ensure_ascii=False) + '\n', encoding='utf-8')
     (FIXTURES / 'expected.json').write_bytes(run.stdout)
 
 
@@ -133,11 +135,11 @@ def main():
     args = parser.parse_args()
     refs = record_modrinth(pick(args.per_bucket))
     refs += [f'curseforge:{p.stem}' for p in sorted((FIXTURES / 'curseforge').glob('*.json'))]
-    names = [json.load(p.open())[k] for p, k in [(FIXTURES / 'modrinth' / f'{r[9:]}.json', 'title') for r in refs if r.startswith('modrinth:')]]
-    names += [json.load(p.open())['data']['name'] for p in (FIXTURES / 'curseforge').glob('*.json')]
+    names = [json.load(p.open(encoding='utf-8'))[k] for p, k in [(FIXTURES / 'modrinth' / f'{r[9:]}.json', 'title') for r in refs if r.startswith('modrinth:')]]
+    names += [json.load(p.open(encoding='utf-8'))['data']['name'] for p in (FIXTURES / 'curseforge').glob('*.json')]
     if len(set(names)) != len(names):
         sys.exit('two fixtures share a name; answers.json is keyed by name, so drop or rename one')
-    (FIXTURES / 'refs.txt').write_text('\n'.join(refs) + '\n')
+    (FIXTURES / 'refs.txt').write_text('\n'.join(refs) + '\n', encoding='utf-8')
     record_answers()
     print(f'recorded {len(refs)} projects', file=sys.stderr)
 

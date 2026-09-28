@@ -6,7 +6,7 @@ For each project it fetches the storefront name, summary, description, and categ
 
 ## Run
 
-References are `modrinth:<slug-or-id>` or `curseforge:<numeric-id>`, on the command line or one per line in a file.
+References are `modrinth:<slug-or-id>` or `curseforge:<numeric-id>`, on the command line or one per line in a file. A Modrinth slug may use letters, digits, and `` !@$()`.+_- ``; the rare slug with `,`, `"`, or `'` is not accepted, use the project id instead. Python 3.8 or newer.
 
 ```sh
 python3 python/modhopper.py modrinth:sodium curseforge:32274
