@@ -35,7 +35,7 @@ Builds the Rust binary, serves `fixtures/` as fake Modrinth, CurseForge, and Jev
 
 ## Fixtures
 
-`fixtures/modrinth/<slug>.json` holds one recorded Modrinth project each (165 of them, spread across performance, visuals, animations, tools, gameplay, library, world generation, and server utility mods), `fixtures/curseforge/<id>.json` one hand-written CurseForge project in the official response shape, `fixtures/jev/answers.json` the real Jev answer for each project keyed by name, `fixtures/refs.txt` the reference list, and `fixtures/expected.json` the output of one real run.
+`fixtures/modrinth/<slug>.json` holds one recorded Modrinth project each (164 of them, spread across performance, visuals, animations, tools, gameplay, library, world generation, and server utility mods), `fixtures/curseforge/<id>.json` one hand-written CurseForge project in the official response shape, `fixtures/jev/answers.json` the real Jev answer for each project keyed by name, `fixtures/refs.txt` the reference list, and `fixtures/expected.json` the output of one real run.
 
 To re-record from live Modrinth and Jev:
 

@@ -41,7 +41,7 @@ BUCKETS = [('performance', 'optimization', None), ('visuals', 'decoration', None
            ('server utilities', 'management', None), ('server utilities', None, 'server')]
 # Skipped on purpose: their storefront text carries words that must stay out of this repository.
 SKIP = {'aquamirae', 'crash-assistant', 'create', 'create-fabric'}
-SECRET = re.compile(r'(?i)(bearer\s+\S+|api[_-]?key\s*[:=]\s*\S+|sk-[A-Za-z0-9]{16,})')
+SECRET = re.compile(r'(?i)(bearer\s+[A-Za-z0-9._-]{16,}|api[_-]?key\s*[:=]\s*\S{16,}|sk-[A-Za-z0-9]{16,})')
 
 
 def get(path, **query):
@@ -98,11 +98,13 @@ class Recorder(check.Fake):
         headers = {'Content-Type': 'application/json', 'User-Agent': USER_AGENT}
         if os.environ.get('TYPESAFE_API_KEY'):
             headers['Authorization'] = 'Bearer ' + os.environ['TYPESAFE_API_KEY']
-        with urllib.request.urlopen(urllib.request.Request(f'{TYPESAFE}/v1/systemone', data=request, headers=headers),
-                                    timeout=120) as r:
-            answer = json.load(r)
-        self.answers[name] = scrub(answer)
-        body = json.dumps(answer).encode()
+        # One answer per name, served as stored: check.py keys answers.json by name, so two references
+        # that share a name (the same mod on both storefronts) must replay the same answer.
+        if name not in self.answers:
+            with urllib.request.urlopen(urllib.request.Request(f'{TYPESAFE}/v1/systemone', data=request,
+                                                               headers=headers), timeout=120) as r:
+                self.answers[name] = scrub(json.load(r))
+        body = json.dumps(self.answers[name]).encode()
         self.send_response(200)
         self.send_header('Content-Type', 'application/json')
         self.end_headers()
