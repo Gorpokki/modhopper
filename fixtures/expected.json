@@ -1,0 +1,44 @@
+[
+  {
+    "categories": [
+      "optimization"
+    ],
+    "category": "tools",
+    "name": "Sodium",
+    "reason": "Jev chose tools with 97% probability; runner-up visuals at 3%.",
+    "reference": "modrinth:sodium",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "adventure",
+      "decoration"
+    ],
+    "category": "animations",
+    "name": "Not Enough Animations",
+    "reason": "Jev chose animations with 100% probability; runner-up gameplay at 0%.",
+    "reference": "modrinth:not-enough-animations",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "library"
+    ],
+    "category": "library",
+    "name": "Fabric API",
+    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reference": "modrinth:fabric-api",
+    "source": "modrinth"
+  },
+  {
+    "categories": [
+      "Map and Information",
+      "Utility & QoL"
+    ],
+    "category": "tools",
+    "name": "Just Enough Items (JEI)",
+    "reason": "Jev chose tools with 96% probability; runner-up gameplay at 2%.",
+    "reference": "curseforge:238222",
+    "source": "curseforge"
+  }
+]
