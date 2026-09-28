@@ -10,7 +10,7 @@ flowchart TD
     accTitle: From a project reference to a classification
     accDescr: Modhopper reuses cached storefront evidence or fetches and saves it, asks Jev one category question, and writes the answer as JSON.
     Reference["Project reference"] --> Lookup{"Evidence already cached?"}
-    Cache["Load metadata-cache.json<br/>unless --refresh"] --> Lookup
+    Cache["Load metadata-cache.json<br/>--refresh removes requested entries"] --> Lookup
     Lookup -->|No| Fetch["Fetch Modrinth or CurseForge evidence"]
     Fetch --> Save["Save evidence to the cache"]
     Save --> State["Build request state"]
@@ -32,7 +32,8 @@ The result is a classification of the website's description, not a test of the m
 You can use either implementation.
 The Python version uses only Python's standard library.
 The Rust version compiles to an executable and uses `ureq` for web requests and `serde_json` for JSON.
-Both read the same `categories.json` and use the same Jev question.
+Both use the same `categories.json` and Jev question.
+Python reads categories at startup; Rust includes them when it builds.
 Their output matches for the recorded examples.
 The [comparison](python-versus-rust.md) explains their differences outside those examples.
 

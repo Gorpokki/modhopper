@@ -1,0 +1,13 @@
+{
+  "id": "Wnxd13zP",
+  "slug": "clumps",
+  "project_type": "mod",
+  "title": "Clumps",
+  "description": "Clumps XP orbs together to reduce lag",
+  "body": "Clumps groups XP orbs together into a single entity to reduce lag when there are many in a small area. On top of this, it also makes the player immediately collect the orbs once they touch the player, so you are not stuck with a bunch of orbs in your face.\n\n### Do I have to install it client or server side?\n* For **1.17 or newer versions** it is only required on **server side**.\n* For **older Minecraft versions** you have to install it on **both sides**.\n\nIf you would like to support me in my modding endeavors, you can become a patron via **[![Patreon logo](https://i.imgur.com/CAJuExT.png) Patreon](https://www.patreon.com/jaredlll08)**.\n\n[![Nodecraft sponsor banner](https://assets.blamejared.com/nodecraft/jared.jpg)](https://nodecraft.com/r/jared)\n\n**This project is sponsored by Nodecraft. Use code [JARED](https://nodecraft.com/r/jared) for 30% off your first month of service!**",
+  "categories": [
+    "storage",
+    "utility"
+  ],
+  "additional_categories": []
+}

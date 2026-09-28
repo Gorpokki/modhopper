@@ -29,6 +29,7 @@ Keep shell tracing disabled while setting or using keys.
 
 An endpoint is the URL that receives a request.
 `TYPESAFE_BASE_URL` defaults to `https://api.typesafe.ai`.
+An empty value also uses that default.
 Modhopper appends `/v1/systemone` and sends a JSON `POST` request there.
 To use the public service explicitly:
 
@@ -44,7 +45,7 @@ A chat API is not a drop-in replacement.
 Only send your key to a service you trust.
 Modhopper sends the configured key to the configured base URL.
 If your gateway supplies its own key, omit the client key with `unset TYPESAFE_API_KEY`.
-When the variable is absent, both versions omit the authorization header.
+When the variable is absent or empty, both versions omit the authorization header.
 
 ## Check the setup
 
@@ -55,10 +56,13 @@ python3 python/modhopper.py modrinth:sodium
 ```
 
 A working setup prints a result with `category` and `reason`, then exits with status `0`.
-The progress message `classifying Sodium` alone does not prove that Jev answered.
+The progress message `classifying modrinth:sodium` alone does not prove that Jev answered.
 A cache hit still calls Jev, so repeating this command also tests the connection.
 
 An HTTP `401` or `403` error indicates an authentication or access problem at the URL shown.
 Check the key, the account's access, and the base URL.
 A missing client key is not rejected locally; the public service rejects unauthenticated requests.
 The [offline check](offline-check.md) can verify local code without a key, but cannot verify your TypeSafe account.
+HTTP `429` and `503` receive up to three attempts.
+Other HTTP errors, including `500` and redirects such as `302`, fail without a retry.
+See the [request policy](python-versus-rust.md#error-handling).

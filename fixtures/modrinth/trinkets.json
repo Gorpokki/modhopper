@@ -1,0 +1,14 @@
+{
+  "id": "5aaWibi9",
+  "slug": "trinkets",
+  "project_type": "mod",
+  "title": "Trinkets",
+  "description": "A data-driven accessory mod",
+  "body": "# Trinkets\nA data-driven accessory mod for Minecraft using Fabric.\n\n![Image of the Trinkets UI](https://cdn-raw.modrinth.com/data/5aaWibi9/images/56224f13887cdd914a9624a18eb845dae0bcdfc0.png)\n\n## About\nTrinkets adds a slot group and slot system to Minecraft. Slot groups are collections of slots for a certain body part or more vague area. By default there are 6 slot groups (head, chest, legs, feet, offhand, hand) that can have slots added to them, but more groups can be added if desired. Trinkets' UI is intuitive to use, accessible, and attempts to do away with clutter. Its system means that you'll never have a slot that's not used for anything, as mods request the slots they want.\n\nFor basic tutorials and comprehensive documentation, visit this project's [wiki](https://github.com/emilyploszaj/trinkets/wiki/Home).\n",
+  "categories": [
+    "equipment",
+    "library",
+    "utility"
+  ],
+  "additional_categories": []
+}

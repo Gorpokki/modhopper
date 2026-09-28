@@ -1,0 +1,13 @@
+{
+  "id": "uLbm7CG6",
+  "slug": "language-reload",
+  "project_type": "mod",
+  "title": "Language Reload",
+  "description": "Reduces load times and adds fallbacks for languages",
+  "body": "Language Reload is a Fabric mod that adds quality-of-life changes related to languages.\n\n### Features\n- Fast language switching without resource pack reloading\n- A search box in the language menu\n- Multiple language selection\n  - Each translation in a language overrides translations from languages below.\n- Multilingual item search\n  - Enables searching in any of selected languages in the creative inventory and the recipe book.\n  - Can be disabled in the mod options accessible via Mod Menu or directly in the mod config file.\n- Automatic language detection if there is no `lang:` in options.txt\n- Reloading languages with **F3 + J** and cycling them with **Shift + F3 + J**\n\n### Showcase\n![Switching languages with fallbacks](https://i.imgur.com/Sb4YFCL.gif)",
+  "categories": [
+    "optimization",
+    "utility"
+  ],
+  "additional_categories": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "fM515JnW",
+  "slug": "ambientsounds",
+  "project_type": "mod",
+  "title": "AmbientSounds",
+  "description": "#listentonature",
+  "body": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2Z1QIyxFUas\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n\n**Requires [CreativeCore](https://modrinth.com/mod/creativecore)**\n\nAdds a rich ambience to the minecraft world. It supports custom engines and works well with mods world gen mods.\n\nUse /cmdclientconfig to access the config menu.\n\nUse /ambient-debug to see which sounds are playing (especially provide this information if you run into any issues)\n\n[<img src=\"https://www.bisecthosting.com/images/logos/dark_text@1538x500.png \" width=\"250\">\n](https://bisecthosting.com/teamcreative)\n\nUse the promo code teamcreative to get 25% off the first month on any of the gaming servers!\n\n[<img src=\"https://i.imgur.com/g2vJewK.png\" width=\"250\">](https://www.patreon.com/creativemd)",
+  "categories": [
+    "decoration"
+  ],
+  "additional_categories": []
+}

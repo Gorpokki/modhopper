@@ -1,0 +1,15 @@
+{
+  "id": "DnNYdJsx",
+  "slug": "chatanimation",
+  "project_type": "mod",
+  "title": "Chat Animation [Smooth Chat]",
+  "description": "Makes chat messages appear with a smooth animation.",
+  "body": "# ✨ Chat Animation\n\n* Improves chat visuals by adding smooth animations.\n* Optionally removes the message indicator line to the left of messages.\n* Configuring the mod on Fabric is possible with [Mod Menu](https://modrinth.com/mod/modmenu).\n\n<div>\n  <a href=\"https://modrinth.com/mod/chatanimation/versions?l=fabric\">\n    <img alt=\"Fabric downloads\" height=\"54\" src=\"https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40intergrav%2Fdevins-badges%403%2Fassets%2Fcozy%2Fsupported%2Ffabric_vector.svg&amp;n=-1\">\n  </a>\n  <a href=\"https://modrinth.com/mod/chatanimation/versions?l=neoforge\">\n    <img alt=\"NeoForge downloads\" height=\"54\" src=\"https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FHyperbole-Devs%2Fvectors%40neoforge_badges%2Fassets%2Fcozy%2Fsupported%2Fneoforge_vector.svg&amp;n=-1\">\n  </a>\n  <a href=\"https://modrinth.com/mod/chatanimation/versions?l=forge\">\n    <img alt=\"Forge downloads\" height=\"54\" src=\"https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FHyperbole-Devs%2Fvectors%40neoforge_badges%2Fassets%2Fcozy%2Fsupported%2Fforge_vector.svg&amp;n=-1\">\n  </a>\n</div>\n\n<br>\n\n<img width=\"80%\" src=\"https://cdn.modrinth.com/data/DnNYdJsx/images/fd431cb3c6f7b0ac326f4ca861311cce7bb8c37d.gif\"></img>\n\n<img width=\"80%\" src=\"https://cdn.modrinth.com/data/DnNYdJsx/images/e6e59f7d4eccfda4d3d9be80900256afa91b5f11.png\"></img>\n\n<br>\n\nCheck out my other mod: [Smooth Gui](https://modrinth.com/mod/smooth-gui)",
+  "categories": [
+    "decoration",
+    "social"
+  ],
+  "additional_categories": [
+    "utility"
+  ]
+}

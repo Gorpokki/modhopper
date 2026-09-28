@@ -1,0 +1,16 @@
+{
+  "id": "hYykXjDp",
+  "slug": "fzzy-config",
+  "project_type": "mod",
+  "title": "Fzzy Config",
+  "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
+  "body": "![Main Banner](https://cdn.modrinth.com/data/cached_images/4095e50395d9e7c53e93c92f8cf8849e88030950.png)\n\nFzzy Config is a powerful multi-loader configuration engine for Minecraft Mods that meets you where you want to be. Quick and dirty or detailed and featureful, Fzzy Config will work with you. It provides a wide array of features above and beyond what you can find in other libraries.\n\n## The Basics\n* Automatic serialization to TOML.\n* Minimal API with lightweight integration requirements\n\n## GUIs\n* Automatic GUI generation based on the layout and content of your config files.\n* Screens are fully keyboard-navigable and narratable out of the box.\n  * Fully vetted and tested by a visually impaired member of the modding community.\n* No need for screen builders or registration.\n* ModMenu and Catalogue automatically integrated.\n\n## Synchronization\n* Automatic server-client sync.\n* Push live updates to a server from a client.\n* Forward client settings to other users who want your setup.\n\n## Validation\n* Validation and Correction built into everything, beyond just primitive types.\n* Tightly control what values a player can choose from and how they choose them.\n* Automatic suggestions for settings like tags and identifiers.\n\n## Updates\n* Versioned updates supported with one simple method implementation.\n* Scrape previous configs to easily update from another config library.\n\n## Flexibility\n* Implement a config with as little or much effort as you want.\n* Plain java/kotlin object, or Minecraft GameOptions-like carefully crafted settings.\n* Seamless multi-loader support. Use the same API on Fabric and Forge; including a lightweight mutli-loader Networking API!\n\n<p><span style=\"font-size:14px;display:table\"> <span> <a href=\"https://discord.gg/Fnw2UbE72x\" rel=\"nofollow\"><img style=\"display:inline;margin-left:auto;margin-right:auto\" src=\"https://i.imgur.com/iXATO6K.png\" width=\"265\" height=\"122\"></a> </span> <span> <a href=\"https://tilt.fyi/O9GtemcqMI\" rel=\"nofollow\"><img style=\"display:inline;margin-left:auto;margin-right:auto\" src=\"https://cdn.modrinth.com/data/cached_images/cf27a9e31c423f6b3d0d02a644a395f05508f678.png\" width=\"288\" height=\"108\"></a> </span> </span> </p>\n\n[![Bisect Hosting Banner](https://www.bisecthosting.com/partners/custom-banners/85a7141b-76c9-4f0c-bd04-21f4b0d56c4a.webp \"Bisect Hosting Banner\")](https://bisecthosting.com/fzzyhmstrs)",
+  "categories": [
+    "game-mechanics",
+    "library"
+  ],
+  "additional_categories": [
+    "management",
+    "utility"
+  ]
+}

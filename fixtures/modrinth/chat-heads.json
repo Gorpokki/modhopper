@@ -1,0 +1,13 @@
+{
+  "id": "Wb5oqrBJ",
+  "slug": "chat-heads",
+  "project_type": "mod",
+  "title": "Chat Heads",
+  "description": "See who you're chatting with!",
+  "body": "<img src=\"https://cdn.modrinth.com/data/Wb5oqrBJ/images/fd0ce2a3eeff2bfb68e0cac9bcd5f116202e2427.png\" width=100%> <br>\nThis clientside mod adds player heads next to chat messages, as seen on the screenshot above.\nIt makes telling various people in chat apart a bit easier, and it looks *hella* nice.\n\nBased on a request from Hugman on the Fabric Discord.\n\n[Cloth Config](https://modrinth.com/mod/cloth-config) (and [Mod Menu](https://modrinth.com/mod/modmenu) for Fabric) is needed to access the settings, but the mod works without it, using the default settings.\n \n**Note**: The default settings might not work on some servers. In this case try using the \"Heuristic only\" sender detection mode. Note that this might put wrong chat heads on some messages.\n\n**Note**: Incompatible with newer versions of OptiFine (~1.20.1), use [Sodium and co](https://fabricmc.net/wiki/community:optifine_alternatives) instead.",
+  "categories": [
+    "decoration",
+    "social"
+  ],
+  "additional_categories": []
+}

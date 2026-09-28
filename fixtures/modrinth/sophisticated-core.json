@@ -1,0 +1,13 @@
+{
+  "id": "nmoqTijg",
+  "slug": "sophisticated-core",
+  "project_type": "mod",
+  "title": "Sophisticated Core",
+  "description": "Library mod for Sophisticated mods",
+  "body": "[![Discord](https://img.shields.io/discord/810643286511190016?style=for-the-badge&logo=discord&label=Discord&labelColor=FFFFFF&color=5865F2)](https://discord.com/invite/ZNxRYScDS7)&nbsp;&nbsp;&nbsp;&nbsp;[![Twitter Badge](https://img.shields.io/badge/P3pp3rf1y-FFFFFF?style=for-the-badge&logo=x&logoColor=000000&label=Twitter&labelColor=FFFFFF&color=202020)](https://x.com/P3pp3rF1y)&nbsp;&nbsp;&nbsp;&nbsp;[![GitHub Badge](https://img.shields.io/badge/P3pp3rf1y-FFFFFF?style=for-the-badge&logo=github&logoColor=000000&label=GitHub&labelColor=FFFFFF&color=202020)](https://github.com/P3pp3rF1y)&nbsp;&nbsp;&nbsp;&nbsp;[![Ko-Fi Badge](https://img.shields.io/badge/P3pp3rf1y-FFFFFF?style=for-the-badge&logo=kofi&label=Ko-Fi&labelColor=FFFFFF&color=202020)](https://ko-fi.com/p3pp3rf1y)\n\nThis is a library mod for sophisticated mods - Sophisticated Backpacks and Sophisticated Storage\n\nIt provides common functionality to sophisticated mods - primarily:\n\n- Common upgrades functionality\n\n- Handling of sophisticated inventories\n\n- Gui logic that allows working with upgrades and related inventories\n\n- Rendering of upgrades\n\n- Common storage settings\n\n- Rendering of storage stacks contents in their tooltip\n\n- Common stash stacks logic\n\nThe mod could potentially be used by itself in modpack, but apart from experience fluid it doesn't add anything that can be seen by player in game. Its main purpose is for it to be used as dependency of Sophisticated mods",
+  "categories": [
+    "library",
+    "storage"
+  ],
+  "additional_categories": []
+}

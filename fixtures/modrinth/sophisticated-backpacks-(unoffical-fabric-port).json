@@ -1,0 +1,13 @@
+{
+  "id": "ouNrBQtq",
+  "slug": "sophisticated-backpacks-(unoffical-fabric-port)",
+  "project_type": "mod",
+  "title": "Sophisticated Backpacks (Unoffical Fabric port)",
+  "description": "This is the Unofficial Fabric version of Sophisticated Backpacks.",
+  "body": "This is the **Unofficial Fabric** version of **Sophisticated Backpacks**\n\nFor more information please check the official page of [Sophisticated Backpacks](https://modrinth.com/mod/sophisticated-backpacks) by P3pp3rF1y.\n\nThis mod needs [Sophisticated Core (Unofficial Fabric Port)](https://modrinth.com/mod/sophisticated-core-(unofficial-fabric-port)).\n\n**[Indium](https://modrinth.com/mod/indium) is required if you use Sodium <0.6.0!**\n\nLooking for a storage mod too? Checkout [Sophisticated Storage (Unofficial Fabric Port)!](https://modrinth.com/mod/sophisticated-storage-(unofficial-fabric-port))",
+  "categories": [
+    "equipment",
+    "storage"
+  ],
+  "additional_categories": []
+}
