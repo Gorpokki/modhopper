@@ -1,0 +1,10 @@
+[book]
+title = "Modhopper"
+description = "Set up Modhopper and understand its questions, cache, and two implementations."
+language = "en"
+src = "src"
+
+[output.html]
+git-repository-url = "https://github.com/gorpokki/modhopper"
+edit-url-template = "https://github.com/gorpokki/modhopper/edit/main/docs/{path}"
+site-url = "/modhopper/"
