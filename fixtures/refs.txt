@@ -162,4 +162,4 @@ modrinth:yungs-better-jungle-temples
 modrinth:yungs-better-mineshafts
 modrinth:yungs-better-nether-fortresses
 modrinth:yungs-better-ocean-monuments
-curseforge:238222
+curseforge:32274

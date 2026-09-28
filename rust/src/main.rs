@@ -26,8 +26,8 @@ fn env_var(name: &str) -> Option<String> {
     env::var(name).ok().filter(|v| !v.is_empty())
 }
 
-/// One HTTP agent: 60 s timeout, and no redirects so a 3xx cannot carry API keys to another host.
-fn agent() -> ureq::Agent {
+/// One HTTP client: 60 s timeout, and no redirects so a 3xx cannot carry API keys to another host.
+fn client() -> ureq::Agent {
     ureq::AgentBuilder::new().timeout(time::Duration::from_secs(60)).redirects(0).build()
 }
 
@@ -63,7 +63,15 @@ fn http_json(request: ureq::Request, body: Option<Value>) -> Result<Value> {
 
 /// Seconds to wait from a Retry-After header: its integer value clamped to 1..30, else 1.
 fn retry_delay(header: Option<&str>) -> u64 {
-    header.and_then(|h| h.parse::<u64>().ok()).map_or(1, |s| s.clamp(1, 30))
+    match header {
+        Some(h) if !h.is_empty() && h.bytes().all(|b| b.is_ascii_digit()) => h.parse::<u64>().unwrap_or(u64::MAX).clamp(1, 30),
+        _ => 1,
+    }
+}
+
+/// Modrinth slugs and ids.
+fn is_slug(identifier: &str) -> bool {
+    !identifier.is_empty() && identifier.bytes().all(|b| b.is_ascii_alphanumeric() || b"!@$()`.+_-".contains(&b))
 }
 
 /// A storefront list field: missing or null is empty; anything but a list fails the shape check.
@@ -88,9 +96,9 @@ fn checked(evidence: Value, origin: &str) -> Result<Value> {
 /// Storefront evidence for one reference: name, summary, description, categories.
 fn fetch(reference: &str) -> Result<Value> {
     let (source, identifier) = reference.split_once(':').unwrap_or((reference, ""));
-    if source == "modrinth" && !identifier.is_empty() {
+    if source == "modrinth" && is_slug(identifier) {
         let url = format!("{}/v2/project/{identifier}", base("MODRINTH_BASE_URL", "https://api.modrinth.com"));
-        let d = http_json(agent().get(&url), None)?;
+        let d = http_json(client().get(&url), None)?;
         let categories = match (strings(d.get("categories")), strings(d.get("additional_categories"))) {
             (Some(mut first), Some(second)) => { first.extend(second); Value::Array(first) }
             _ => Value::Null,
@@ -105,13 +113,13 @@ fn fetch(reference: &str) -> Result<Value> {
         let key = env_var("CURSEFORGE_API_KEY")
             .ok_or("CURSEFORGE_API_KEY is not set; CurseForge references need it")?;
         let url = format!("{}/v1/mods/{identifier}", base("CURSEFORGE_BASE_URL", "https://api.curseforge.com"));
-        let d = http_json(agent().get(&url).set("x-api-key", &key), None)?.get("data").cloned().unwrap_or(Value::Null);
+        let d = http_json(client().get(&url).set("x-api-key", &key), None)?.get("data").cloned().unwrap_or(Value::Null);
         // ponytail: CurseForge's full description is a second HTML endpoint; summary alone until it proves too thin.
         let categories = strings(d.get("categories"))
             .map_or(Value::Null, |items| items.iter().map(|c| c["name"].clone()).collect());
         return checked(json!({ "name": d["name"], "summary": d["summary"], "description": "", "categories": categories }), &url);
     }
-    Err(format!("Bad reference {reference:?}: expected modrinth:<slug-or-id> or curseforge:<numeric-id>").into())
+    Err(format!("Bad reference '{reference}': expected modrinth:<slug-or-id> or curseforge:<numeric-id>").into())
 }
 
 fn percent(probability: f64) -> i64 {
@@ -134,14 +142,14 @@ fn classify(evidence: &Value, categories: &Value) -> Result<(String, String)> {
         } },
     });
     let url = format!("{}/v1/systemone", base("TYPESAFE_BASE_URL", "https://api.typesafe.ai"));
-    let mut request = agent().post(&url).set("Content-Type", "application/json");
+    let mut request = client().post(&url).set("Content-Type", "application/json");
     if let Some(key) = env_var("TYPESAFE_API_KEY") {
         request = request.set("Authorization", &format!("Bearer {key}"));
     }
     let answer = http_json(request, Some(body))?.pointer("/answers/category").cloned().unwrap_or(Value::Null);
     let choice = answer["choice"].as_str().ok_or("Jev answer has no choice")?.to_string();
     if categories.get(&choice).is_none() {
-        return Err(format!("Jev answered {choice:?}, which is not in categories.json").into());
+        return Err(format!("Jev answered '{choice}', which is not in categories.json").into());
     }
     let probabilities = answer["probabilities"].as_object().ok_or("Jev answer has no probabilities")?;
     let mut ranked = Vec::new();
@@ -185,28 +193,31 @@ struct Args {
 
 fn parse_args() -> Result<Args> {
     let mut args = Args { refs: Vec::new(), cache: PathBuf::from("metadata-cache.json"), refresh: false };
+    let mut files = Vec::new();
     let mut it = env::args().skip(1);
     while let Some(arg) = it.next() {
         // --opt=value is the same as --opt value
         let (flag, inline) = arg.split_once('=').map_or((arg.as_str(), None), |(f, v)| (f, Some(v.to_string())));
         let mut value = |what: &str| inline.clone().or_else(|| it.next()).ok_or(format!("{flag} needs a {what}"));
         match flag {
-            "--file" => {
-                let path = value("path")?;
-                let text = fs::read_to_string(&path).map_err(|e| format!("{path}: {e}"))?;
-                args.refs.extend(text.split('\n').map(str::trim).filter(|l| !l.is_empty()).map(String::from));
-            }
+            "--file" => files.push(value("path")?),
             "--cache" => args.cache = PathBuf::from(value("path")?),
-            "--refresh" => args.refresh = true,
+            "--refresh" if inline.is_none() => args.refresh = true,
             "--" => { args.refs.extend(it.by_ref()); break; }
             "-h" | "--help" => {
                 println!("usage: modhopper [--file REFS] [--cache PATH] [--refresh] [REF ...]\n\
                           REF is modrinth:<slug-or-id> or curseforge:<numeric-id>");
                 process::exit(0);
             }
-            other if other.starts_with('-') => return Err(format!("unknown option {other}").into()),
+            other if other.starts_with('-') && other != "-" => return Err(format!("unknown option {other}").into()),
             _ => args.refs.push(arg),
         }
+    }
+    // positionals first, then the files, in the order Python's argparse gives them
+    for path in files {
+        let text = fs::read_to_string(&path).map_err(|e| format!("{path}: {e}"))?;
+        let trim = |l: &str| l.trim_matches([' ', '\t', '\r']).to_string();
+        args.refs.extend(text.split('\n').map(trim).filter(|l| !l.is_empty()));
     }
     if args.refs.is_empty() {
         return Err("no references given".into());

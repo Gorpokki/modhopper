@@ -19,7 +19,7 @@ FIXTURES = ROOT / 'fixtures'
 
 
 class Fake(BaseHTTPRequestHandler):
-    requests = {}  # Jev request body per mod name, for the run in progress
+    requests = set()  # raw Jev request bodies of the run in progress
 
     def do_GET(self):
         if self.path.startswith('/v2/project/'):
@@ -33,10 +33,11 @@ class Fake(BaseHTTPRequestHandler):
     def do_POST(self):
         if self.path != '/v1/systemone':
             return self.send_error(404)
-        request = json.loads(self.rfile.read(int(self.headers['Content-Length'])))
+        raw = self.rfile.read(int(self.headers['Content-Length']))
+        request = json.loads(raw)
         if request['questions']['category']['criteria'] != json.loads((ROOT / 'categories.json').read_text()):
             return self.send_error(500, 'criteria differ from categories.json')
-        self.requests[request['state']['name']] = request
+        self.requests.add(raw)
         answers = json.loads((FIXTURES / 'jev' / 'answers.json').read_text())
         body = json.dumps(answers[request['state']['name']]).encode()
         self.send_response(200)
@@ -58,7 +59,7 @@ class Fake(BaseHTTPRequestHandler):
 
 def run(command, env, cache):
     """stdout of one run, and the Jev request bodies it sent."""
-    Fake.requests = {}
+    Fake.requests = set()
     done = subprocess.run(command + ['--cache', cache, '--file', str(FIXTURES / 'refs.txt')], env=env, capture_output=True)
     if done.returncode:
         sys.exit(f'{command[-1]} exited {done.returncode}:\n{done.stderr.decode()}')
@@ -80,9 +81,10 @@ def main():
         # second run of each reads the cache instead of the storefronts
         outputs['python-cached'] = run(python, env, f'{tmp}/py.json')
         outputs['rust-cached'] = run(rust, env, f'{tmp}/rs.json')
-        assert Path(f'{tmp}/py.json').read_bytes() == Path(f'{tmp}/rs.json').read_bytes(), 'cache files differ'
-    requests = {name: sent for name, (_, sent) in outputs.items()}
-    assert len({json.dumps(r, sort_keys=True) for r in requests.values()}) == 1, 'Jev request bodies differ between runs'
+        if Path(f'{tmp}/py.json').read_bytes() != Path(f'{tmp}/rs.json').read_bytes():
+            sys.exit('cache files differ')
+    if len({frozenset(sent) for _, sent in outputs.values()}) != 1:
+        sys.exit('Jev request bodies differ between runs')
     expected = (FIXTURES / 'expected.json').read_bytes()
     for name, (output, _) in outputs.items():
         if output != expected:

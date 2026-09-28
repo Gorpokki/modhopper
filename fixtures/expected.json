@@ -66,7 +66,7 @@
     ],
     "category": "tools",
     "name": "Alternate Current",
-    "reason": "Jev chose tools with 83% probability; runner-up gameplay at 15%.",
+    "reason": "Jev chose tools with 92% probability; runner-up gameplay at 7%.",
     "reference": "modrinth:alternate-current",
     "source": "modrinth"
   },
@@ -74,9 +74,9 @@
     "categories": [
       "decoration"
     ],
-    "category": "other",
+    "category": "visuals",
     "name": "AmbientSounds",
-    "reason": "Jev chose other with 62% probability; runner-up visuals at 25%.",
+    "reason": "Jev chose visuals with 48% probability; runner-up other at 34%.",
     "reference": "modrinth:ambientsounds",
     "source": "modrinth"
   },
@@ -120,7 +120,7 @@
     ],
     "category": "library",
     "name": "AzureLib",
-    "reason": "Jev chose library with 99% probability; runner-up animations at 1%.",
+    "reason": "Jev chose library with 97% probability; runner-up animations at 3%.",
     "reference": "modrinth:azurelib",
     "source": "modrinth"
   },
@@ -151,9 +151,9 @@
       "library",
       "game-mechanics"
     ],
-    "category": "animations",
+    "category": "gameplay",
     "name": "Better Combat",
-    "reason": "Jev chose animations with 61% probability; runner-up gameplay at 39%.",
+    "reason": "Jev chose gameplay with 70% probability; runner-up animations at 30%.",
     "reference": "modrinth:better-combat",
     "source": "modrinth"
   },
@@ -164,7 +164,7 @@
     ],
     "category": "visuals",
     "name": "Better Third Person",
-    "reason": "Jev chose visuals with 89% probability; runner-up gameplay at 5%.",
+    "reason": "Jev chose visuals with 99% probability; runner-up tools at 1%.",
     "reference": "modrinth:better-third-person",
     "source": "modrinth"
   },
@@ -227,7 +227,7 @@
     ],
     "category": "tools",
     "name": "BisectHosting Server Integration Menu",
-    "reason": "Jev chose tools with 94% probability; runner-up gameplay at 2%.",
+    "reason": "Jev chose tools with 98% probability; runner-up gameplay at 1%.",
     "reference": "modrinth:bisect-mod",
     "source": "modrinth"
   },
@@ -254,7 +254,7 @@
     ],
     "category": "visuals",
     "name": "Boat Item View",
-    "reason": "Jev chose visuals with 79% probability; runner-up tools at 14%.",
+    "reason": "Jev chose visuals with 90% probability; runner-up tools at 8%.",
     "reference": "modrinth:boat-item-view",
     "source": "modrinth"
   },
@@ -262,7 +262,7 @@
     "categories": [],
     "category": "tools",
     "name": "Bobby",
-    "reason": "Jev chose tools with 62% probability; runner-up visuals at 38%.",
+    "reason": "Jev chose tools with 51% probability; runner-up visuals at 49%.",
     "reference": "modrinth:bobby",
     "source": "modrinth"
   },
@@ -285,7 +285,7 @@
     ],
     "category": "gameplay",
     "name": "Carry On",
-    "reason": "Jev chose gameplay with 92% probability; runner-up tools at 7%.",
+    "reason": "Jev chose gameplay with 95% probability; runner-up tools at 5%.",
     "reference": "modrinth:carry-on",
     "source": "modrinth"
   },
@@ -308,7 +308,7 @@
     ],
     "category": "visuals",
     "name": "Chat Heads",
-    "reason": "Jev chose visuals with 75% probability; runner-up tools at 25%.",
+    "reason": "Jev chose visuals with 77% probability; runner-up tools at 23%.",
     "reference": "modrinth:chat-heads",
     "source": "modrinth"
   },
@@ -320,7 +320,7 @@
     ],
     "category": "visuals",
     "name": "Chat Animation [Smooth Chat]",
-    "reason": "Jev chose visuals with 50% probability; runner-up animations at 49%.",
+    "reason": "Jev chose visuals with 59% probability; runner-up animations at 41%.",
     "reference": "modrinth:chatanimation",
     "source": "modrinth"
   },
@@ -352,7 +352,7 @@
     ],
     "category": "tools",
     "name": "Clumps",
-    "reason": "Jev chose tools with 97% probability; runner-up gameplay at 3%.",
+    "reason": "Jev chose tools with 99% probability; runner-up gameplay at 1%.",
     "reference": "modrinth:clumps",
     "source": "modrinth"
   },
@@ -392,7 +392,7 @@
     ],
     "category": "gameplay",
     "name": "Cobblemon: Mega Showdown",
-    "reason": "Jev chose gameplay with 98% probability; runner-up library at 2%.",
+    "reason": "Jev chose gameplay with 99% probability; runner-up library at 1%.",
     "reference": "modrinth:cobblemon-mega-showdown",
     "source": "modrinth"
   },
@@ -426,7 +426,7 @@
     ],
     "category": "library",
     "name": "Sinytra Connector",
-    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reason": "Jev chose library with 99% probability; runner-up other at 1%.",
     "reference": "modrinth:connector",
     "source": "modrinth"
   },
@@ -505,7 +505,7 @@
     ],
     "category": "gameplay",
     "name": "Cut Through",
-    "reason": "Jev chose gameplay with 97% probability; runner-up animations at 3%.",
+    "reason": "Jev chose gameplay with 98% probability; runner-up animations at 2%.",
     "reference": "modrinth:cut-through",
     "source": "modrinth"
   },
@@ -529,7 +529,7 @@
     ],
     "category": "tools",
     "name": "Default Options",
-    "reason": "Jev chose tools with 99% probability; runner-up other at 1%.",
+    "reason": "Jev chose tools with 99% probability; runner-up library at 1%.",
     "reference": "modrinth:default-options",
     "source": "modrinth"
   },
@@ -568,7 +568,7 @@
     ],
     "category": "visuals",
     "name": "Dynamic Lights",
-    "reason": "Jev chose visuals with 83% probability; runner-up gameplay at 17%.",
+    "reason": "Jev chose visuals with 95% probability; runner-up gameplay at 4%.",
     "reference": "modrinth:dynamic-lights",
     "source": "modrinth"
   },
@@ -579,7 +579,7 @@
     ],
     "category": "tools",
     "name": "e4mc",
-    "reason": "Jev chose tools with 84% probability; runner-up other at 16%.",
+    "reason": "Jev chose tools with 83% probability; runner-up other at 16%.",
     "reference": "modrinth:e4mc",
     "source": "modrinth"
   },
@@ -600,7 +600,7 @@
     ],
     "category": "animations",
     "name": "Eating Animation",
-    "reason": "Jev chose animations with 100% probability; runner-up gameplay at 0%.",
+    "reason": "Jev chose animations with 99% probability; runner-up visuals at 1%.",
     "reference": "modrinth:eating-animation",
     "source": "modrinth"
   },
@@ -612,7 +612,7 @@
     ],
     "category": "tools",
     "name": "EMIffect",
-    "reason": "Jev chose tools with 99% probability; runner-up gameplay at 1%.",
+    "reason": "Jev chose tools with 99% probability; runner-up visuals at 1%.",
     "reference": "modrinth:emiffect",
     "source": "modrinth"
   },
@@ -647,7 +647,7 @@
     ],
     "category": "tools",
     "name": "Enchantment Descriptions",
-    "reason": "Jev chose tools with 90% probability; runner-up gameplay at 5%.",
+    "reason": "Jev chose tools with 90% probability; runner-up visuals at 9%.",
     "reference": "modrinth:enchantment-descriptions",
     "source": "modrinth"
   },
@@ -672,7 +672,7 @@
     ],
     "category": "visuals",
     "name": "[EMF] Entity Model Features",
-    "reason": "Jev chose visuals with 96% probability; runner-up animations at 2%.",
+    "reason": "Jev chose visuals with 97% probability; runner-up library at 2%.",
     "reference": "modrinth:entity-model-features",
     "source": "modrinth"
   },
@@ -705,7 +705,7 @@
     ],
     "category": "tools",
     "name": "Essential Mod",
-    "reason": "Jev chose tools with 47% probability; runner-up other at 46%.",
+    "reason": "Jev chose tools with 50% probability; runner-up other at 43%.",
     "reference": "modrinth:essential",
     "source": "modrinth"
   },
@@ -729,9 +729,9 @@
       "technology",
       "worldgen"
     ],
-    "category": "gameplay",
+    "category": "tools",
     "name": "Explorer's Compass",
-    "reason": "Jev chose gameplay with 52% probability; runner-up tools at 48%.",
+    "reason": "Jev chose tools with 52% probability; runner-up gameplay at 48%.",
     "reference": "modrinth:explorers-compass",
     "source": "modrinth"
   },
@@ -771,9 +771,9 @@
     "categories": [
       "utility"
     ],
-    "category": "animations",
+    "category": "visuals",
     "name": "Fadeless",
-    "reason": "Jev chose animations with 45% probability; runner-up visuals at 34%.",
+    "reason": "Jev chose visuals with 63% probability; runner-up tools at 21%.",
     "reference": "modrinth:fadeless",
     "source": "modrinth"
   },
@@ -840,7 +840,7 @@
     ],
     "category": "tools",
     "name": "Forge Config Screens",
-    "reason": "Jev chose tools with 99% probability; runner-up library at 1%.",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
     "reference": "modrinth:forge-config-screens",
     "source": "modrinth"
   },
@@ -877,7 +877,7 @@
     ],
     "category": "tools",
     "name": "GD656Killicon",
-    "reason": "Jev chose tools with 94% probability; runner-up visuals at 6%.",
+    "reason": "Jev chose tools with 88% probability; runner-up visuals at 11%.",
     "reference": "modrinth:gd656killicon",
     "source": "modrinth"
   },
@@ -885,7 +885,7 @@
     "categories": [],
     "category": "animations",
     "name": "Iris/Oculus & GeckoLib Compat",
-    "reason": "Jev chose animations with 50% probability; runner-up visuals at 35%.",
+    "reason": "Jev chose animations with 50% probability; runner-up visuals at 43%.",
     "reference": "modrinth:geckoanimfix",
     "source": "modrinth"
   },
@@ -897,7 +897,7 @@
     ],
     "category": "library",
     "name": "Geckolib",
-    "reason": "Jev chose library with 93% probability; runner-up animations at 7%.",
+    "reason": "Jev chose library with 89% probability; runner-up animations at 11%.",
     "reference": "modrinth:geckolib",
     "source": "modrinth"
   },
@@ -907,7 +907,7 @@
     ],
     "category": "tools",
     "name": "Global Server Config",
-    "reason": "Jev chose tools with 88% probability; runner-up other at 8%.",
+    "reason": "Jev chose tools with 93% probability; runner-up other at 4%.",
     "reference": "modrinth:global-server-config",
     "source": "modrinth"
   },
@@ -934,7 +934,7 @@
     ],
     "category": "gameplay",
     "name": "GraveStone Mod",
-    "reason": "Jev chose gameplay with 94% probability; runner-up tools at 6%.",
+    "reason": "Jev chose gameplay with 98% probability; runner-up tools at 2%.",
     "reference": "modrinth:gravestone-mod",
     "source": "modrinth"
   },
@@ -955,7 +955,7 @@
     ],
     "category": "tools",
     "name": "ImmediatelyFast",
-    "reason": "Jev chose tools with 97% probability; runner-up visuals at 3%.",
+    "reason": "Jev chose tools with 98% probability; runner-up visuals at 2%.",
     "reference": "modrinth:immediatelyfast",
     "source": "modrinth"
   },
@@ -1028,7 +1028,7 @@
     ],
     "category": "tools",
     "name": "Item Highlighter",
-    "reason": "Jev chose tools with 93% probability; runner-up visuals at 7%.",
+    "reason": "Jev chose tools with 72% probability; runner-up visuals at 28%.",
     "reference": "modrinth:item-highlighter",
     "source": "modrinth"
   },
@@ -1071,7 +1071,7 @@
     ],
     "category": "tools",
     "name": "Krypton",
-    "reason": "Jev chose tools with 95% probability; runner-up library at 4%.",
+    "reason": "Jev chose tools with 99% probability; runner-up library at 1%.",
     "reference": "modrinth:krypton",
     "source": "modrinth"
   },
@@ -1143,7 +1143,7 @@
     ],
     "category": "library",
     "name": "Lithostitched",
-    "reason": "Jev chose library with 90% probability; runner-up gameplay at 10%.",
+    "reason": "Jev chose library with 82% probability; runner-up gameplay at 18%.",
     "reference": "modrinth:lithostitched",
     "source": "modrinth"
   },
@@ -1197,7 +1197,7 @@
     ],
     "category": "tools",
     "name": "More Culling",
-    "reason": "Jev chose tools with 98% probability; runner-up library at 1%.",
+    "reason": "Jev chose tools with 99% probability; runner-up visuals at 1%.",
     "reference": "modrinth:moreculling",
     "source": "modrinth"
   },
@@ -1247,7 +1247,7 @@
     ],
     "category": "tools",
     "name": "Nature's Compass",
-    "reason": "Jev chose tools with 52% probability; runner-up gameplay at 48%.",
+    "reason": "Jev chose tools with 62% probability; runner-up gameplay at 38%.",
     "reference": "modrinth:natures-compass",
     "source": "modrinth"
   },
@@ -1272,7 +1272,7 @@
     ],
     "category": "gameplay",
     "name": "NetherPortalFix",
-    "reason": "Jev chose gameplay with 99% probability; runner-up tools at 1%.",
+    "reason": "Jev chose gameplay with 98% probability; runner-up tools at 2%.",
     "reference": "modrinth:netherportalfix",
     "source": "modrinth"
   },
@@ -1284,7 +1284,7 @@
     ],
     "category": "tools",
     "name": "No Chat Reports",
-    "reason": "Jev chose tools with 92% probability; runner-up other at 5%.",
+    "reason": "Jev chose tools with 89% probability; runner-up other at 6%.",
     "reference": "modrinth:no-chat-reports",
     "source": "modrinth"
   },
@@ -1305,7 +1305,7 @@
     ],
     "category": "tools",
     "name": "Noxesium",
-    "reason": "Jev chose tools with 99% probability; runner-up library at 1%.",
+    "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
     "reference": "modrinth:noxesium",
     "source": "modrinth"
   },
@@ -1316,7 +1316,7 @@
     ],
     "category": "visuals",
     "name": "Oculus",
-    "reason": "Jev chose visuals with 96% probability; runner-up tools at 4%.",
+    "reason": "Jev chose visuals with 88% probability; runner-up tools at 12%.",
     "reference": "modrinth:oculus",
     "source": "modrinth"
   },
@@ -1343,7 +1343,7 @@
     ],
     "category": "tools",
     "name": "Particle Core",
-    "reason": "Jev chose tools with 69% probability; runner-up visuals at 31%.",
+    "reason": "Jev chose tools with 80% probability; runner-up visuals at 20%.",
     "reference": "modrinth:particle-core",
     "source": "modrinth"
   },
@@ -1378,7 +1378,7 @@
     ],
     "category": "other",
     "name": "Presence Footsteps",
-    "reason": "Jev chose other with 43% probability; runner-up gameplay at 41%.",
+    "reason": "Jev chose other with 45% probability; runner-up gameplay at 37%.",
     "reference": "modrinth:presence-footsteps",
     "source": "modrinth"
   },
@@ -1390,7 +1390,7 @@
     ],
     "category": "library",
     "name": "Prickle",
-    "reason": "Jev chose library with 79% probability; runner-up tools at 19%.",
+    "reason": "Jev chose library with 76% probability; runner-up tools at 23%.",
     "reference": "modrinth:prickle",
     "source": "modrinth"
   },
@@ -1412,7 +1412,7 @@
     ],
     "category": "gameplay",
     "name": "Quark",
-    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reason": "Jev chose gameplay with 99% probability; runner-up other at 1%.",
     "reference": "modrinth:quark",
     "source": "modrinth"
   },
@@ -1433,7 +1433,7 @@
     ],
     "category": "tools",
     "name": "Resourcify",
-    "reason": "Jev chose tools with 93% probability; runner-up visuals at 7%.",
+    "reason": "Jev chose tools with 95% probability; runner-up visuals at 5%.",
     "reference": "modrinth:resourcify",
     "source": "modrinth"
   },
@@ -1445,7 +1445,7 @@
     ],
     "category": "gameplay",
     "name": "RightClickHarvest",
-    "reason": "Jev chose gameplay with 94% probability; runner-up tools at 6%.",
+    "reason": "Jev chose gameplay with 93% probability; runner-up tools at 7%.",
     "reference": "modrinth:rightclickharvest",
     "source": "modrinth"
   },
@@ -1479,7 +1479,7 @@
     ],
     "category": "tools",
     "name": "Simple Voice Chat",
-    "reason": "Jev chose tools with 65% probability; runner-up other at 24%.",
+    "reason": "Jev chose tools with 49% probability; runner-up other at 31%.",
     "reference": "modrinth:simple-voice-chat",
     "source": "modrinth"
   },
@@ -1510,7 +1510,7 @@
     ],
     "category": "tools",
     "name": "Sodium",
-    "reason": "Jev chose tools with 94% probability; runner-up visuals at 6%.",
+    "reason": "Jev chose tools with 95% probability; runner-up visuals at 5%.",
     "reference": "modrinth:sodium",
     "source": "modrinth"
   },
@@ -1522,7 +1522,7 @@
     ],
     "category": "visuals",
     "name": "Sodium Extra",
-    "reason": "Jev chose visuals with 94% probability; runner-up tools at 6%.",
+    "reason": "Jev chose visuals with 82% probability; runner-up tools at 18%.",
     "reference": "modrinth:sodium-extra",
     "source": "modrinth"
   },
@@ -1532,7 +1532,7 @@
     ],
     "category": "gameplay",
     "name": "Sophisticated Backpacks",
-    "reason": "Jev chose gameplay with 99% probability; runner-up tools at 1%.",
+    "reason": "Jev chose gameplay with 97% probability; runner-up tools at 3%.",
     "reference": "modrinth:sophisticated-backpacks",
     "source": "modrinth"
   },
@@ -1543,7 +1543,7 @@
     ],
     "category": "gameplay",
     "name": "Sophisticated Backpacks (Unoffical Fabric port)",
-    "reason": "Jev chose gameplay with 98% probability; runner-up tools at 2%.",
+    "reason": "Jev chose gameplay with 89% probability; runner-up tools at 11%.",
     "reference": "modrinth:sophisticated-backpacks-(unoffical-fabric-port)",
     "source": "modrinth"
   },
@@ -1566,7 +1566,7 @@
     ],
     "category": "other",
     "name": "Sounds",
-    "reason": "Jev chose other with 58% probability; runner-up tools at 20%.",
+    "reason": "Jev chose other with 42% probability; runner-up tools at 28%.",
     "reference": "modrinth:sound",
     "source": "modrinth"
   },
@@ -1575,9 +1575,9 @@
       "adventure",
       "utility"
     ],
-    "category": "tools",
+    "category": "gameplay",
     "name": "Sound Physics Remastered",
-    "reason": "Jev chose tools with 56% probability; runner-up gameplay at 23%.",
+    "reason": "Jev chose gameplay with 45% probability; runner-up tools at 37%.",
     "reference": "modrinth:sound-physics-remastered",
     "source": "modrinth"
   },
@@ -1623,7 +1623,7 @@
     ],
     "category": "library",
     "name": "TerraBlender",
-    "reason": "Jev chose library with 100% probability; runner-up animations at 0%.",
+    "reason": "Jev chose library with 99% probability; runner-up gameplay at 1%.",
     "reference": "modrinth:terrablender",
     "source": "modrinth"
   },
@@ -1654,7 +1654,7 @@
     ],
     "category": "gameplay",
     "name": "Tom's Simple Storage Mod",
-    "reason": "Jev chose gameplay with 72% probability; runner-up tools at 28%.",
+    "reason": "Jev chose gameplay with 61% probability; runner-up tools at 39%.",
     "reference": "modrinth:toms-storage",
     "source": "modrinth"
   },
@@ -1680,7 +1680,7 @@
     ],
     "category": "gameplay",
     "name": "Traveler's Backpack",
-    "reason": "Jev chose gameplay with 100% probability; runner-up animations at 0%.",
+    "reason": "Jev chose gameplay with 98% probability; runner-up tools at 2%.",
     "reference": "modrinth:travelersbackpack",
     "source": "modrinth"
   },
@@ -1690,9 +1690,9 @@
       "library",
       "utility"
     ],
-    "category": "library",
+    "category": "gameplay",
     "name": "Trinkets",
-    "reason": "Jev chose library with 73% probability; runner-up gameplay at 24%.",
+    "reason": "Jev chose gameplay with 54% probability; runner-up library at 42%.",
     "reference": "modrinth:trinkets",
     "source": "modrinth"
   },
@@ -1714,7 +1714,7 @@
     ],
     "category": "gameplay",
     "name": "Vein Mining",
-    "reason": "Jev chose gameplay with 99% probability; runner-up tools at 1%.",
+    "reason": "Jev chose gameplay with 98% probability; runner-up tools at 2%.",
     "reference": "modrinth:vein-mining",
     "source": "modrinth"
   },
@@ -1740,7 +1740,7 @@
     ],
     "category": "tools",
     "name": "VeinMiner Hotkey",
-    "reason": "Jev chose tools with 73% probability; runner-up gameplay at 27%.",
+    "reason": "Jev chose tools with 79% probability; runner-up gameplay at 21%.",
     "reference": "modrinth:veinminer-client",
     "source": "modrinth"
   },
@@ -1764,7 +1764,7 @@
     ],
     "category": "tools",
     "name": "ViaFabricPlus",
-    "reason": "Jev chose tools with 63% probability; runner-up library at 21%.",
+    "reason": "Jev chose tools with 72% probability; runner-up library at 18%.",
     "reference": "modrinth:viafabricplus",
     "source": "modrinth"
   },
@@ -1784,7 +1784,7 @@
     ],
     "category": "tools",
     "name": "Very Many Players (Fabric)",
-    "reason": "Jev chose tools with 98% probability; runner-up other at 2%.",
+    "reason": "Jev chose tools with 99% probability; runner-up other at 1%.",
     "reference": "modrinth:vmp-fabric",
     "source": "modrinth"
   },
@@ -1923,13 +1923,12 @@
   },
   {
     "categories": [
-      "Map and Information",
-      "Utility & QoL"
+      "Map and Information"
     ],
     "category": "tools",
-    "name": "Just Enough Items (JEI)",
+    "name": "JourneyMap",
     "reason": "Jev chose tools with 100% probability; runner-up animations at 0%.",
-    "reference": "curseforge:238222",
+    "reference": "curseforge:32274",
     "source": "curseforge"
   }
 ]

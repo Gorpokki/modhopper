@@ -133,6 +133,10 @@ def main():
     args = parser.parse_args()
     refs = record_modrinth(pick(args.per_bucket))
     refs += [f'curseforge:{p.stem}' for p in sorted((FIXTURES / 'curseforge').glob('*.json'))]
+    names = [json.load(p.open())[k] for p, k in [(FIXTURES / 'modrinth' / f'{r[9:]}.json', 'title') for r in refs if r.startswith('modrinth:')]]
+    names += [json.load(p.open())['data']['name'] for p in (FIXTURES / 'curseforge').glob('*.json')]
+    if len(set(names)) != len(names):
+        sys.exit('two fixtures share a name; answers.json is keyed by name, so drop or rename one')
     (FIXTURES / 'refs.txt').write_text('\n'.join(refs) + '\n')
     record_answers()
     print(f'recorded {len(refs)} projects', file=sys.stderr)

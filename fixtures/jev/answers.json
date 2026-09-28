@@ -16,7 +16,7 @@
       }
     },
     "events": {
-      "category": "252:category"
+      "category": "435:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -41,7 +41,7 @@
       }
     },
     "events": {
-      "category": "254:category"
+      "category": "437:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -66,7 +66,7 @@
       }
     },
     "events": {
-      "category": "255:category"
+      "category": "438:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -78,20 +78,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.8,
+        "confidence": 0.9,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.15,
-          "library": 0.02,
+          "gameplay": 0.07,
+          "library": 0.01,
           "other": 0,
-          "tools": 0.83,
+          "tools": 0.92,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "256:category"
+      "category": "439:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -102,26 +102,26 @@
   "AmbientSounds": {
     "answers": {
       "category": {
-        "choice": "other",
-        "confidence": 0.53,
+        "choice": "visuals",
+        "confidence": 0.37,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.12,
+          "gameplay": 0.16,
           "library": 0,
-          "other": 0.62,
-          "tools": 0.01,
-          "visuals": 0.25
+          "other": 0.34,
+          "tools": 0.02,
+          "visuals": 0.48
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "257:category"
+      "category": "440:category"
     },
     "model": "jev-1.13.0",
     "usage": {
       "input_tokens": 844,
-      "output_tokens": 62
+      "output_tokens": 64
     }
   },
   "AppleSkin": {
@@ -141,7 +141,7 @@
       }
     },
     "events": {
-      "category": "258:category"
+      "category": "441:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -166,7 +166,7 @@
       }
     },
     "events": {
-      "category": "259:category"
+      "category": "442:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -178,20 +178,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.96,
+        "confidence": 0.95,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.01,
+          "gameplay": 0,
           "library": 0,
           "other": 0.02,
           "tools": 0.96,
-          "visuals": 0.01
+          "visuals": 0.02
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "260:category"
+      "category": "443:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -203,11 +203,11 @@
     "answers": {
       "category": {
         "choice": "library",
-        "confidence": 0.98,
+        "confidence": 0.96,
         "probabilities": {
-          "animations": 0.01,
+          "animations": 0.03,
           "gameplay": 0,
-          "library": 0.99,
+          "library": 0.97,
           "other": 0,
           "tools": 0,
           "visuals": 0
@@ -216,7 +216,7 @@
       }
     },
     "events": {
-      "category": "261:category"
+      "category": "444:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -241,7 +241,7 @@
       }
     },
     "events": {
-      "category": "262:category"
+      "category": "445:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -266,7 +266,7 @@
       }
     },
     "events": {
-      "category": "263:category"
+      "category": "446:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -277,11 +277,11 @@
   "Better Combat": {
     "answers": {
       "category": {
-        "choice": "animations",
-        "confidence": 0.52,
+        "choice": "gameplay",
+        "confidence": 0.64,
         "probabilities": {
-          "animations": 0.61,
-          "gameplay": 0.39,
+          "animations": 0.3,
+          "gameplay": 0.7,
           "library": 0,
           "other": 0,
           "tools": 0,
@@ -291,32 +291,32 @@
       }
     },
     "events": {
-      "category": "264:category"
+      "category": "447:category"
     },
     "model": "jev-1.13.0",
     "usage": {
       "input_tokens": 1524,
-      "output_tokens": 62
+      "output_tokens": 63
     }
   },
   "Better Third Person": {
     "answers": {
       "category": {
         "choice": "visuals",
-        "confidence": 0.86,
+        "confidence": 0.98,
         "probabilities": {
-          "animations": 0.03,
-          "gameplay": 0.05,
+          "animations": 0,
+          "gameplay": 0,
           "library": 0,
           "other": 0,
-          "tools": 0.03,
-          "visuals": 0.89
+          "tools": 0.01,
+          "visuals": 0.99
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "265:category"
+      "category": "448:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -341,7 +341,7 @@
       }
     },
     "events": {
-      "category": "266:category"
+      "category": "449:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -366,7 +366,7 @@
       }
     },
     "events": {
-      "category": "267:category"
+      "category": "450:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -391,7 +391,7 @@
       }
     },
     "events": {
-      "category": "268:category"
+      "category": "451:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -416,7 +416,7 @@
       }
     },
     "events": {
-      "category": "269:category"
+      "category": "452:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -428,20 +428,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.93,
+        "confidence": 0.97,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.02,
-          "library": 0.02,
-          "other": 0.02,
-          "tools": 0.94,
+          "gameplay": 0.01,
+          "library": 0.01,
+          "other": 0,
+          "tools": 0.98,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "270:category"
+      "category": "453:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -466,7 +466,7 @@
       }
     },
     "events": {
-      "category": "271:category"
+      "category": "454:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -478,20 +478,20 @@
     "answers": {
       "category": {
         "choice": "visuals",
-        "confidence": 0.75,
+        "confidence": 0.87,
         "probabilities": {
-          "animations": 0.05,
-          "gameplay": 0.02,
+          "animations": 0.01,
+          "gameplay": 0.01,
           "library": 0,
           "other": 0,
-          "tools": 0.14,
-          "visuals": 0.79
+          "tools": 0.08,
+          "visuals": 0.9
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "272:category"
+      "category": "455:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -503,20 +503,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.53,
+        "confidence": 0.4,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
           "library": 0,
           "other": 0,
-          "tools": 0.62,
-          "visuals": 0.38
+          "tools": 0.51,
+          "visuals": 0.49
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "273:category"
+      "category": "456:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -528,20 +528,20 @@
     "answers": {
       "category": {
         "choice": "gameplay",
-        "confidence": 0.9,
+        "confidence": 0.94,
         "probabilities": {
-          "animations": 0.01,
-          "gameplay": 0.92,
+          "animations": 0,
+          "gameplay": 0.95,
           "library": 0,
           "other": 0,
-          "tools": 0.07,
+          "tools": 0.05,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "275:category"
+      "category": "458:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -566,7 +566,7 @@
       }
     },
     "events": {
-      "category": "276:category"
+      "category": "459:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -578,20 +578,20 @@
     "answers": {
       "category": {
         "choice": "visuals",
-        "confidence": 0.4,
+        "confidence": 0.5,
         "probabilities": {
-          "animations": 0.49,
+          "animations": 0.41,
           "gameplay": 0,
           "library": 0,
           "other": 0,
-          "tools": 0.01,
-          "visuals": 0.5
+          "tools": 0,
+          "visuals": 0.59
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "278:category"
+      "category": "461:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -603,20 +603,20 @@
     "answers": {
       "category": {
         "choice": "visuals",
-        "confidence": 0.69,
+        "confidence": 0.72,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
           "library": 0,
           "other": 0,
-          "tools": 0.25,
-          "visuals": 0.75
+          "tools": 0.23,
+          "visuals": 0.77
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "277:category"
+      "category": "460:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -641,7 +641,7 @@
       }
     },
     "events": {
-      "category": "279:category"
+      "category": "462:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -666,7 +666,7 @@
       }
     },
     "events": {
-      "category": "280:category"
+      "category": "463:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -678,20 +678,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.96,
+        "confidence": 0.99,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.03,
+          "gameplay": 0.01,
           "library": 0,
           "other": 0,
-          "tools": 0.97,
+          "tools": 0.99,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "281:category"
+      "category": "464:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -716,7 +716,7 @@
       }
     },
     "events": {
-      "category": "282:category"
+      "category": "465:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -741,7 +741,7 @@
       }
     },
     "events": {
-      "category": "283:category"
+      "category": "466:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -753,11 +753,11 @@
     "answers": {
       "category": {
         "choice": "gameplay",
-        "confidence": 0.97,
+        "confidence": 0.99,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.98,
-          "library": 0.02,
+          "gameplay": 0.99,
+          "library": 0.01,
           "other": 0,
           "tools": 0,
           "visuals": 0
@@ -766,7 +766,7 @@
       }
     },
     "events": {
-      "category": "284:category"
+      "category": "467:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -791,7 +791,7 @@
       }
     },
     "events": {
-      "category": "285:category"
+      "category": "468:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -816,7 +816,7 @@
       }
     },
     "events": {
-      "category": "286:category"
+      "category": "469:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -841,7 +841,7 @@
       }
     },
     "events": {
-      "category": "274:category"
+      "category": "457:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -866,7 +866,7 @@
       }
     },
     "events": {
-      "category": "288:category"
+      "category": "471:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -891,7 +891,7 @@
       }
     },
     "events": {
-      "category": "289:category"
+      "category": "472:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -916,7 +916,7 @@
       }
     },
     "events": {
-      "category": "291:category"
+      "category": "474:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -941,7 +941,7 @@
       }
     },
     "events": {
-      "category": "290:category"
+      "category": "473:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -953,7 +953,7 @@
     "answers": {
       "category": {
         "choice": "library",
-        "confidence": 0.99,
+        "confidence": 0.98,
         "probabilities": {
           "animations": 0,
           "gameplay": 0.01,
@@ -966,7 +966,7 @@
       }
     },
     "events": {
-      "category": "292:category"
+      "category": "475:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -980,8 +980,8 @@
         "choice": "gameplay",
         "confidence": 0.97,
         "probabilities": {
-          "animations": 0.03,
-          "gameplay": 0.97,
+          "animations": 0.02,
+          "gameplay": 0.98,
           "library": 0,
           "other": 0,
           "tools": 0,
@@ -991,7 +991,7 @@
       }
     },
     "events": {
-      "category": "293:category"
+      "category": "476:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1016,7 +1016,7 @@
       }
     },
     "events": {
-      "category": "294:category"
+      "category": "477:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1028,12 +1028,12 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.98,
+        "confidence": 0.99,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
-          "library": 0,
-          "other": 0.01,
+          "library": 0.01,
+          "other": 0,
           "tools": 0.99,
           "visuals": 0
         },
@@ -1041,7 +1041,7 @@
       }
     },
     "events": {
-      "category": "295:category"
+      "category": "478:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1066,7 +1066,7 @@
       }
     },
     "events": {
-      "category": "296:category"
+      "category": "479:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1091,7 +1091,7 @@
       }
     },
     "events": {
-      "category": "297:category"
+      "category": "480:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1103,20 +1103,20 @@
     "answers": {
       "category": {
         "choice": "visuals",
-        "confidence": 0.79,
+        "confidence": 0.94,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.17,
+          "gameplay": 0.04,
           "library": 0,
           "other": 0,
-          "tools": 0,
-          "visuals": 0.83
+          "tools": 0.01,
+          "visuals": 0.95
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "298:category"
+      "category": "481:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1128,20 +1128,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.98,
+        "confidence": 0.99,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.01,
+          "gameplay": 0,
           "library": 0,
           "other": 0,
           "tools": 0.99,
-          "visuals": 0
+          "visuals": 0.01
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "302:category"
+      "category": "485:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1166,7 +1166,7 @@
       }
     },
     "events": {
-      "category": "300:category"
+      "category": "483:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1178,20 +1178,20 @@
     "answers": {
       "category": {
         "choice": "animations",
-        "confidence": 1,
+        "confidence": 0.99,
         "probabilities": {
-          "animations": 1,
+          "animations": 0.99,
           "gameplay": 0,
           "library": 0,
           "other": 0,
           "tools": 0,
-          "visuals": 0
+          "visuals": 0.01
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "301:category"
+      "category": "484:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1216,7 +1216,7 @@
       }
     },
     "events": {
-      "category": "304:category"
+      "category": "487:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1231,17 +1231,17 @@
         "confidence": 0.88,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.05,
+          "gameplay": 0.01,
           "library": 0,
           "other": 0,
           "tools": 0.9,
-          "visuals": 0.05
+          "visuals": 0.09
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "305:category"
+      "category": "488:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1266,7 +1266,7 @@
       }
     },
     "events": {
-      "category": "306:category"
+      "category": "489:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1291,7 +1291,7 @@
       }
     },
     "events": {
-      "category": "308:category"
+      "category": "491:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1303,20 +1303,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.35,
+        "confidence": 0.4,
         "probabilities": {
           "animations": 0,
           "gameplay": 0.07,
           "library": 0,
-          "other": 0.46,
-          "tools": 0.47000000000000003,
+          "other": 0.43,
+          "tools": 0.5,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "310:category"
+      "category": "493:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1341,7 +1341,7 @@
       }
     },
     "events": {
-      "category": "311:category"
+      "category": "494:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1352,26 +1352,26 @@
   "Explorer's Compass": {
     "answers": {
       "category": {
-        "choice": "gameplay",
+        "choice": "tools",
         "confidence": 0.42,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.52,
+          "gameplay": 0.48,
           "library": 0,
           "other": 0,
-          "tools": 0.48,
+          "tools": 0.52,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "312:category"
+      "category": "495:category"
     },
     "model": "jev-1.13.0",
     "usage": {
       "input_tokens": 1093,
-      "output_tokens": 63
+      "output_tokens": 62
     }
   },
   "Explosive Enhancement": {
@@ -1391,7 +1391,7 @@
       }
     },
     "events": {
-      "category": "313:category"
+      "category": "496:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1416,7 +1416,7 @@
       }
     },
     "events": {
-      "category": "314:category"
+      "category": "497:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1441,7 +1441,7 @@
       }
     },
     "events": {
-      "category": "315:category"
+      "category": "498:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1452,26 +1452,26 @@
   "Fadeless": {
     "answers": {
       "category": {
-        "choice": "animations",
-        "confidence": 0.34,
+        "choice": "visuals",
+        "confidence": 0.56,
         "probabilities": {
-          "animations": 0.45,
+          "animations": 0.16,
           "gameplay": 0,
           "library": 0,
           "other": 0,
           "tools": 0.21,
-          "visuals": 0.34
+          "visuals": 0.63
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "316:category"
+      "category": "499:category"
     },
     "model": "jev-1.13.0",
     "usage": {
       "input_tokens": 829,
-      "output_tokens": 62
+      "output_tokens": 64
     }
   },
   "Farmer's Delight": {
@@ -1491,7 +1491,7 @@
       }
     },
     "events": {
-      "category": "317:category"
+      "category": "500:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1516,7 +1516,7 @@
       }
     },
     "events": {
-      "category": "318:category"
+      "category": "501:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1541,7 +1541,7 @@
       }
     },
     "events": {
-      "category": "319:category"
+      "category": "502:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1566,7 +1566,7 @@
       }
     },
     "events": {
-      "category": "320:category"
+      "category": "503:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1591,7 +1591,7 @@
       }
     },
     "events": {
-      "category": "321:category"
+      "category": "504:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1603,20 +1603,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.98,
+        "confidence": 0.99,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
-          "library": 0.01,
+          "library": 0,
           "other": 0,
-          "tools": 0.99,
+          "tools": 1,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "322:category"
+      "category": "505:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1641,7 +1641,7 @@
       }
     },
     "events": {
-      "category": "323:category"
+      "category": "506:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1653,7 +1653,7 @@
     "answers": {
       "category": {
         "choice": "library",
-        "confidence": 1,
+        "confidence": 0.99,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
@@ -1666,7 +1666,7 @@
       }
     },
     "events": {
-      "category": "324:category"
+      "category": "507:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1678,20 +1678,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.93,
+        "confidence": 0.85,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0,
+          "gameplay": 0.01,
           "library": 0,
           "other": 0,
-          "tools": 0.94,
-          "visuals": 0.06
+          "tools": 0.88,
+          "visuals": 0.11
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "325:category"
+      "category": "508:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1703,11 +1703,11 @@
     "answers": {
       "category": {
         "choice": "library",
-        "confidence": 0.92,
+        "confidence": 0.86,
         "probabilities": {
-          "animations": 0.07,
+          "animations": 0.11,
           "gameplay": 0,
-          "library": 0.93,
+          "library": 0.89,
           "other": 0,
           "tools": 0,
           "visuals": 0
@@ -1716,7 +1716,7 @@
       }
     },
     "events": {
-      "category": "327:category"
+      "category": "510:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1728,20 +1728,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.85,
+        "confidence": 0.91,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
-          "library": 0.04,
-          "other": 0.08,
-          "tools": 0.88,
+          "library": 0.03,
+          "other": 0.04,
+          "tools": 0.93,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "328:category"
+      "category": "511:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1766,7 +1766,7 @@
       }
     },
     "events": {
-      "category": "329:category"
+      "category": "512:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1778,20 +1778,20 @@
     "answers": {
       "category": {
         "choice": "gameplay",
-        "confidence": 0.92,
+        "confidence": 0.97,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.94,
+          "gameplay": 0.98,
           "library": 0,
           "other": 0,
-          "tools": 0.06,
+          "tools": 0.02,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "330:category"
+      "category": "513:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1816,7 +1816,7 @@
       }
     },
     "events": {
-      "category": "331:category"
+      "category": "514:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1828,20 +1828,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.96,
+        "confidence": 0.98,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
           "library": 0,
           "other": 0,
-          "tools": 0.97,
-          "visuals": 0.03
+          "tools": 0.98,
+          "visuals": 0.02
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "332:category"
+      "category": "515:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1866,7 +1866,7 @@
       }
     },
     "events": {
-      "category": "333:category"
+      "category": "516:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1891,7 +1891,7 @@
       }
     },
     "events": {
-      "category": "334:category"
+      "category": "517:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1916,7 +1916,7 @@
       }
     },
     "events": {
-      "category": "335:category"
+      "category": "518:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1928,7 +1928,7 @@
     "answers": {
       "category": {
         "choice": "visuals",
-        "confidence": 0.99,
+        "confidence": 1,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
@@ -1941,7 +1941,7 @@
       }
     },
     "events": {
-      "category": "336:category"
+      "category": "519:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1953,20 +1953,20 @@
     "answers": {
       "category": {
         "choice": "animations",
-        "confidence": 0.41,
+        "confidence": 0.4,
         "probabilities": {
           "animations": 0.5,
           "gameplay": 0,
-          "library": 0.12,
-          "other": 0.02,
+          "library": 0.05,
+          "other": 0.01,
           "tools": 0.01,
-          "visuals": 0.35
+          "visuals": 0.43
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "326:category"
+      "category": "509:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -1991,7 +1991,7 @@
       }
     },
     "events": {
-      "category": "337:category"
+      "category": "520:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2003,20 +2003,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.91,
+        "confidence": 0.66,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
           "library": 0,
           "other": 0,
-          "tools": 0.93,
-          "visuals": 0.07
+          "tools": 0.72,
+          "visuals": 0.28
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "338:category"
+      "category": "521:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2041,7 +2041,7 @@
       }
     },
     "events": {
-      "category": "339:category"
+      "category": "522:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2049,7 +2049,7 @@
       "output_tokens": 62
     }
   },
-  "Just Enough Items (JEI)": {
+  "JourneyMap": {
     "answers": {
       "category": {
         "choice": "tools",
@@ -2066,11 +2066,36 @@
       }
     },
     "events": {
-      "category": "416:category"
+      "category": "599:category"
     },
     "model": "jev-1.13.0",
     "usage": {
-      "input_tokens": 597,
+      "input_tokens": 608,
+      "output_tokens": 62
+    }
+  },
+  "Just Enough Items (JEI)": {
+    "answers": {
+      "category": {
+        "choice": "tools",
+        "confidence": 0.99,
+        "probabilities": {
+          "animations": 0,
+          "gameplay": 0,
+          "library": 0,
+          "other": 0,
+          "tools": 1,
+          "visuals": 0
+        },
+        "type": "choice"
+      }
+    },
+    "events": {
+      "category": "523:category"
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1151,
       "output_tokens": 62
     }
   },
@@ -2091,7 +2116,7 @@
       }
     },
     "events": {
-      "category": "341:category"
+      "category": "524:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2103,20 +2128,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.94,
+        "confidence": 0.99,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
-          "library": 0.04,
-          "other": 0.01,
-          "tools": 0.95,
+          "library": 0.01,
+          "other": 0,
+          "tools": 0.99,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "342:category"
+      "category": "525:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2141,7 +2166,7 @@
       }
     },
     "events": {
-      "category": "343:category"
+      "category": "526:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2153,7 +2178,7 @@
     "answers": {
       "category": {
         "choice": "visuals",
-        "confidence": 0.99,
+        "confidence": 1,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
@@ -2166,7 +2191,7 @@
       }
     },
     "events": {
-      "category": "344:category"
+      "category": "527:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2191,7 +2216,7 @@
       }
     },
     "events": {
-      "category": "345:category"
+      "category": "528:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2216,7 +2241,7 @@
       }
     },
     "events": {
-      "category": "347:category"
+      "category": "530:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2228,11 +2253,11 @@
     "answers": {
       "category": {
         "choice": "library",
-        "confidence": 0.88,
+        "confidence": 0.78,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.1,
-          "library": 0.9,
+          "gameplay": 0.18,
+          "library": 0.82,
           "other": 0,
           "tools": 0,
           "visuals": 0
@@ -2241,7 +2266,7 @@
       }
     },
     "events": {
-      "category": "348:category"
+      "category": "531:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2266,7 +2291,7 @@
       }
     },
     "events": {
-      "category": "349:category"
+      "category": "532:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2291,7 +2316,7 @@
       }
     },
     "events": {
-      "category": "350:category"
+      "category": "533:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2316,7 +2341,7 @@
       }
     },
     "events": {
-      "category": "352:category"
+      "category": "535:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2341,7 +2366,7 @@
       }
     },
     "events": {
-      "category": "351:category"
+      "category": "534:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2353,20 +2378,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.98,
+        "confidence": 0.99,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
-          "library": 0.01,
+          "library": 0,
           "other": 0,
-          "tools": 0.98,
+          "tools": 0.99,
           "visuals": 0.01
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "353:category"
+      "category": "536:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2391,7 +2416,7 @@
       }
     },
     "events": {
-      "category": "354:category"
+      "category": "537:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2416,7 +2441,7 @@
       }
     },
     "events": {
-      "category": "355:category"
+      "category": "538:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2441,7 +2466,7 @@
       }
     },
     "events": {
-      "category": "356:category"
+      "category": "539:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2453,20 +2478,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.43,
+        "confidence": 0.55,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.48,
+          "gameplay": 0.38,
           "library": 0,
           "other": 0,
-          "tools": 0.52,
+          "tools": 0.62,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "357:category"
+      "category": "540:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2491,7 +2516,7 @@
       }
     },
     "events": {
-      "category": "358:category"
+      "category": "541:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2503,20 +2528,20 @@
     "answers": {
       "category": {
         "choice": "gameplay",
-        "confidence": 0.98,
+        "confidence": 0.97,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.99,
+          "gameplay": 0.98,
           "library": 0,
           "other": 0,
-          "tools": 0.01,
+          "tools": 0.02,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "359:category"
+      "category": "542:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2528,20 +2553,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.9,
+        "confidence": 0.87,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.03,
+          "gameplay": 0.05,
           "library": 0,
-          "other": 0.05,
-          "tools": 0.92,
+          "other": 0.06,
+          "tools": 0.89,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "360:category"
+      "category": "543:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2566,7 +2591,7 @@
       }
     },
     "events": {
-      "category": "361:category"
+      "category": "544:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2582,16 +2607,16 @@
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
-          "library": 0.01,
+          "library": 0,
           "other": 0,
-          "tools": 0.99,
+          "tools": 1,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "362:category"
+      "category": "545:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2603,20 +2628,20 @@
     "answers": {
       "category": {
         "choice": "visuals",
-        "confidence": 0.94,
+        "confidence": 0.85,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
           "library": 0,
           "other": 0,
-          "tools": 0.04,
-          "visuals": 0.96
+          "tools": 0.12,
+          "visuals": 0.88
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "363:category"
+      "category": "546:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2641,7 +2666,7 @@
       }
     },
     "events": {
-      "category": "364:category"
+      "category": "547:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2653,20 +2678,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.62,
+        "confidence": 0.76,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
           "library": 0,
           "other": 0,
-          "tools": 0.69,
-          "visuals": 0.31
+          "tools": 0.8,
+          "visuals": 0.2
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "365:category"
+      "category": "548:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2691,7 +2716,7 @@
       }
     },
     "events": {
-      "category": "366:category"
+      "category": "549:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2703,20 +2728,20 @@
     "answers": {
       "category": {
         "choice": "other",
-        "confidence": 0.31,
+        "confidence": 0.34,
         "probabilities": {
-          "animations": 0.01,
-          "gameplay": 0.41,
+          "animations": 0,
+          "gameplay": 0.37,
           "library": 0,
-          "other": 0.43,
-          "tools": 0,
-          "visuals": 0.15
+          "other": 0.45,
+          "tools": 0.01,
+          "visuals": 0.17
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "368:category"
+      "category": "551:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2728,20 +2753,20 @@
     "answers": {
       "category": {
         "choice": "library",
-        "confidence": 0.74,
+        "confidence": 0.7,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
-          "library": 0.79,
-          "other": 0.02,
-          "tools": 0.19,
+          "library": 0.76,
+          "other": 0.01,
+          "tools": 0.23,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "369:category"
+      "category": "552:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2766,7 +2791,7 @@
       }
     },
     "events": {
-      "category": "370:category"
+      "category": "553:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2778,12 +2803,12 @@
     "answers": {
       "category": {
         "choice": "gameplay",
-        "confidence": 1,
+        "confidence": 0.99,
         "probabilities": {
           "animations": 0,
-          "gameplay": 1,
+          "gameplay": 0.99,
           "library": 0,
-          "other": 0,
+          "other": 0.01,
           "tools": 0,
           "visuals": 0
         },
@@ -2791,7 +2816,7 @@
       }
     },
     "events": {
-      "category": "371:category"
+      "category": "554:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2816,7 +2841,7 @@
       }
     },
     "events": {
-      "category": "372:category"
+      "category": "555:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2828,20 +2853,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.91,
+        "confidence": 0.94,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
           "library": 0,
           "other": 0,
-          "tools": 0.93,
-          "visuals": 0.07
+          "tools": 0.95,
+          "visuals": 0.05
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "373:category"
+      "category": "556:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2853,20 +2878,20 @@
     "answers": {
       "category": {
         "choice": "gameplay",
-        "confidence": 0.93,
+        "confidence": 0.92,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.94,
+          "gameplay": 0.93,
           "library": 0,
           "other": 0,
-          "tools": 0.06,
+          "tools": 0.07,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "374:category"
+      "category": "557:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2878,7 +2903,7 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.99,
+        "confidence": 1,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
@@ -2891,7 +2916,7 @@
       }
     },
     "events": {
-      "category": "375:category"
+      "category": "558:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2916,7 +2941,7 @@
       }
     },
     "events": {
-      "category": "376:category"
+      "category": "559:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2928,20 +2953,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.57,
+        "confidence": 0.38,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.11,
+          "gameplay": 0.2,
           "library": 0,
-          "other": 0.24,
-          "tools": 0.65,
+          "other": 0.31,
+          "tools": 0.49,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "377:category"
+      "category": "560:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2966,7 +2991,7 @@
       }
     },
     "events": {
-      "category": "378:category"
+      "category": "561:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -2978,12 +3003,12 @@
     "answers": {
       "category": {
         "choice": "library",
-        "confidence": 1,
+        "confidence": 0.99,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
-          "library": 1,
-          "other": 0,
+          "library": 0.99,
+          "other": 0.01,
           "tools": 0,
           "visuals": 0
         },
@@ -2991,7 +3016,7 @@
       }
     },
     "events": {
-      "category": "287:category"
+      "category": "470:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3016,7 +3041,7 @@
       }
     },
     "events": {
-      "category": "379:category"
+      "category": "562:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3034,14 +3059,14 @@
           "gameplay": 0,
           "library": 0,
           "other": 0,
-          "tools": 0.94,
-          "visuals": 0.06
+          "tools": 0.95,
+          "visuals": 0.05
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "380:category"
+      "category": "563:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3053,20 +3078,20 @@
     "answers": {
       "category": {
         "choice": "visuals",
-        "confidence": 0.93,
+        "confidence": 0.78,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
           "library": 0,
           "other": 0,
-          "tools": 0.06,
-          "visuals": 0.94
+          "tools": 0.18,
+          "visuals": 0.82
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "381:category"
+      "category": "564:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3078,20 +3103,20 @@
     "answers": {
       "category": {
         "choice": "gameplay",
-        "confidence": 0.99,
+        "confidence": 0.97,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.99,
+          "gameplay": 0.97,
           "library": 0,
           "other": 0,
-          "tools": 0.01,
+          "tools": 0.03,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "382:category"
+      "category": "565:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3103,20 +3128,20 @@
     "answers": {
       "category": {
         "choice": "gameplay",
-        "confidence": 0.97,
+        "confidence": 0.86,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.98,
+          "gameplay": 0.89,
           "library": 0,
           "other": 0,
-          "tools": 0.02,
+          "tools": 0.11,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "383:category"
+      "category": "566:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3141,7 +3166,7 @@
       }
     },
     "events": {
-      "category": "384:category"
+      "category": "567:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3152,46 +3177,46 @@
   "Sound Physics Remastered": {
     "answers": {
       "category": {
-        "choice": "tools",
-        "confidence": 0.47,
+        "choice": "gameplay",
+        "confidence": 0.34,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.23,
+          "gameplay": 0.45,
           "library": 0,
-          "other": 0.16,
-          "tools": 0.56,
-          "visuals": 0.05
+          "other": 0.07,
+          "tools": 0.37,
+          "visuals": 0.11
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "386:category"
+      "category": "569:category"
     },
     "model": "jev-1.13.0",
     "usage": {
       "input_tokens": 1067,
-      "output_tokens": 62
+      "output_tokens": 63
     }
   },
   "Sounds": {
     "answers": {
       "category": {
         "choice": "other",
-        "confidence": 0.5,
+        "confidence": 0.32,
         "probabilities": {
           "animations": 0,
           "gameplay": 0.06,
           "library": 0,
-          "other": 0.58,
-          "tools": 0.2,
-          "visuals": 0.16
+          "other": 0.42,
+          "tools": 0.28,
+          "visuals": 0.24
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "385:category"
+      "category": "568:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3216,7 +3241,7 @@
       }
     },
     "events": {
-      "category": "388:category"
+      "category": "571:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3241,7 +3266,7 @@
       }
     },
     "events": {
-      "category": "389:category"
+      "category": "572:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3256,8 +3281,8 @@
         "confidence": 0.99,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0,
-          "library": 1,
+          "gameplay": 0.01,
+          "library": 0.99,
           "other": 0,
           "tools": 0,
           "visuals": 0
@@ -3266,7 +3291,7 @@
       }
     },
     "events": {
-      "category": "390:category"
+      "category": "573:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3291,7 +3316,7 @@
       }
     },
     "events": {
-      "category": "391:category"
+      "category": "574:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3316,7 +3341,7 @@
       }
     },
     "events": {
-      "category": "367:category"
+      "category": "550:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3341,7 +3366,7 @@
       }
     },
     "events": {
-      "category": "253:category"
+      "category": "436:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3353,20 +3378,20 @@
     "answers": {
       "category": {
         "choice": "gameplay",
-        "confidence": 0.67,
+        "confidence": 0.53,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.72,
+          "gameplay": 0.61,
           "library": 0,
           "other": 0,
-          "tools": 0.28,
+          "tools": 0.39,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "393:category"
+      "category": "576:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3391,7 +3416,7 @@
       }
     },
     "events": {
-      "category": "394:category"
+      "category": "577:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3403,20 +3428,20 @@
     "answers": {
       "category": {
         "choice": "gameplay",
-        "confidence": 1,
+        "confidence": 0.98,
         "probabilities": {
           "animations": 0,
-          "gameplay": 1,
+          "gameplay": 0.98,
           "library": 0,
           "other": 0,
-          "tools": 0,
+          "tools": 0.02,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "395:category"
+      "category": "578:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3427,26 +3452,26 @@
   "Trinkets": {
     "answers": {
       "category": {
-        "choice": "library",
-        "confidence": 0.68,
+        "choice": "gameplay",
+        "confidence": 0.44,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.24,
-          "library": 0.73,
-          "other": 0.01,
-          "tools": 0.02,
+          "gameplay": 0.54,
+          "library": 0.42,
+          "other": 0,
+          "tools": 0.04,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "396:category"
+      "category": "579:category"
     },
     "model": "jev-1.13.0",
     "usage": {
       "input_tokens": 802,
-      "output_tokens": 62
+      "output_tokens": 63
     }
   },
   "True Ending - Ender Dragon Overhaul": {
@@ -3466,7 +3491,7 @@
       }
     },
     "events": {
-      "category": "397:category"
+      "category": "580:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3478,20 +3503,20 @@
     "answers": {
       "category": {
         "choice": "gameplay",
-        "confidence": 0.99,
+        "confidence": 0.98,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.99,
+          "gameplay": 0.98,
           "library": 0,
           "other": 0,
-          "tools": 0.01,
+          "tools": 0.02,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "398:category"
+      "category": "581:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3516,7 +3541,7 @@
       }
     },
     "events": {
-      "category": "399:category"
+      "category": "582:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3541,7 +3566,7 @@
       }
     },
     "events": {
-      "category": "401:category"
+      "category": "584:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3553,20 +3578,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.68,
+        "confidence": 0.75,
         "probabilities": {
           "animations": 0,
-          "gameplay": 0.27,
+          "gameplay": 0.21,
           "library": 0,
           "other": 0,
-          "tools": 0.73,
+          "tools": 0.79,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "400:category"
+      "category": "583:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3578,20 +3603,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.97,
+        "confidence": 0.99,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
           "library": 0,
-          "other": 0.02,
-          "tools": 0.98,
+          "other": 0.01,
+          "tools": 0.99,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "404:category"
+      "category": "587:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3603,20 +3628,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.55,
+        "confidence": 0.67,
         "probabilities": {
           "animations": 0,
           "gameplay": 0.02,
-          "library": 0.21,
-          "other": 0.14,
-          "tools": 0.63,
+          "library": 0.18,
+          "other": 0.08,
+          "tools": 0.72,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "402:category"
+      "category": "585:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3641,7 +3666,7 @@
       }
     },
     "events": {
-      "category": "403:category"
+      "category": "586:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3666,7 +3691,7 @@
       }
     },
     "events": {
-      "category": "405:category"
+      "category": "588:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3691,7 +3716,7 @@
       }
     },
     "events": {
-      "category": "406:category"
+      "category": "589:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3716,7 +3741,7 @@
       }
     },
     "events": {
-      "category": "407:category"
+      "category": "590:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3741,7 +3766,7 @@
       }
     },
     "events": {
-      "category": "409:category"
+      "category": "592:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3766,7 +3791,7 @@
       }
     },
     "events": {
-      "category": "410:category"
+      "category": "593:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3791,7 +3816,7 @@
       }
     },
     "events": {
-      "category": "411:category"
+      "category": "594:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3816,7 +3841,7 @@
       }
     },
     "events": {
-      "category": "412:category"
+      "category": "595:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3841,7 +3866,7 @@
       }
     },
     "events": {
-      "category": "413:category"
+      "category": "596:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3866,7 +3891,7 @@
       }
     },
     "events": {
-      "category": "414:category"
+      "category": "597:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3891,7 +3916,7 @@
       }
     },
     "events": {
-      "category": "415:category"
+      "category": "598:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3916,7 +3941,7 @@
       }
     },
     "events": {
-      "category": "408:category"
+      "category": "591:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3928,20 +3953,20 @@
     "answers": {
       "category": {
         "choice": "visuals",
-        "confidence": 0.96,
+        "confidence": 0.97,
         "probabilities": {
-          "animations": 0.02,
+          "animations": 0,
           "gameplay": 0,
-          "library": 0.01,
+          "library": 0.02,
           "other": 0,
           "tools": 0.01,
-          "visuals": 0.96
+          "visuals": 0.97
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "307:category"
+      "category": "490:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3966,7 +3991,7 @@
       }
     },
     "events": {
-      "category": "309:category"
+      "category": "492:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -3991,7 +4016,7 @@
       }
     },
     "events": {
-      "category": "346:category"
+      "category": "529:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -4016,7 +4041,7 @@
       }
     },
     "events": {
-      "category": "303:category"
+      "category": "486:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -4041,7 +4066,7 @@
       }
     },
     "events": {
-      "category": "392:category"
+      "category": "575:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -4053,20 +4078,20 @@
     "answers": {
       "category": {
         "choice": "tools",
-        "confidence": 0.8,
+        "confidence": 0.79,
         "probabilities": {
           "animations": 0,
           "gameplay": 0,
-          "library": 0,
+          "library": 0.01,
           "other": 0.16,
-          "tools": 0.84,
+          "tools": 0.83,
           "visuals": 0
         },
         "type": "choice"
       }
     },
     "events": {
-      "category": "299:category"
+      "category": "482:category"
     },
     "model": "jev-1.13.0",
     "usage": {
@@ -4091,7 +4116,7 @@
       }
     },
     "events": {
-      "category": "387:category"
+      "category": "570:category"
     },
     "model": "jev-1.13.0",
     "usage": {

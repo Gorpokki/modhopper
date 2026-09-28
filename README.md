@@ -9,11 +9,13 @@ For each project it fetches the storefront name, summary, description, and categ
 References are `modrinth:<slug-or-id>` or `curseforge:<numeric-id>`, on the command line or one per line in a file.
 
 ```sh
-python3 python/modhopper.py modrinth:sodium curseforge:238222
+python3 python/modhopper.py modrinth:sodium curseforge:32274
 cargo run -q --manifest-path rust/Cargo.toml -- --file refs.txt
 ```
 
-Options: `--file <path>`, `--cache <path>` (default `metadata-cache.json`, storefront evidence only), `--refresh` (refetch). Progress and errors go to stderr; the exit code is 1 if any project failed and 2 if the arguments or the cache file are unusable. HTTP 429 and 503 are retried up to three times, honouring `Retry-After` (1 to 30 seconds).
+`categories.json` is read at run time by Python and compiled into the Rust binary at build time; rebuild after editing it.
+
+Options: `--file <path>` (repeatable), `--cache <path>` (default `metadata-cache.json`, storefront evidence only), `--refresh` (refetch). Progress and errors go to stderr; the exit code is 1 if any project failed and 2 if the arguments or the cache file are unusable. HTTP 429 and 503 are retried twice (three attempts), honouring `Retry-After` (1 to 30 seconds).
 
 ## Environment
 
