@@ -1,0 +1,12 @@
+{
+  "id": "AANobbMI",
+  "slug": "sodium",
+  "project_type": "mod",
+  "title": "Sodium",
+  "description": "A high-performance rendering engine replacement for Minecraft, which greatly improves frame rates and reduces micro-stutter.",
+  "body": "**Latest News (June 16, 2026)** - Sodium 0.9.x is now available for Minecraft 26.2, **_with early support for Vulkan!_** The performance of the Vulkan backend is already in a good place (even faster than before on many devices), and we expect to be able to improve it even further with future updates.\n\n---\n\n**This mod is the result of thousands of hours of development, and is made possible thanks to players like you.** If you would like to show a token of your appreciation for my work, and help support the development of Sodium in the process, then consider [buying me a coffee](https://caffeine",
+  "categories": [
+    "optimization"
+  ],
+  "additional_categories": []
+}

@@ -1,0 +1,5 @@
+metadata-cache.json
+*.tmp
+.env
+target/
+__pycache__/

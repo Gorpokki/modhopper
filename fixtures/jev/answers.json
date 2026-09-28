@@ -1,0 +1,6 @@
+{
+  "Sodium": {"model": "jev-1.13.0", "answers": {"category": {"type": "choice", "choice": "tools", "confidence": 0.94, "probabilities": {"animations": 0, "gameplay": 0, "library": 0, "other": 0, "tools": 0.97, "visuals": 0.03}}}, "usage": {"input_tokens": 812, "output_tokens": 64}},
+  "Not Enough Animations": {"model": "jev-1.13.0", "answers": {"category": {"type": "choice", "choice": "animations", "confidence": 0.99, "probabilities": {"animations": 0.995, "gameplay": 0.004, "library": 0, "other": 0, "tools": 0.001, "visuals": 0}}}, "usage": {"input_tokens": 790, "output_tokens": 64}},
+  "Fabric API": {"model": "jev-1.13.0", "answers": {"category": {"type": "choice", "choice": "library", "confidence": 1, "probabilities": {"animations": 0, "gameplay": 0, "library": 1, "other": 0, "tools": 0, "visuals": 0}}}, "usage": {"input_tokens": 701, "output_tokens": 64}},
+  "Just Enough Items (JEI)": {"model": "jev-1.13.0", "answers": {"category": {"type": "choice", "choice": "tools", "confidence": 0.9, "probabilities": {"animations": 0, "gameplay": 0.02, "library": 0, "other": 0.02, "tools": 0.955, "visuals": 0.005}}}, "usage": {"input_tokens": 540, "output_tokens": 64}}
+}

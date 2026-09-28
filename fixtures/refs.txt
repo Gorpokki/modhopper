@@ -1,0 +1,4 @@
+modrinth:sodium
+modrinth:not-enough-animations
+modrinth:fabric-api
+curseforge:238222

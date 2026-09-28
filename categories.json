@@ -1,0 +1,8 @@
+{
+  "animations": "Changes how players, mobs, items, or blocks move or are animated, without adding new content.",
+  "visuals": "Changes how the game looks: shaders, lighting, particles, sky, textures, camera, or rendering style, without changing gameplay.",
+  "tools": "Utilities for the player: minimaps, HUD widgets, inventory sorting, menus, keybinds, debugging, or performance optimization.",
+  "gameplay": "Adds or changes game content or mechanics: items, blocks, mobs, dimensions, world generation, recipes, or balance.",
+  "library": "A dependency, API, or framework used by other mods, with no feature of its own for the player.",
+  "other": "None of the categories above fits, or the project mixes several of them equally."
+}
