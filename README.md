@@ -12,6 +12,17 @@ Run Python 3.8 or newer after [setting up Jev](docs/src/jev.md):
 python3 python/modhopper.py modrinth:sodium
 ```
 
+Or build Rust with Cargo (Rust 1.88 or newer), then run the executable it writes to `rust/target/release/`:
+
+```sh
+cargo build --release --locked --manifest-path rust/Cargo.toml
+./rust/target/release/modhopper modrinth:sodium
+```
+
+The Rust executable includes `categories.json` when built; rebuild it after editing that file.
+Both take `modrinth:<slug-or-id>` and `curseforge:<numeric-id>` references, or `--file` with one reference per line.
+See [getting started](docs/src/getting-started.md) for all options and the CurseForge key.
+
 Check both implementations with recorded responses and no service credentials (requires Python and Cargo):
 
 ```sh
