@@ -1,0 +1,6 @@
+review:
+  path_instructions:
+    - path: "**"
+      instructions: |
+        Does this PR remove, skip, or loosen a test or gate? Why?
+        If yes, report a finding that names each test or gate, what changed, and the reason given.
